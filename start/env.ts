@@ -51,6 +51,7 @@ export default await Env.create(new URL('../', import.meta.url), {
   SMTP_SECURE: Env.schema.boolean(),
 
   // AWS S3
+  DRIVE_DISK: Env.schema.enum.optional(['s3'] as const),
   AWS_ACCESS_KEY_ID: Env.schema.string(),
   AWS_SECRET_ACCESS_KEY: Env.schema.string(),
   AWS_REGION: Env.schema.string(),
