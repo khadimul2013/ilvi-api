@@ -1,0 +1,2499 @@
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+/home/mserver/works/Ilvi-API/app/services/socket_service.ts:11
+    this.io = new Server(server.getNodeServer(), {
+                                ^
+
+TypeError: Cannot read properties of undefined (reading 'getNodeServer')
+    at SocketService.boot (/home/mserver/works/Ilvi-API/app/services/socket_service.ts:11:33)
+    at Timeout._onTimeout (/home/mserver/works/Ilvi-API/start/socket.ts:6:19)
+    at listOnTimeout (node:internal/timers:605:17)
+    at process.processTimers (node:internal/timers:541:7)
+
+Node.js v24.14.1
+/home/mserver/works/Ilvi-API/app/services/socket_service.ts:11
+    this.io = new Server(server.getNodeServer(), {
+                                ^
+
+TypeError: Cannot read properties of undefined (reading 'getNodeServer')
+    at SocketService.boot (/home/mserver/works/Ilvi-API/app/services/socket_service.ts:11:33)
+    at Timeout._onTimeout (/home/mserver/works/Ilvi-API/start/socket.ts:6:19)
+    at listOnTimeout (node:internal/timers:605:17)
+    at process.processTimers (node:internal/timers:541:7)
+
+Node.js v24.14.1
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRNOTAVAIL: address not available 117.242.148.188:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1926:21[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRNOTAVAIL: address not available 117.242.148.188:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1926:21[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ EnvValidationException: Validation failed for one or more environment variables[39m
+
+[34m◉[39m [2m[3m- Missing environment variable "HOST"[22m[23m
+
+ ⁃ at new EnvValidator [33m(node_modules/@adonisjs/env/build/index.js:127:17)[39m
+ ⁃ at Env.rules [33m(node_modules/@adonisjs/env/build/index.js:221:10)[39m
+ ⁃ at Env.create [33m(node_modules/@adonisjs/env/build/index.js:205:23)[39m
+ ⁃ at async <anonymous> [33m(start/env.ts:14:16)[39m
+
+   [2m 9[22m [2m┃[22m  [34m|[0m
+   [2m10[22m [2m┃[22m  [34m*/[0m
+   [2m11[22m [2m┃[22m  
+   [2m12[22m [2m┃[22m  [31mimport[0m { [33mEnv[0m } [31mfrom[0m [32m'@adonisjs/core/env'[0m
+   [2m13[22m [2m┃[22m  
+ [41m❯ 14 ┃  export default await Env.create(new URL('../', import.meta.url), {[49m
+   [2m15[22m [2m┃[22m    [90m// Node
+   [2m16[22m [2m┃[22m  [0m  [33mNODE_ENV[0m[34m:[0m [33mEnv[0m[34m.[0mschema[34m.[0m[31menum[0m([[32m'development'[0m[34m,[0m [32m'production'[0m[34m,[0m [32m'test'[0m] [31mas[0m [31mconst[0m)[34m,[0m
+   [2m17[22m [2m┃[22m    [33mPORT[0m[34m:[0m [33mEnv[0m[34m.[0mschema[34m.[0m[35mnumber[0m()[34m,[0m
+   [2m18[22m [2m┃[22m    [33mHOST[0m[34m:[0m [33mEnv[0m[34m.[0mschema[34m.[0m[35mstring[0m({ format[34m:[0m [32m'host'[0m })[34m,[0m
+   [2m19[22m [2m┃[22m    [33mLOG_LEVEL[0m[34m:[0m [33mEnv[0m[34m.[0mschema[34m.[0m[35mstring[0m()[34m,[0m
+
+
+
+[31mℹ EnvValidationException: Validation failed for one or more environment variables[39m
+
+[34m◉[39m [2m[3m- Missing environment variable "HOST"[22m[23m
+
+ ⁃ at new EnvValidator [33m(node_modules/@adonisjs/env/build/index.js:127:17)[39m
+ ⁃ at Env.rules [33m(node_modules/@adonisjs/env/build/index.js:221:10)[39m
+ ⁃ at Env.create [33m(node_modules/@adonisjs/env/build/index.js:205:23)[39m
+ ⁃ at async <anonymous> [33m(start/env.ts:14:16)[39m
+
+   [2m 9[22m [2m┃[22m  [34m|[0m
+   [2m10[22m [2m┃[22m  [34m*/[0m
+   [2m11[22m [2m┃[22m  
+   [2m12[22m [2m┃[22m  [31mimport[0m { [33mEnv[0m } [31mfrom[0m [32m'@adonisjs/core/env'[0m
+   [2m13[22m [2m┃[22m  
+ [41m❯ 14 ┃  export default await Env.create(new URL('../', import.meta.url), {[49m
+   [2m15[22m [2m┃[22m    [90m// Node
+   [2m16[22m [2m┃[22m  [0m  [33mNODE_ENV[0m[34m:[0m [33mEnv[0m[34m.[0mschema[34m.[0m[31menum[0m([[32m'development'[0m[34m,[0m [32m'production'[0m[34m,[0m [32m'test'[0m] [31mas[0m [31mconst[0m)[34m,[0m
+   [2m17[22m [2m┃[22m    [33mPORT[0m[34m:[0m [33mEnv[0m[34m.[0mschema[34m.[0m[35mnumber[0m()[34m,[0m
+   [2m18[22m [2m┃[22m    [33mHOST[0m[34m:[0m [33mEnv[0m[34m.[0mschema[34m.[0m[35mstring[0m({ format[34m:[0m [32m'host'[0m })[34m,[0m
+   [2m19[22m [2m┃[22m    [33mLOG_LEVEL[0m[34m:[0m [33mEnv[0m[34m.[0mschema[34m.[0m[35mstring[0m()[34m,[0m
+
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ SyntaxError: The requested module '#database/schema' does not provide an export named 'UserSchema'[39m
+
+ ⁃ [33m(app/models/user.ts:1:undefined)[39m
+
+ [41m❯  1 ┃  import { UserSchema } from '#database/schema'[49m
+   [2m 2[22m [2m┃[22m  [31mimport[0m hash [31mfrom[0m [32m'@adonisjs/core/services/hash'[0m
+   [2m 3[22m [2m┃[22m  [31mimport[0m { [31mtype[0m [33mAccessToken[0m[34m,[0m [33mDbAccessTokensProvider[0m } [31mfrom[0m [32m'@adonisjs/auth/access_tokens'[0m
+   [2m 4[22m [2m┃[22m  [31mimport[0m { beforeCreate[34m,[0m beforeSave } [31mfrom[0m [32m'@adonisjs/lucid/orm'[0m
+   [2m 5[22m [2m┃[22m  [31mimport[0m { v4 [31mas[0m uuid } [31mfrom[0m [32m'uuid'[0m
+   [2m 6[22m [2m┃[22m  
+   [2m 7[22m [2m┃[22m  
+   [2m 8[22m [2m┃[22m  [31mexport[0m [31mdefault[0m [31mclass[0m [33mUser[0m [31mextends[0m [33mUserSchema[0m {
+   [2m 9[22m [2m┃[22m    [31mstatic[0m accessTokens [34m=[0m [33mDbAccessTokensProvider[0m[34m.[0m[35mforModel[0m([33mUser[0m)
+   [2m10[22m [2m┃[22m    [31mdeclare[0m currentAccessToken[34m?:[0m [33mAccessToken[0m
+   [2m11[22m [2m┃[22m  
+
+[2m ⁃ at [3m#asyncInstantiate[23m ([3mnode:internal/modules/esm/module_job:319:21[23m)[22m
+[2m ⁃ at [3masync ModuleJob.run[23m ([3mnode:internal/modules/esm/module_job:422:5[23m)[22m
+[2m ⁃ at [3masync onImport.tracePromise.__proto__[23m ([3mnode:internal/modules/esm/loader:661:26[23m)[22m
+ ⁃ at async <anonymous> [33m(bin/server.ts:36:7)[39m
+ ⁃ at async #exec [33m(node_modules/@poppinss/hooks/build/index.js:114:24)[39m
+ ⁃ at async Application.boot [33m(node_modules/@adonisjs/application/build/application-BwkPOl3k.js:775:3)[39m
+ ⁃ at async HttpServerProcess.start [33m(node_modules/@adonisjs/core/build/main-zFY2qkGC.js:286:3)[39m
+
+
+[31mℹ SyntaxError: The requested module '#database/schema' does not provide an export named 'UserSchema'[39m
+
+ ⁃ [33m(app/models/user.ts:1:undefined)[39m
+
+ [41m❯  1 ┃  import { UserSchema } from '#database/schema'[49m
+   [2m 2[22m [2m┃[22m  [31mimport[0m hash [31mfrom[0m [32m'@adonisjs/core/services/hash'[0m
+   [2m 3[22m [2m┃[22m  [31mimport[0m { [31mtype[0m [33mAccessToken[0m[34m,[0m [33mDbAccessTokensProvider[0m } [31mfrom[0m [32m'@adonisjs/auth/access_tokens'[0m
+   [2m 4[22m [2m┃[22m  [31mimport[0m { beforeCreate[34m,[0m beforeSave } [31mfrom[0m [32m'@adonisjs/lucid/orm'[0m
+   [2m 5[22m [2m┃[22m  [31mimport[0m { v4 [31mas[0m uuid } [31mfrom[0m [32m'uuid'[0m
+   [2m 6[22m [2m┃[22m  
+   [2m 7[22m [2m┃[22m  
+   [2m 8[22m [2m┃[22m  [31mexport[0m [31mdefault[0m [31mclass[0m [33mUser[0m [31mextends[0m [33mUserSchema[0m {
+   [2m 9[22m [2m┃[22m    [31mstatic[0m accessTokens [34m=[0m [33mDbAccessTokensProvider[0m[34m.[0m[35mforModel[0m([33mUser[0m)
+   [2m10[22m [2m┃[22m    [31mdeclare[0m currentAccessToken[34m?:[0m [33mAccessToken[0m
+   [2m11[22m [2m┃[22m  
+
+[2m ⁃ at [3m#asyncInstantiate[23m ([3mnode:internal/modules/esm/module_job:319:21[23m)[22m
+[2m ⁃ at [3masync ModuleJob.run[23m ([3mnode:internal/modules/esm/module_job:422:5[23m)[22m
+[2m ⁃ at [3masync onImport.tracePromise.__proto__[23m ([3mnode:internal/modules/esm/loader:661:26[23m)[22m
+ ⁃ at async <anonymous> [33m(bin/server.ts:36:7)[39m
+ ⁃ at async #exec [33m(node_modules/@poppinss/hooks/build/index.js:114:24)[39m
+ ⁃ at async Application.boot [33m(node_modules/@adonisjs/application/build/application-BwkPOl3k.js:775:3)[39m
+ ⁃ at async HttpServerProcess.start [33m(node_modules/@adonisjs/core/build/main-zFY2qkGC.js:286:3)[39m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ SyntaxError: The requested module '#database/schema' does not provide an export named 'UserSchema'[39m
+
+ ⁃ [33m(app/models/user.ts:1:undefined)[39m
+
+ [41m❯  1 ┃  import { UserSchema } from '#database/schema'[49m
+   [2m 2[22m [2m┃[22m  [31mimport[0m hash [31mfrom[0m [32m'@adonisjs/core/services/hash'[0m
+   [2m 3[22m [2m┃[22m  [31mimport[0m { [31mtype[0m [33mAccessToken[0m[34m,[0m [33mDbAccessTokensProvider[0m } [31mfrom[0m [32m'@adonisjs/auth/access_tokens'[0m
+   [2m 4[22m [2m┃[22m  [31mimport[0m { beforeCreate[34m,[0m beforeSave } [31mfrom[0m [32m'@adonisjs/lucid/orm'[0m
+   [2m 5[22m [2m┃[22m  [31mimport[0m { v4 [31mas[0m uuid } [31mfrom[0m [32m'uuid'[0m
+   [2m 6[22m [2m┃[22m  
+   [2m 7[22m [2m┃[22m  
+   [2m 8[22m [2m┃[22m  [31mexport[0m [31mdefault[0m [31mclass[0m [33mUser[0m [31mextends[0m [33mUserSchema[0m {
+   [2m 9[22m [2m┃[22m    [31mstatic[0m accessTokens [34m=[0m [33mDbAccessTokensProvider[0m[34m.[0m[35mforModel[0m([33mUser[0m)
+   [2m10[22m [2m┃[22m    [31mdeclare[0m currentAccessToken[34m?:[0m [33mAccessToken[0m
+   [2m11[22m [2m┃[22m  
+
+[2m ⁃ at [3m#asyncInstantiate[23m ([3mnode:internal/modules/esm/module_job:319:21[23m)[22m
+[2m ⁃ at [3masync ModuleJob.run[23m ([3mnode:internal/modules/esm/module_job:422:5[23m)[22m
+[2m ⁃ at [3masync onImport.tracePromise.__proto__[23m ([3mnode:internal/modules/esm/loader:661:26[23m)[22m
+ ⁃ at async <anonymous> [33m(bin/server.ts:36:7)[39m
+ ⁃ at async #exec [33m(node_modules/@poppinss/hooks/build/index.js:114:24)[39m
+ ⁃ at async Application.boot [33m(node_modules/@adonisjs/application/build/application-BwkPOl3k.js:775:3)[39m
+ ⁃ at async HttpServerProcess.start [33m(node_modules/@adonisjs/core/build/main-zFY2qkGC.js:286:3)[39m
+
+
+[31mℹ SyntaxError: The requested module '#database/schema' does not provide an export named 'UserSchema'[39m
+
+ ⁃ [33m(app/models/user.ts:1:undefined)[39m
+
+ [41m❯  1 ┃  import { UserSchema } from '#database/schema'[49m
+   [2m 2[22m [2m┃[22m  [31mimport[0m hash [31mfrom[0m [32m'@adonisjs/core/services/hash'[0m
+   [2m 3[22m [2m┃[22m  [31mimport[0m { [31mtype[0m [33mAccessToken[0m[34m,[0m [33mDbAccessTokensProvider[0m } [31mfrom[0m [32m'@adonisjs/auth/access_tokens'[0m
+   [2m 4[22m [2m┃[22m  [31mimport[0m { beforeCreate[34m,[0m beforeSave } [31mfrom[0m [32m'@adonisjs/lucid/orm'[0m
+   [2m 5[22m [2m┃[22m  [31mimport[0m { v4 [31mas[0m uuid } [31mfrom[0m [32m'uuid'[0m
+   [2m 6[22m [2m┃[22m  
+   [2m 7[22m [2m┃[22m  
+   [2m 8[22m [2m┃[22m  [31mexport[0m [31mdefault[0m [31mclass[0m [33mUser[0m [31mextends[0m [33mUserSchema[0m {
+   [2m 9[22m [2m┃[22m    [31mstatic[0m accessTokens [34m=[0m [33mDbAccessTokensProvider[0m[34m.[0m[35mforModel[0m([33mUser[0m)
+   [2m10[22m [2m┃[22m    [31mdeclare[0m currentAccessToken[34m?:[0m [33mAccessToken[0m
+   [2m11[22m [2m┃[22m  
+
+[2m ⁃ at [3m#asyncInstantiate[23m ([3mnode:internal/modules/esm/module_job:319:21[23m)[22m
+[2m ⁃ at [3masync ModuleJob.run[23m ([3mnode:internal/modules/esm/module_job:422:5[23m)[22m
+[2m ⁃ at [3masync onImport.tracePromise.__proto__[23m ([3mnode:internal/modules/esm/loader:661:26[23m)[22m
+ ⁃ at async <anonymous> [33m(bin/server.ts:36:7)[39m
+ ⁃ at async #exec [33m(node_modules/@poppinss/hooks/build/index.js:114:24)[39m
+ ⁃ at async Application.boot [33m(node_modules/@adonisjs/application/build/application-BwkPOl3k.js:775:3)[39m
+ ⁃ at async HttpServerProcess.start [33m(node_modules/@adonisjs/core/build/main-zFY2qkGC.js:286:3)[39m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+RateLimitError: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+    at APIError.generate (/home/mserver/works/Ilvi-API/node_modules/openai/src/core/error.ts:96:14)
+    at OpenAI.makeStatusError (/home/mserver/works/Ilvi-API/node_modules/openai/src/client.ts:494:28)
+    at OpenAI.makeRequest (/home/mserver/works/Ilvi-API/node_modules/openai/src/client.ts:745:24)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async processTranscript (/home/mserver/works/Ilvi-API/app/services/ai_service.ts:24:22)
+    at async Socket.<anonymous> (/home/mserver/works/Ilvi-API/start/meeting_socket.ts:85:26) {
+  status: 429,
+  headers: Headers {
+    date: 'Wed, 15 Apr 2026 05:11:03 GMT',
+    'content-type': 'application/json; charset=utf-8',
+    'content-length': '337',
+    connection: 'keep-alive',
+    'set-cookie': '__cf_bm=0iSsmi7Pr2ckahXcT6nNpBqUhsiNme3Yc9TEUHXwxz4-1776229863.1238978-1.0.1.1-YxU4.mxX1lKVn42vxZeXO3z7x0gvPdEc94i2ENJu.9Lo7rTSu2Pwe3Djk5gTPIROjtDRuwdaK8oxdD6TAx8UqS24ptWQHHeT_tUHBf8ZLBjYHmWPEtMuPuCugrGTUxxi; HttpOnly; Secure; Path=/; Domain=api.openai.com; Expires=Wed, 15 Apr 2026 05:41:03 GMT, _cfuvid=_OLUr7B5YGkFxsbNfmVUX0pVMuDEWofN04ONOAfbFoo-1776229863.1238978-1.0.1.1-vDGhro3g649.b5gmr_lqeEpqULppITFCn5FxJvxWoVo; HttpOnly; SameSite=None; Secure; Path=/; Domain=api.openai.com',
+    'cf-ray': '9ec872848cc458e7-MAA',
+    'cf-cache-status': 'DYNAMIC',
+    server: 'cloudflare',
+    'strict-transport-security': 'max-age=31536000; includeSubDomains; preload',
+    vary: 'Origin',
+    'x-content-type-options': 'nosniff',
+    'x-openai-proxy-wasm': 'v0.1',
+    'x-request-id': 'req_c8778f5d8c6b4e5d9f55a13fddbfc75f',
+    'alt-svc': 'h3=":443"; ma=86400'
+  },
+  requestID: 'req_c8778f5d8c6b4e5d9f55a13fddbfc75f',
+  error: {
+    message: 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.',
+    type: 'insufficient_quota',
+    param: null,
+    code: 'insufficient_quota'
+  },
+  code: 'insufficient_quota',
+  param: null,
+  type: 'insufficient_quota'
+}
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+RateLimitError: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+    at APIError.generate (/home/mserver/works/Ilvi-API/node_modules/openai/src/core/error.ts:96:14)
+    at OpenAI.makeStatusError (/home/mserver/works/Ilvi-API/node_modules/openai/src/client.ts:494:28)
+    at OpenAI.makeRequest (/home/mserver/works/Ilvi-API/node_modules/openai/src/client.ts:745:24)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async processTranscript (/home/mserver/works/Ilvi-API/app/services/ai_service.ts:24:22)
+    at async Socket.<anonymous> (/home/mserver/works/Ilvi-API/start/meeting_socket.ts:85:26) {
+  status: 429,
+  headers: Headers {
+    date: 'Wed, 15 Apr 2026 05:11:54 GMT',
+    'content-type': 'application/json; charset=utf-8',
+    'content-length': '337',
+    connection: 'keep-alive',
+    'set-cookie': '__cf_bm=s_Q5xCA9Wox99bm8I17g.vWbQeVs3Rb_G3bYzWprq8Q-1776229914.1763191-1.0.1.1-rBkT2MPCHrE7jGKf6mZ4UAtXVm5L5Bg9XClusfqrB015SO4_ckh4KDvysW4lU6.lxl8CiURHHyOzJFnHpSAfUlWcDFtFW7rnk3VXQJkTczLctu_U_VZ9MUQzmxnrTLCn; HttpOnly; Secure; Path=/; Domain=api.openai.com; Expires=Wed, 15 Apr 2026 05:41:54 GMT, _cfuvid=aNM9IkCFgAuySiw7MwoSqOa9SIpx0HWff76XbBicM30-1776229914.1763191-1.0.1.1-PzuC2cHuNWWyDycOdU5cWXEaIMlQVZCgUg0R6d09ZAI; HttpOnly; SameSite=None; Secure; Path=/; Domain=api.openai.com',
+    'cf-ray': '9ec873c39ac7dcf0-MAA',
+    'cf-cache-status': 'DYNAMIC',
+    server: 'cloudflare',
+    'strict-transport-security': 'max-age=31536000; includeSubDomains; preload',
+    vary: 'Origin',
+    'x-content-type-options': 'nosniff',
+    'x-openai-proxy-wasm': 'v0.1',
+    'x-request-id': 'req_271cc2ad56c74d9481a5139abc7d4846',
+    'alt-svc': 'h3=":443"; ma=86400'
+  },
+  requestID: 'req_271cc2ad56c74d9481a5139abc7d4846',
+  error: {
+    message: 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.',
+    type: 'insufficient_quota',
+    param: null,
+    code: 'insufficient_quota'
+  },
+  code: 'insufficient_quota',
+  param: null,
+  type: 'insufficient_quota'
+}
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+RateLimitError: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+    at APIError.generate (/home/mserver/works/Ilvi-API/node_modules/openai/src/core/error.ts:96:14)
+    at OpenAI.makeStatusError (/home/mserver/works/Ilvi-API/node_modules/openai/src/client.ts:494:28)
+    at OpenAI.makeRequest (/home/mserver/works/Ilvi-API/node_modules/openai/src/client.ts:745:24)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async processTranscript (/home/mserver/works/Ilvi-API/app/services/ai_service.ts:24:22)
+    at async Socket.<anonymous> (/home/mserver/works/Ilvi-API/start/meeting_socket.ts:85:26) {
+  status: 429,
+  headers: Headers {
+    date: 'Thu, 16 Apr 2026 07:56:03 GMT',
+    'content-type': 'application/json; charset=utf-8',
+    'content-length': '337',
+    connection: 'keep-alive',
+    'set-cookie': '__cf_bm=oxxh.CRJIhSdfSO1cZ9PFKkuz1LEno9dHZXtulJehko-1776326162.1950114-1.0.1.1-Xne8_9Cmg9jPA_uXxp1icKqojtkqvLb_BUki1th58s8XsFEeaqGWUVAsGFwm1vMS0QL1dnjHBr28xZK.0VM5Oo8k4c10bDL8JtU6Rl4vDr9FaOumTOFG6ntf2stq0JO_; HttpOnly; Secure; Path=/; Domain=api.openai.com; Expires=Thu, 16 Apr 2026 08:26:03 GMT, _cfuvid=pBj9lulkOhhutIj6mUIs6Ws8sKHdJq7kigXJ0e_MpaQ-1776326162.1950114-1.0.1.1-_rDh7JcxULwECHO8BKpglObrlhuAbkA5TaUbd5.lc6g; HttpOnly; SameSite=None; Secure; Path=/; Domain=api.openai.com',
+    'cf-ray': '9ed1a191bd727f46-MAA',
+    'cf-cache-status': 'DYNAMIC',
+    server: 'cloudflare',
+    'strict-transport-security': 'max-age=31536000; includeSubDomains; preload',
+    vary: 'Origin',
+    'x-content-type-options': 'nosniff',
+    'x-openai-proxy-wasm': 'v0.1',
+    'x-request-id': 'req_458c27d4b3424d538e71317a66bfda30',
+    'alt-svc': 'h3=":443"; ma=86400'
+  },
+  requestID: 'req_458c27d4b3424d538e71317a66bfda30',
+  error: {
+    message: 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.',
+    type: 'insufficient_quota',
+    param: null,
+    code: 'insufficient_quota'
+  },
+  code: 'insufficient_quota',
+  param: null,
+  type: 'insufficient_quota'
+}
+RateLimitError: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+    at APIError.generate (/home/mserver/works/Ilvi-API/node_modules/openai/src/core/error.ts:96:14)
+    at OpenAI.makeStatusError (/home/mserver/works/Ilvi-API/node_modules/openai/src/client.ts:494:28)
+    at OpenAI.makeRequest (/home/mserver/works/Ilvi-API/node_modules/openai/src/client.ts:745:24)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async processTranscript (/home/mserver/works/Ilvi-API/app/services/ai_service.ts:24:22)
+    at async Socket.<anonymous> (/home/mserver/works/Ilvi-API/start/meeting_socket.ts:85:26) {
+  status: 429,
+  headers: Headers {
+    date: 'Thu, 16 Apr 2026 07:59:12 GMT',
+    'content-type': 'application/json; charset=utf-8',
+    'content-length': '337',
+    connection: 'keep-alive',
+    'set-cookie': '__cf_bm=uK5oaqWilfYvHXx2kcUc5TGNBVaR6E3rH5_ANbiIfRA-1776326352.3299263-1.0.1.1-IlvYU3cHmETEIcbtwRfTJo_NXv7wLGDf.83NVmsW0_3MYAh0lSKIN4fMhP3IqG_ainHB0s5b5rNVkremmEvmPIRtEh8zhlWCpIvLUwCCMzW.OPVNRaZ56PZODv7RBS45; HttpOnly; Secure; Path=/; Domain=api.openai.com; Expires=Thu, 16 Apr 2026 08:29:12 GMT, _cfuvid=xRnRE_NuhnIv4ufhiFmmzqPTND8G1gdWyXCzX9suiHE-1776326352.3299263-1.0.1.1-TtAzkWLY1s3.m0rkO24y.bKXLgGDpoWeGnuMIIQUJOs; HttpOnly; SameSite=None; Secure; Path=/; Domain=api.openai.com',
+    'cf-ray': '9ed1a63608357f7c-MAA',
+    'cf-cache-status': 'DYNAMIC',
+    server: 'cloudflare',
+    'strict-transport-security': 'max-age=31536000; includeSubDomains; preload',
+    vary: 'Origin',
+    'x-content-type-options': 'nosniff',
+    'x-openai-proxy-wasm': 'v0.1',
+    'x-request-id': 'req_fb88ad4bf5344124bccf478fc740e48f',
+    'alt-svc': 'h3=":443"; ma=86400'
+  },
+  requestID: 'req_fb88ad4bf5344124bccf478fc740e48f',
+  error: {
+    message: 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.',
+    type: 'insufficient_quota',
+    param: null,
+    code: 'insufficient_quota'
+  },
+  code: 'insufficient_quota',
+  param: null,
+  type: 'insufficient_quota'
+}
+RateLimitError: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+    at APIError.generate (/home/mserver/works/Ilvi-API/node_modules/openai/src/core/error.ts:96:14)
+    at OpenAI.makeStatusError (/home/mserver/works/Ilvi-API/node_modules/openai/src/client.ts:494:28)
+    at OpenAI.makeRequest (/home/mserver/works/Ilvi-API/node_modules/openai/src/client.ts:745:24)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async processTranscript (/home/mserver/works/Ilvi-API/app/services/ai_service.ts:24:22)
+    at async Socket.<anonymous> (/home/mserver/works/Ilvi-API/start/meeting_socket.ts:85:26) {
+  status: 429,
+  headers: Headers {
+    date: 'Thu, 16 Apr 2026 08:26:43 GMT',
+    'content-type': 'application/json; charset=utf-8',
+    'content-length': '337',
+    connection: 'keep-alive',
+    'set-cookie': '__cf_bm=Auy3fPeCBOQrOlW2NplDwFeL8qcIhApgBMhFZc.D6Ww-1776328002.8158185-1.0.1.1-BMUt.4bYIJVt5sBhUK..IIMPRIEiBw1Mkkm4n7bta28v5aWmHqfDt3GeuMg6JTtOPRMjTHF_LaHGwcOtxqaV1l86.5YMeEAckIzoDjLCXNrwYzLbEswEYUTSbvfy7jEE; HttpOnly; Secure; Path=/; Domain=api.openai.com; Expires=Thu, 16 Apr 2026 08:56:43 GMT, _cfuvid=TrsDbZ1adh2dYOPQvxc21xmpxiJ.xVhI59ubYtcdh0M-1776328002.8158185-1.0.1.1-7zO7VNH6MxPGemLzteiomr1RM0FCMH025.SCzWHVWMo; HttpOnly; SameSite=None; Secure; Path=/; Domain=api.openai.com',
+    'cf-ray': '9ed1ce8199ffaa6a-MAA',
+    'cf-cache-status': 'DYNAMIC',
+    server: 'cloudflare',
+    'strict-transport-security': 'max-age=31536000; includeSubDomains; preload',
+    vary: 'Origin',
+    'x-content-type-options': 'nosniff',
+    'x-openai-proxy-wasm': 'v0.1',
+    'x-request-id': 'req_e4a52335bdf9441f9bf453fc07c88570',
+    'alt-svc': 'h3=":443"; ma=86400'
+  },
+  requestID: 'req_e4a52335bdf9441f9bf453fc07c88570',
+  error: {
+    message: 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.',
+    type: 'insufficient_quota',
+    param: null,
+    code: 'insufficient_quota'
+  },
+  code: 'insufficient_quota',
+  param: null,
+  type: 'insufficient_quota'
+}
+RateLimitError: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+    at APIError.generate (/home/mserver/works/Ilvi-API/node_modules/openai/src/core/error.ts:96:14)
+    at OpenAI.makeStatusError (/home/mserver/works/Ilvi-API/node_modules/openai/src/client.ts:494:28)
+    at OpenAI.makeRequest (/home/mserver/works/Ilvi-API/node_modules/openai/src/client.ts:745:24)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async processTranscript (/home/mserver/works/Ilvi-API/app/services/ai_service.ts:24:22)
+    at async Socket.<anonymous> (/home/mserver/works/Ilvi-API/start/meeting_socket.ts:85:26) {
+  status: 429,
+  headers: Headers {
+    date: 'Thu, 16 Apr 2026 08:30:03 GMT',
+    'content-type': 'application/json; charset=utf-8',
+    'content-length': '337',
+    connection: 'keep-alive',
+    'set-cookie': '__cf_bm=zoG5b7prLf0gdzLXSAU6ZQ07Bi06KCtxAGj_MPDP4O8-1776328203.1929648-1.0.1.1-VzOs6H4ZHkl31vDZ82rmyTF6M_HGbbNdEDJ7RIQZBLKKi5lfWGtzq3X1k3Dj_5oMvX58jBP5YmFRkEL0GCz7EIM4..nniAFyC6yBrzFRohmt4Peeu77wZ7_zXAVElyEM; HttpOnly; Secure; Path=/; Domain=api.openai.com; Expires=Thu, 16 Apr 2026 09:00:03 GMT, _cfuvid=XlGZ0PmmomsGg1Ir2jGvp.hlQtAj_KklfVSP_cOXO4Q-1776328203.1929648-1.0.1.1-7LGkOOK9JR74KFR5Oc0A44IvA1ZCOCbosO2LGQ0elEc; HttpOnly; SameSite=None; Secure; Path=/; Domain=api.openai.com',
+    'cf-ray': '9ed1d365f9390803-MAA',
+    'cf-cache-status': 'DYNAMIC',
+    server: 'cloudflare',
+    'strict-transport-security': 'max-age=31536000; includeSubDomains; preload',
+    vary: 'Origin',
+    'x-content-type-options': 'nosniff',
+    'x-openai-proxy-wasm': 'v0.1',
+    'x-request-id': 'req_cb85c58194e94757951495625aa86e19',
+    'alt-svc': 'h3=":443"; ma=86400'
+  },
+  requestID: 'req_cb85c58194e94757951495625aa86e19',
+  error: {
+    message: 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.',
+    type: 'insufficient_quota',
+    param: null,
+    code: 'insufficient_quota'
+  },
+  code: 'insufficient_quota',
+  param: null,
+  type: 'insufficient_quota'
+}
+RateLimitError: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+    at APIError.generate (/home/mserver/works/Ilvi-API/node_modules/openai/src/core/error.ts:96:14)
+    at OpenAI.makeStatusError (/home/mserver/works/Ilvi-API/node_modules/openai/src/client.ts:494:28)
+    at OpenAI.makeRequest (/home/mserver/works/Ilvi-API/node_modules/openai/src/client.ts:745:24)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async processTranscript (/home/mserver/works/Ilvi-API/app/services/ai_service.ts:24:22)
+    at async Socket.<anonymous> (/home/mserver/works/Ilvi-API/start/meeting_socket.ts:85:26) {
+  status: 429,
+  headers: Headers {
+    date: 'Thu, 16 Apr 2026 08:37:10 GMT',
+    'content-type': 'application/json; charset=utf-8',
+    'content-length': '337',
+    connection: 'keep-alive',
+    'set-cookie': '__cf_bm=FMtPI_RHe1Nxt26KtHO9ccye5TgkM4_dyk0Ea2k7g4w-1776328629.870139-1.0.1.1-JMnKoO2ITeHtED9GMJgf6v9Li5Jb9eO1Z.hCEooKTIhoQ8vyMvlTn1w6KJzJhao9RWjObxo6hrJYe08bCoTbcby5JqncibbmnPP3Sb5QSEtYTt_IGZryzMzt0z5VY_xF; HttpOnly; Secure; Path=/; Domain=api.openai.com; Expires=Thu, 16 Apr 2026 09:07:10 GMT, _cfuvid=ZnT3MvOfktJFzgAH6efaQ_nG7FYIiQK0Tv_g3t1WCJc-1776328629.870139-1.0.1.1-l4Vme9j4VWIsRp5zHbphc8e05dJAY.h5oE_ZuxGsnuE; HttpOnly; SameSite=None; Secure; Path=/; Domain=api.openai.com',
+    'cf-ray': '9ed1ddd0ae207f77-MAA',
+    'cf-cache-status': 'DYNAMIC',
+    server: 'cloudflare',
+    'strict-transport-security': 'max-age=31536000; includeSubDomains; preload',
+    vary: 'Origin',
+    'x-content-type-options': 'nosniff',
+    'x-openai-proxy-wasm': 'v0.1',
+    'x-request-id': 'req_ed5f1bbebccf42bdaa42f5c02d46adf3',
+    'alt-svc': 'h3=":443"; ma=86400'
+  },
+  requestID: 'req_ed5f1bbebccf42bdaa42f5c02d46adf3',
+  error: {
+    message: 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.',
+    type: 'insufficient_quota',
+    param: null,
+    code: 'insufficient_quota'
+  },
+  code: 'insufficient_quota',
+  param: null,
+  type: 'insufficient_quota'
+}
+RateLimitError: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+    at APIError.generate (/home/mserver/works/Ilvi-API/node_modules/openai/src/core/error.ts:96:14)
+    at OpenAI.makeStatusError (/home/mserver/works/Ilvi-API/node_modules/openai/src/client.ts:494:28)
+    at OpenAI.makeRequest (/home/mserver/works/Ilvi-API/node_modules/openai/src/client.ts:745:24)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async processTranscript (/home/mserver/works/Ilvi-API/app/services/ai_service.ts:24:22)
+    at async Socket.<anonymous> (/home/mserver/works/Ilvi-API/start/meeting_socket.ts:85:26) {
+  status: 429,
+  headers: Headers {
+    date: 'Thu, 16 Apr 2026 08:40:43 GMT',
+    'content-type': 'application/json; charset=utf-8',
+    'content-length': '337',
+    connection: 'keep-alive',
+    'set-cookie': '__cf_bm=Ewab805jvRo0Vj8k8yIRVo_ghIrcAN7S3LXLAEq5hlc-1776328843.454374-1.0.1.1-hnz03tV.GK6eSHhM.0VXDKwVgEQ071EQmYSsaIcATdleeOUjBTfTDXXKfXr7yJ7ybIDdYvSbwCiPHdIyJBMXBI25MnqO2TJCV7Wr9tPzdeqft6MlBSKiD8T0issH4IMp; HttpOnly; Secure; Path=/; Domain=api.openai.com; Expires=Thu, 16 Apr 2026 09:10:43 GMT, _cfuvid=evIa7mrfKwZGTw8qYAWo3Rn9.ul3Wu.SmdOwH1ijgEo-1776328843.454374-1.0.1.1-9jxhfkdbGEUU2MlOFu2M36eCDRpcTo7FfAvCf4jkREs; HttpOnly; SameSite=None; Secure; Path=/; Domain=api.openai.com',
+    'cf-ray': '9ed1e307988c7ea4-MAA',
+    'cf-cache-status': 'DYNAMIC',
+    server: 'cloudflare',
+    'strict-transport-security': 'max-age=31536000; includeSubDomains; preload',
+    vary: 'Origin',
+    'x-content-type-options': 'nosniff',
+    'x-openai-proxy-wasm': 'v0.1',
+    'x-request-id': 'req_4bd4c0ce39624222bfee7fcda53a3fb6',
+    'alt-svc': 'h3=":443"; ma=86400'
+  },
+  requestID: 'req_4bd4c0ce39624222bfee7fcda53a3fb6',
+  error: {
+    message: 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.',
+    type: 'insufficient_quota',
+    param: null,
+    code: 'insufficient_quota'
+  },
+  code: 'insufficient_quota',
+  param: null,
+  type: 'insufficient_quota'
+}
+RateLimitError: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+    at APIError.generate (/home/mserver/works/Ilvi-API/node_modules/openai/src/core/error.ts:96:14)
+    at OpenAI.makeStatusError (/home/mserver/works/Ilvi-API/node_modules/openai/src/client.ts:494:28)
+    at OpenAI.makeRequest (/home/mserver/works/Ilvi-API/node_modules/openai/src/client.ts:745:24)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async processTranscript (/home/mserver/works/Ilvi-API/app/services/ai_service.ts:24:22)
+    at async Socket.<anonymous> (/home/mserver/works/Ilvi-API/start/meeting_socket.ts:85:26) {
+  status: 429,
+  headers: Headers {
+    date: 'Thu, 16 Apr 2026 08:45:26 GMT',
+    'content-type': 'application/json; charset=utf-8',
+    'content-length': '337',
+    connection: 'keep-alive',
+    'set-cookie': '__cf_bm=2pHz3xpcislxQT6FV6imdSdOFOq_K3KKhm.wMwseQo0-1776329125.76341-1.0.1.1-MlMkI.3NEvmC4YOFU8XLm3ZTIXMG77jkC_DtVpgdlxkiRKvSw49eUIYsDgqE0FmicyHoDeoe1H.HejS30.UgSJVZBBG1BaikU.ZmJj.eylYGNoLBVrR4OS5uwG1TnpBb; HttpOnly; Secure; Path=/; Domain=api.openai.com; Expires=Thu, 16 Apr 2026 09:15:26 GMT, _cfuvid=bi6lr2OuaM0RE5ZQJVGKICjuHdng_0BcFnyJXL5SfyA-1776329125.76341-1.0.1.1-lnOqRumWWBHGcRTOyEAYOcOHErIixTRQSLGRcbXuJRo; HttpOnly; SameSite=None; Secure; Path=/; Domain=api.openai.com',
+    'cf-ray': '9ed1e9ec0ffd285b-MAA',
+    'cf-cache-status': 'DYNAMIC',
+    server: 'cloudflare',
+    'strict-transport-security': 'max-age=31536000; includeSubDomains; preload',
+    vary: 'Origin',
+    'x-content-type-options': 'nosniff',
+    'x-openai-proxy-wasm': 'v0.1',
+    'x-request-id': 'req_99fe0a439685412ea803b0863b446a71',
+    'alt-svc': 'h3=":443"; ma=86400'
+  },
+  requestID: 'req_99fe0a439685412ea803b0863b446a71',
+  error: {
+    message: 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.',
+    type: 'insufficient_quota',
+    param: null,
+    code: 'insufficient_quota'
+  },
+  code: 'insufficient_quota',
+  param: null,
+  type: 'insufficient_quota'
+}
+RateLimitError: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+    at APIError.generate (/home/mserver/works/Ilvi-API/node_modules/openai/src/core/error.ts:96:14)
+    at OpenAI.makeStatusError (/home/mserver/works/Ilvi-API/node_modules/openai/src/client.ts:494:28)
+    at OpenAI.makeRequest (/home/mserver/works/Ilvi-API/node_modules/openai/src/client.ts:745:24)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async processTranscript (/home/mserver/works/Ilvi-API/app/services/ai_service.ts:24:22)
+    at async Socket.<anonymous> (/home/mserver/works/Ilvi-API/start/meeting_socket.ts:85:26) {
+  status: 429,
+  headers: Headers {
+    date: 'Thu, 16 Apr 2026 08:52:04 GMT',
+    'content-type': 'application/json; charset=utf-8',
+    'content-length': '337',
+    connection: 'keep-alive',
+    'set-cookie': '__cf_bm=9ecglMUknuO08n35CQyXWFFqb8_ZZ9BPJ_anYfDlAoI-1776329524.0199-1.0.1.1-KwSgMU9aJ41Fl0wT8k2qOzw1dxVXtHiOtDNjh1fR9vpG9r1xQ0u2pO04l3XkpdoscbpbZe2RksP5ZVPXn22HA5bKstiIAcgslaXolCnHliQwh3tJzELoMvR1qeE1v2Cs; HttpOnly; Secure; Path=/; Domain=api.openai.com; Expires=Thu, 16 Apr 2026 09:22:04 GMT, _cfuvid=HMkiwxZZ6M95sSU0T5SYDbinmVPXIHEjUn5TsgoUBHg-1776329524.0199-1.0.1.1-h5OzKVvAZ6.h9OW3FmUVCeTQci9l.Sf.SSoc3fu9wlQ; HttpOnly; SameSite=None; Secure; Path=/; Domain=api.openai.com',
+    'cf-ray': '9ed1f3a51deac6ab-MAA',
+    'cf-cache-status': 'DYNAMIC',
+    server: 'cloudflare',
+    'strict-transport-security': 'max-age=31536000; includeSubDomains; preload',
+    vary: 'Origin',
+    'x-content-type-options': 'nosniff',
+    'x-openai-proxy-wasm': 'v0.1',
+    'x-request-id': 'req_4eb9bf732d77414282b308609e8da39d',
+    'alt-svc': 'h3=":443"; ma=86400'
+  },
+  requestID: 'req_4eb9bf732d77414282b308609e8da39d',
+  error: {
+    message: 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.',
+    type: 'insufficient_quota',
+    param: null,
+    code: 'insufficient_quota'
+  },
+  code: 'insufficient_quota',
+  param: null,
+  type: 'insufficient_quota'
+}
+RateLimitError: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+    at APIError.generate (/home/mserver/works/Ilvi-API/node_modules/openai/src/core/error.ts:96:14)
+    at OpenAI.makeStatusError (/home/mserver/works/Ilvi-API/node_modules/openai/src/client.ts:494:28)
+    at OpenAI.makeRequest (/home/mserver/works/Ilvi-API/node_modules/openai/src/client.ts:745:24)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async processTranscript (/home/mserver/works/Ilvi-API/app/services/ai_service.ts:24:22)
+    at async Socket.<anonymous> (/home/mserver/works/Ilvi-API/start/meeting_socket.ts:85:26) {
+  status: 429,
+  headers: Headers {
+    date: 'Thu, 16 Apr 2026 08:54:37 GMT',
+    'content-type': 'application/json; charset=utf-8',
+    'content-length': '337',
+    connection: 'keep-alive',
+    'set-cookie': '__cf_bm=tkMRiosRP8LYxePKr6yS8nliPrGLYjbcIQ0zHNjNyH8-1776329677.1152892-1.0.1.1-Rx8uNLB_vMQq4a82pR1rzKG9oE6frSyCRHJjuw4iaTWKzcjGYlieJWUci4zB5J1PiPbD__ACT30sHxvG0PCspAlrzpgIa5drBEe0sVpGBxGT2oiFFZGjLFa6a2AYCHB.; HttpOnly; Secure; Path=/; Domain=api.openai.com; Expires=Thu, 16 Apr 2026 09:24:37 GMT, _cfuvid=Mf_p0ErRW0ix82HTn226hGAOzunbf9_plnm6cM2Nuak-1776329677.1152892-1.0.1.1-mESi4XJ_QdheJOafDoLV5yFVy4CcfOXzg_cKi9Pbh9Q; HttpOnly; SameSite=None; Secure; Path=/; Domain=api.openai.com',
+    'cf-ray': '9ed1f761fd7b8ae4-MAA',
+    'cf-cache-status': 'DYNAMIC',
+    server: 'cloudflare',
+    'strict-transport-security': 'max-age=31536000; includeSubDomains; preload',
+    vary: 'Origin',
+    'x-content-type-options': 'nosniff',
+    'x-openai-proxy-wasm': 'v0.1',
+    'x-request-id': 'req_20bf8cbc158c4f32a99b5655507e1060',
+    'alt-svc': 'h3=":443"; ma=86400'
+  },
+  requestID: 'req_20bf8cbc158c4f32a99b5655507e1060',
+  error: {
+    message: 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.',
+    type: 'insufficient_quota',
+    param: null,
+    code: 'insufficient_quota'
+  },
+  code: 'insufficient_quota',
+  param: null,
+  type: 'insufficient_quota'
+}
+RateLimitError: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+    at APIError.generate (/home/mserver/works/Ilvi-API/node_modules/openai/src/core/error.ts:96:14)
+    at OpenAI.makeStatusError (/home/mserver/works/Ilvi-API/node_modules/openai/src/client.ts:494:28)
+    at OpenAI.makeRequest (/home/mserver/works/Ilvi-API/node_modules/openai/src/client.ts:745:24)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async processTranscript (/home/mserver/works/Ilvi-API/app/services/ai_service.ts:24:22)
+    at async Socket.<anonymous> (/home/mserver/works/Ilvi-API/start/meeting_socket.ts:85:26) {
+  status: 429,
+  headers: Headers {
+    date: 'Thu, 16 Apr 2026 09:02:54 GMT',
+    'content-type': 'application/json; charset=utf-8',
+    'content-length': '337',
+    connection: 'keep-alive',
+    'set-cookie': '__cf_bm=JfEwPRjElr9aixNmJ0VvAcnw8cEr2X1eGe7UkuNB9ww-1776330174.351761-1.0.1.1-WUDruQG9nh5Y5VdMOCDIOhS4_K_D.GICG6XhEmE5td..8KN_Bn1OliAXHVT._kFBWUQUQ.7RsN.iOkUDChhHE4SBIH8_9FoPw9PQkbgn2mrkYm8rnTMFux0BijpLTAU4; HttpOnly; Secure; Path=/; Domain=api.openai.com; Expires=Thu, 16 Apr 2026 09:32:54 GMT, _cfuvid=mZ2apLmIa6kKimXWNugVW9Y1zaqLFFXvAv_06WG1O5w-1776330174.351761-1.0.1.1-zNM3mQUHkKo97Uen9mT9_Z7qybXSxCVX9ZG5fOpqa7Q; HttpOnly; SameSite=None; Secure; Path=/; Domain=api.openai.com',
+    'cf-ray': '9ed20385bbf77f89-MAA',
+    'cf-cache-status': 'DYNAMIC',
+    server: 'cloudflare',
+    'strict-transport-security': 'max-age=31536000; includeSubDomains; preload',
+    vary: 'Origin',
+    'x-content-type-options': 'nosniff',
+    'x-openai-proxy-wasm': 'v0.1',
+    'x-request-id': 'req_c7beef73ce2e4ffa83eef73aaafd9645',
+    'alt-svc': 'h3=":443"; ma=86400'
+  },
+  requestID: 'req_c7beef73ce2e4ffa83eef73aaafd9645',
+  error: {
+    message: 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.',
+    type: 'insufficient_quota',
+    param: null,
+    code: 'insufficient_quota'
+  },
+  code: 'insufficient_quota',
+  param: null,
+  type: 'insufficient_quota'
+}
+RateLimitError: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+    at APIError.generate (/home/mserver/works/Ilvi-API/node_modules/openai/src/core/error.ts:96:14)
+    at OpenAI.makeStatusError (/home/mserver/works/Ilvi-API/node_modules/openai/src/client.ts:494:28)
+    at OpenAI.makeRequest (/home/mserver/works/Ilvi-API/node_modules/openai/src/client.ts:745:24)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async processTranscript (/home/mserver/works/Ilvi-API/app/services/ai_service.ts:24:22)
+    at async Socket.<anonymous> (/home/mserver/works/Ilvi-API/start/meeting_socket.ts:85:26) {
+  status: 429,
+  headers: Headers {
+    date: 'Thu, 16 Apr 2026 09:04:28 GMT',
+    'content-type': 'application/json; charset=utf-8',
+    'content-length': '337',
+    connection: 'keep-alive',
+    'set-cookie': '__cf_bm=Wj6rMkzAFSbMrt42SpVLtvTL3xwJEBoljpRK7o4r5L4-1776330268.539819-1.0.1.1-.wN76HurvpqIyxzdntkZdQPV5AeEyTS2Jd4FlKW2F9yErePEmukfIyoZ3KniA_pN3u9eKsj1N29A_6kPqxSHeCYvAhvJAfixF6RnIPwIcu.cVuBiCb7R_zEpWqPnQ_GP; HttpOnly; Secure; Path=/; Domain=api.openai.com; Expires=Thu, 16 Apr 2026 09:34:28 GMT, _cfuvid=Rz7pDw8mSucCXXDYw.tpgHbcADez2b51Ht17Hya47PY-1776330268.539819-1.0.1.1-a.W3FnYTTlcsJ33_tzLrKV9c9_7JWmR_xyi_FxakID8; HttpOnly; SameSite=None; Secure; Path=/; Domain=api.openai.com',
+    'cf-ray': '9ed205d25f2a7feb-MAA',
+    'cf-cache-status': 'DYNAMIC',
+    server: 'cloudflare',
+    'strict-transport-security': 'max-age=31536000; includeSubDomains; preload',
+    vary: 'Origin',
+    'x-content-type-options': 'nosniff',
+    'x-openai-proxy-wasm': 'v0.1',
+    'x-request-id': 'req_19e77f4f451642c08f39d2c563527d81',
+    'alt-svc': 'h3=":443"; ma=86400'
+  },
+  requestID: 'req_19e77f4f451642c08f39d2c563527d81',
+  error: {
+    message: 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.',
+    type: 'insufficient_quota',
+    param: null,
+    code: 'insufficient_quota'
+  },
+  code: 'insufficient_quota',
+  param: null,
+  type: 'insufficient_quota'
+}
+RateLimitError: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+    at APIError.generate (/home/mserver/works/Ilvi-API/node_modules/openai/src/core/error.ts:96:14)
+    at OpenAI.makeStatusError (/home/mserver/works/Ilvi-API/node_modules/openai/src/client.ts:494:28)
+    at OpenAI.makeRequest (/home/mserver/works/Ilvi-API/node_modules/openai/src/client.ts:745:24)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async processTranscript (/home/mserver/works/Ilvi-API/app/services/ai_service.ts:24:22)
+    at async Socket.<anonymous> (/home/mserver/works/Ilvi-API/start/meeting_socket.ts:85:26) {
+  status: 429,
+  headers: Headers {
+    date: 'Thu, 16 Apr 2026 09:07:09 GMT',
+    'content-type': 'application/json; charset=utf-8',
+    'content-length': '337',
+    connection: 'keep-alive',
+    'set-cookie': '__cf_bm=akHgDA.KT1JosJL.8OmJnLeNhBaHHP8Ac65kQli9Chk-1776330428.9594674-1.0.1.1-5jYsbzelcPgEPN0PM.N0NBBqGFdcwZGtxJuCUHVEjWDa.BNaRsGeOdiXNlfwgYg_JxT6_B9nZIHwQwfpaXtDP1Pxh5u2x6AVQ7_E2JDQb0gCk9YcPY01fLptgnKXEDBG; HttpOnly; Secure; Path=/; Domain=api.openai.com; Expires=Thu, 16 Apr 2026 09:37:09 GMT, _cfuvid=gCIzcP0aEb3Oeo2kxZvMXErrNDkqleRCGTWB6nkHdUg-1776330428.9594674-1.0.1.1-0oiMrbsHgi4ZBXIpRH4KAo78rKBKNgaqbNNv2.flHWQ; HttpOnly; SameSite=None; Secure; Path=/; Domain=api.openai.com',
+    'cf-ray': '9ed209bcf9517e97-MAA',
+    'cf-cache-status': 'DYNAMIC',
+    server: 'cloudflare',
+    'strict-transport-security': 'max-age=31536000; includeSubDomains; preload',
+    vary: 'Origin',
+    'x-content-type-options': 'nosniff',
+    'x-openai-proxy-wasm': 'v0.1',
+    'x-request-id': 'req_204d3fa1076b4f27a8eafc9a072791df',
+    'alt-svc': 'h3=":443"; ma=86400'
+  },
+  requestID: 'req_204d3fa1076b4f27a8eafc9a072791df',
+  error: {
+    message: 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.',
+    type: 'insufficient_quota',
+    param: null,
+    code: 'insufficient_quota'
+  },
+  code: 'insufficient_quota',
+  param: null,
+  type: 'insufficient_quota'
+}
+RateLimitError: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+    at APIError.generate (/home/mserver/works/Ilvi-API/node_modules/openai/src/core/error.ts:96:14)
+    at OpenAI.makeStatusError (/home/mserver/works/Ilvi-API/node_modules/openai/src/client.ts:494:28)
+    at OpenAI.makeRequest (/home/mserver/works/Ilvi-API/node_modules/openai/src/client.ts:745:24)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async processTranscript (/home/mserver/works/Ilvi-API/app/services/ai_service.ts:24:22)
+    at async Socket.<anonymous> (/home/mserver/works/Ilvi-API/start/meeting_socket.ts:85:26) {
+  status: 429,
+  headers: Headers {
+    date: 'Thu, 16 Apr 2026 09:09:58 GMT',
+    'content-type': 'application/json; charset=utf-8',
+    'content-length': '337',
+    connection: 'keep-alive',
+    'set-cookie': '__cf_bm=f92lynsntDKGju._A1.A_YGdcvbyThJkhk0s_L4tuVI-1776330598.6163511-1.0.1.1-ToZ9IRSRNoGkoHHAenJGkQx299W1.D5y.FVVOVLmGNZwjs0sS3yHJU7knTZQ9hJP7QhGrqfNMqq8tKtRNQdJJ1qUk2iVaIiqUdiKOMQCUfLWZdVT81H4lVH9GwoPr_qE; HttpOnly; Secure; Path=/; Domain=api.openai.com; Expires=Thu, 16 Apr 2026 09:39:58 GMT, _cfuvid=cxTCLraAMFe_LRL6.j4QD2KWgckwkhPJtVLkWa6ajrk-1776330598.6163511-1.0.1.1-AYqeUyTzJzKBSyeQ0ZD2A9x._IJqKZdpMiXkp2lXZp4; HttpOnly; SameSite=None; Secure; Path=/; Domain=api.openai.com',
+    'cf-ray': '9ed20de158f98042-MAA',
+    'cf-cache-status': 'DYNAMIC',
+    server: 'cloudflare',
+    'strict-transport-security': 'max-age=31536000; includeSubDomains; preload',
+    vary: 'Origin',
+    'x-content-type-options': 'nosniff',
+    'x-openai-proxy-wasm': 'v0.1',
+    'x-request-id': 'req_d60f936a59eb4b75b517ae82f2aa7c94',
+    'alt-svc': 'h3=":443"; ma=86400'
+  },
+  requestID: 'req_d60f936a59eb4b75b517ae82f2aa7c94',
+  error: {
+    message: 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.',
+    type: 'insufficient_quota',
+    param: null,
+    code: 'insufficient_quota'
+  },
+  code: 'insufficient_quota',
+  param: null,
+  type: 'insufficient_quota'
+}
+RateLimitError: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+    at APIError.generate (/home/mserver/works/Ilvi-API/node_modules/openai/src/core/error.ts:96:14)
+    at OpenAI.makeStatusError (/home/mserver/works/Ilvi-API/node_modules/openai/src/client.ts:494:28)
+    at OpenAI.makeRequest (/home/mserver/works/Ilvi-API/node_modules/openai/src/client.ts:745:24)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async processTranscript (/home/mserver/works/Ilvi-API/app/services/ai_service.ts:24:22)
+    at async Socket.<anonymous> (/home/mserver/works/Ilvi-API/start/meeting_socket.ts:85:26) {
+  status: 429,
+  headers: Headers {
+    date: 'Thu, 16 Apr 2026 09:12:04 GMT',
+    'content-type': 'application/json; charset=utf-8',
+    'content-length': '337',
+    connection: 'keep-alive',
+    'set-cookie': '__cf_bm=e7_RbJwhU7LzFz9Get8tKZFSqgp5bXIBSlq.nilmtAY-1776330724.3680594-1.0.1.1-rF3_ncZMuAvjuAYkrL2k0bXO8SABsL82.JW3DlejMU0AZJFEj8Po0LBaUxi3mNiOcpSAas8TK2u7_vmDN_WObm_nvFKW.L4FAU5RJyhQf3AeF.p5sWmiQ8OJ4DZFzYkZ; HttpOnly; Secure; Path=/; Domain=api.openai.com; Expires=Thu, 16 Apr 2026 09:42:04 GMT, _cfuvid=tSTut6d8Jjv2kUF6yFSse_ZOhfLJtVpclELLsst_cyY-1776330724.3680594-1.0.1.1-j0OuWfse3zTh6g8LCCUME5Tu76ea9wnszhrutNsmSug; HttpOnly; SameSite=None; Secure; Path=/; Domain=api.openai.com',
+    'cf-ray': '9ed210f34bfa7e83-MAA',
+    'cf-cache-status': 'DYNAMIC',
+    server: 'cloudflare',
+    'strict-transport-security': 'max-age=31536000; includeSubDomains; preload',
+    vary: 'Origin',
+    'x-content-type-options': 'nosniff',
+    'x-openai-proxy-wasm': 'v0.1',
+    'x-request-id': 'req_118a5a6caac54433a2eb0b82518762ed',
+    'alt-svc': 'h3=":443"; ma=86400'
+  },
+  requestID: 'req_118a5a6caac54433a2eb0b82518762ed',
+  error: {
+    message: 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.',
+    type: 'insufficient_quota',
+    param: null,
+    code: 'insufficient_quota'
+  },
+  code: 'insufficient_quota',
+  param: null,
+  type: 'insufficient_quota'
+}
+RateLimitError: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+    at APIError.generate (/home/mserver/works/Ilvi-API/node_modules/openai/src/core/error.ts:96:14)
+    at OpenAI.makeStatusError (/home/mserver/works/Ilvi-API/node_modules/openai/src/client.ts:494:28)
+    at OpenAI.makeRequest (/home/mserver/works/Ilvi-API/node_modules/openai/src/client.ts:745:24)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async processTranscript (/home/mserver/works/Ilvi-API/app/services/ai_service.ts:24:22)
+    at async Socket.<anonymous> (/home/mserver/works/Ilvi-API/start/meeting_socket.ts:85:26) {
+  status: 429,
+  headers: Headers {
+    date: 'Thu, 16 Apr 2026 09:12:57 GMT',
+    'content-type': 'application/json; charset=utf-8',
+    'content-length': '337',
+    connection: 'keep-alive',
+    'set-cookie': '__cf_bm=G0K9hra69t0mWTlD1Z5u13887RFhJKGkF34TE9Z2Ek4-1776330776.8155673-1.0.1.1-SdebMfVOqZW42WuQxjOPQaIYvdpdkV5qlftu4B6J_vF2mtjy7nOXthqgAJNhJ98amk86Y610zk.eIeI3XDB_uYUfGi82jtpQU4WShhDj_Rlw5gxEhumupmgIXyNFOPY3; HttpOnly; Secure; Path=/; Domain=api.openai.com; Expires=Thu, 16 Apr 2026 09:42:57 GMT, _cfuvid=1aGwv24IqNUhBCk0CAMXTiA8Eyuds3IPlw1cgVbpaCA-1776330776.8155673-1.0.1.1-vG.9PcA1zuwNm7qDDdtRt79tD6JN3XSlzA27hDwtVYc; HttpOnly; SameSite=None; Secure; Path=/; Domain=api.openai.com',
+    'cf-ray': '9ed2123b187a7eca-MAA',
+    'cf-cache-status': 'DYNAMIC',
+    server: 'cloudflare',
+    'strict-transport-security': 'max-age=31536000; includeSubDomains; preload',
+    vary: 'Origin',
+    'x-content-type-options': 'nosniff',
+    'x-openai-proxy-wasm': 'v0.1',
+    'x-request-id': 'req_ec13ce16584a4b7f90558ff74b78dff4',
+    'alt-svc': 'h3=":443"; ma=86400'
+  },
+  requestID: 'req_ec13ce16584a4b7f90558ff74b78dff4',
+  error: {
+    message: 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.',
+    type: 'insufficient_quota',
+    param: null,
+    code: 'insufficient_quota'
+  },
+  code: 'insufficient_quota',
+  param: null,
+  type: 'insufficient_quota'
+}
+RateLimitError: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+    at APIError.generate (/home/mserver/works/Ilvi-API/node_modules/openai/src/core/error.ts:96:14)
+    at OpenAI.makeStatusError (/home/mserver/works/Ilvi-API/node_modules/openai/src/client.ts:494:28)
+    at OpenAI.makeRequest (/home/mserver/works/Ilvi-API/node_modules/openai/src/client.ts:745:24)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async processTranscript (/home/mserver/works/Ilvi-API/app/services/ai_service.ts:24:22)
+    at async Socket.<anonymous> (/home/mserver/works/Ilvi-API/start/meeting_socket.ts:85:26) {
+  status: 429,
+  headers: Headers {
+    date: 'Thu, 16 Apr 2026 09:15:42 GMT',
+    'content-type': 'application/json; charset=utf-8',
+    'content-length': '337',
+    connection: 'keep-alive',
+    'set-cookie': '__cf_bm=WYsOgrTJeWhOZ6LJASkygGvH5sr9_dQ8KO63jgEgb6k-1776330941.9130244-1.0.1.1-lpCNIRTVvnQsJg7mRB.BXPuqY51mV_fk0Cxo5aohXJzvm_Y5Zo0aAJTTys6wUOCZtquyFFAKfKrtC3HbTCNXDbaTEXjYcEyZfkxyuBKusYgjqa9teHzxyJUAPG5xFh8S; HttpOnly; Secure; Path=/; Domain=api.openai.com; Expires=Thu, 16 Apr 2026 09:45:42 GMT, _cfuvid=KzqYF1faA9nNQ.2j9pVmEGm2wpXYjlHsmWYZ5W5EZkE-1776330941.9130244-1.0.1.1-vMpgGTFcE5m8HUiOAFQFupAfprfmdNoUpQJgFYJyrok; HttpOnly; SameSite=None; Secure; Path=/; Domain=api.openai.com',
+    'cf-ray': '9ed21642fe437f3f-MAA',
+    'cf-cache-status': 'DYNAMIC',
+    server: 'cloudflare',
+    'strict-transport-security': 'max-age=31536000; includeSubDomains; preload',
+    vary: 'Origin',
+    'x-content-type-options': 'nosniff',
+    'x-openai-proxy-wasm': 'v0.1',
+    'x-request-id': 'req_0bdfff4a098b49d39f6722d1b90ec59a',
+    'alt-svc': 'h3=":443"; ma=86400'
+  },
+  requestID: 'req_0bdfff4a098b49d39f6722d1b90ec59a',
+  error: {
+    message: 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.',
+    type: 'insufficient_quota',
+    param: null,
+    code: 'insufficient_quota'
+  },
+  code: 'insufficient_quota',
+  param: null,
+  type: 'insufficient_quota'
+}
+RateLimitError: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+    at APIError.generate (/home/mserver/works/Ilvi-API/node_modules/openai/src/core/error.ts:96:14)
+    at OpenAI.makeStatusError (/home/mserver/works/Ilvi-API/node_modules/openai/src/client.ts:494:28)
+    at OpenAI.makeRequest (/home/mserver/works/Ilvi-API/node_modules/openai/src/client.ts:745:24)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async processTranscript (/home/mserver/works/Ilvi-API/app/services/ai_service.ts:24:22)
+    at async Socket.<anonymous> (/home/mserver/works/Ilvi-API/start/meeting_socket.ts:85:26) {
+  status: 429,
+  headers: Headers {
+    date: 'Thu, 16 Apr 2026 09:17:53 GMT',
+    'content-type': 'application/json; charset=utf-8',
+    'content-length': '337',
+    connection: 'keep-alive',
+    'set-cookie': '__cf_bm=iwtrbDLAODr1v9QRp.6hGLSkuzq3Ceuxi8MB7Sdr1aQ-1776331073.362253-1.0.1.1-SCVY2_M_YHdmOp3fZAfiEKfvZHWU2WMSxeeMZbJPmZ65Xjyfjq3dMg0FtQkZjJuQtWdzye1_WsCJev6Koh8GxhC86XLVaR5XYQ2J9LQs6rru2Pc2QNk_6mYqx.EfVHy9; HttpOnly; Secure; Path=/; Domain=api.openai.com; Expires=Thu, 16 Apr 2026 09:47:53 GMT, _cfuvid=pHewB9G2asRPXkBSlo1fgK.5UAi7LMyUBhOa.FPHgWA-1776331073.362253-1.0.1.1-X7judRRYiWDc4WG7lP6nHTob4fOdOOExgyRO_YwZyjs; HttpOnly; SameSite=None; Secure; Path=/; Domain=api.openai.com',
+    'cf-ray': '9ed219788a9ec784-MAA',
+    'cf-cache-status': 'DYNAMIC',
+    server: 'cloudflare',
+    'strict-transport-security': 'max-age=31536000; includeSubDomains; preload',
+    vary: 'Origin',
+    'x-content-type-options': 'nosniff',
+    'x-openai-proxy-wasm': 'v0.1',
+    'x-request-id': 'req_60c281a04e7248b8a8ec9f823118691c',
+    'alt-svc': 'h3=":443"; ma=86400'
+  },
+  requestID: 'req_60c281a04e7248b8a8ec9f823118691c',
+  error: {
+    message: 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.',
+    type: 'insufficient_quota',
+    param: null,
+    code: 'insufficient_quota'
+  },
+  code: 'insufficient_quota',
+  param: null,
+  type: 'insufficient_quota'
+}
+RateLimitError: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+    at APIError.generate (/home/mserver/works/Ilvi-API/node_modules/openai/src/core/error.ts:96:14)
+    at OpenAI.makeStatusError (/home/mserver/works/Ilvi-API/node_modules/openai/src/client.ts:494:28)
+    at OpenAI.makeRequest (/home/mserver/works/Ilvi-API/node_modules/openai/src/client.ts:745:24)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async processTranscript (/home/mserver/works/Ilvi-API/app/services/ai_service.ts:24:22)
+    at async Socket.<anonymous> (/home/mserver/works/Ilvi-API/start/meeting_socket.ts:85:26) {
+  status: 429,
+  headers: Headers {
+    date: 'Thu, 16 Apr 2026 09:21:07 GMT',
+    'content-type': 'application/json; charset=utf-8',
+    'content-length': '337',
+    connection: 'keep-alive',
+    'set-cookie': '__cf_bm=gVixk76q.UjUU.4oSteS9eVVHuevFpw_oeFybd40nJ8-1776331267.3709483-1.0.1.1-NlgrQUaYJYksMQUFYqOqhS_THVSUl_fFDDyg0NRI5uvwPCOjR71dWi3OIa_n5lvs_QAtnEt9jEF5GJGlsFp7bGwkD4RGGXaWeYJVtUvctC8eInH7tknWegVELaFnIsvd; HttpOnly; Secure; Path=/; Domain=api.openai.com; Expires=Thu, 16 Apr 2026 09:51:07 GMT, _cfuvid=0Q3_Y25EWFSDXbWDw4.qqIYR6I6r.6Zi8zww9H5_IQo-1776331267.3709483-1.0.1.1-YbdVpzjAJc2cf5IbRp0KBjWQeWM56DGQa_Qtq1wLwCU; HttpOnly; SameSite=None; Secure; Path=/; Domain=api.openai.com',
+    'cf-ray': '9ed21e351d938826-MAA',
+    'cf-cache-status': 'DYNAMIC',
+    server: 'cloudflare',
+    'strict-transport-security': 'max-age=31536000; includeSubDomains; preload',
+    vary: 'Origin',
+    'x-content-type-options': 'nosniff',
+    'x-openai-proxy-wasm': 'v0.1',
+    'x-request-id': 'req_67083fa5b6924e48921546573a93f6ad',
+    'alt-svc': 'h3=":443"; ma=86400'
+  },
+  requestID: 'req_67083fa5b6924e48921546573a93f6ad',
+  error: {
+    message: 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.',
+    type: 'insufficient_quota',
+    param: null,
+    code: 'insufficient_quota'
+  },
+  code: 'insufficient_quota',
+  param: null,
+  type: 'insufficient_quota'
+}
+RateLimitError: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+    at APIError.generate (/home/mserver/works/Ilvi-API/node_modules/openai/src/core/error.ts:96:14)
+    at OpenAI.makeStatusError (/home/mserver/works/Ilvi-API/node_modules/openai/src/client.ts:494:28)
+    at OpenAI.makeRequest (/home/mserver/works/Ilvi-API/node_modules/openai/src/client.ts:745:24)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async processTranscript (/home/mserver/works/Ilvi-API/app/services/ai_service.ts:24:22)
+    at async Socket.<anonymous> (/home/mserver/works/Ilvi-API/start/meeting_socket.ts:85:26) {
+  status: 429,
+  headers: Headers {
+    date: 'Thu, 16 Apr 2026 09:26:59 GMT',
+    'content-type': 'application/json; charset=utf-8',
+    'content-length': '337',
+    connection: 'keep-alive',
+    'set-cookie': '__cf_bm=JjY46UyXkxLb6AhO7AnSj5ica36UT_yASL5b7rd02DA-1776331618.7285314-1.0.1.1-m289TYKJsajQVamjSaKfc07dr8b3lfIeKzrILA4RUZHVANtBw95N653PwY5YwNYTNApbFbnNSbnNoAdgoytBvxH9R7c3wpkBr86092WUgUQoxuCxyDqfPVwNh5MrsWi.; HttpOnly; Secure; Path=/; Domain=api.openai.com; Expires=Thu, 16 Apr 2026 09:56:59 GMT, _cfuvid=1bqrwq7XdTeM5j4hslVJQkvjUJl4exapVtYSSnLQACY-1776331618.7285314-1.0.1.1-qiOInkrFC8zD3VhLc9VQ2DhC1HMINI0Cf2lBM_YkpGw; HttpOnly; SameSite=None; Secure; Path=/; Domain=api.openai.com',
+    'cf-ray': '9ed226c90cfe7eda-MAA',
+    'cf-cache-status': 'DYNAMIC',
+    server: 'cloudflare',
+    'strict-transport-security': 'max-age=31536000; includeSubDomains; preload',
+    vary: 'Origin',
+    'x-content-type-options': 'nosniff',
+    'x-openai-proxy-wasm': 'v0.1',
+    'x-request-id': 'req_20ee535eac6e4bc280aaca0286e45647',
+    'alt-svc': 'h3=":443"; ma=86400'
+  },
+  requestID: 'req_20ee535eac6e4bc280aaca0286e45647',
+  error: {
+    message: 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.',
+    type: 'insufficient_quota',
+    param: null,
+    code: 'insufficient_quota'
+  },
+  code: 'insufficient_quota',
+  param: null,
+  type: 'insufficient_quota'
+}
+RateLimitError: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+    at APIError.generate (/home/mserver/works/Ilvi-API/node_modules/openai/src/core/error.ts:96:14)
+    at OpenAI.makeStatusError (/home/mserver/works/Ilvi-API/node_modules/openai/src/client.ts:494:28)
+    at OpenAI.makeRequest (/home/mserver/works/Ilvi-API/node_modules/openai/src/client.ts:745:24)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async processTranscript (/home/mserver/works/Ilvi-API/app/services/ai_service.ts:24:22)
+    at async Socket.<anonymous> (/home/mserver/works/Ilvi-API/start/meeting_socket.ts:85:26) {
+  status: 429,
+  headers: Headers {
+    date: 'Thu, 16 Apr 2026 09:29:23 GMT',
+    'content-type': 'application/json; charset=utf-8',
+    'content-length': '337',
+    connection: 'keep-alive',
+    'set-cookie': '__cf_bm=vSo0N4rBISmypaEkXbjRYDlAxOpxpkyWqoBfg9Uuxvg-1776331762.8352337-1.0.1.1-1FKEELcOr5SHSPk4wAsuel.lRjJQndEgX2qNKPv3hmQDsqDnThS8Mp522uxlJUCzHVKwf2QvTgD91CrUd2Zk4zDYiSCLADa6akr7MknnYMfiCyBm32bO.NyvZ5BG5169; HttpOnly; Secure; Path=/; Domain=api.openai.com; Expires=Thu, 16 Apr 2026 09:59:23 GMT, _cfuvid=YlKyGeNAsbi87wAy.SOXyamjgeSXq8qQyAG70DXO4bM-1776331762.8352337-1.0.1.1-r_Pmnpyyv0ZsN5VZ.jD3UBAZb6Fc6MirQ_7ORfJjCmU; HttpOnly; SameSite=None; Secure; Path=/; Domain=api.openai.com',
+    'cf-ray': '9ed22a4db8ec7f74-MAA',
+    'cf-cache-status': 'DYNAMIC',
+    server: 'cloudflare',
+    'strict-transport-security': 'max-age=31536000; includeSubDomains; preload',
+    vary: 'Origin',
+    'x-content-type-options': 'nosniff',
+    'x-openai-proxy-wasm': 'v0.1',
+    'x-request-id': 'req_7e1a76cdf7134752a7cfa91177e5347e',
+    'alt-svc': 'h3=":443"; ma=86400'
+  },
+  requestID: 'req_7e1a76cdf7134752a7cfa91177e5347e',
+  error: {
+    message: 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.',
+    type: 'insufficient_quota',
+    param: null,
+    code: 'insufficient_quota'
+  },
+  code: 'insufficient_quota',
+  param: null,
+  type: 'insufficient_quota'
+}
+RateLimitError: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+    at APIError.generate (/home/mserver/works/Ilvi-API/node_modules/openai/src/core/error.ts:96:14)
+    at OpenAI.makeStatusError (/home/mserver/works/Ilvi-API/node_modules/openai/src/client.ts:494:28)
+    at OpenAI.makeRequest (/home/mserver/works/Ilvi-API/node_modules/openai/src/client.ts:745:24)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async processTranscript (/home/mserver/works/Ilvi-API/app/services/ai_service.ts:24:22)
+    at async Socket.<anonymous> (/home/mserver/works/Ilvi-API/start/meeting_socket.ts:85:26) {
+  status: 429,
+  headers: Headers {
+    date: 'Thu, 16 Apr 2026 09:32:48 GMT',
+    'content-type': 'application/json; charset=utf-8',
+    'content-length': '337',
+    connection: 'keep-alive',
+    'set-cookie': '__cf_bm=qD2PIVb.EY931KYPPFLB8vxJ_Skj.E_kIj5g_P0Rc10-1776331968.3368814-1.0.1.1-YPbg3zH0ScghnT1QsZGdKgYO3FYdqPuhHPkatku0s5ErlY7PKdy.mJrM3kkHhILKQcoOHO8dzyJiLERklAJqHieVsLs1fbXx.KsmIM3nQ7weD3DiyQRReE10ySF6f0_r; HttpOnly; Secure; Path=/; Domain=api.openai.com; Expires=Thu, 16 Apr 2026 10:02:48 GMT, _cfuvid=0kdfWk1b4S4oe9RRioy1DWH_tpkvwd8r2z5I3BuXw2g-1776331968.3368814-1.0.1.1-x4zuAzXcW1HB94tsXIC.gTWiQQqzAkbCt7hJdlrFJgs; HttpOnly; SameSite=None; Secure; Path=/; Domain=api.openai.com',
+    'cf-ray': '9ed22f52184a426e-MAA',
+    'cf-cache-status': 'DYNAMIC',
+    server: 'cloudflare',
+    'strict-transport-security': 'max-age=31536000; includeSubDomains; preload',
+    vary: 'Origin',
+    'x-content-type-options': 'nosniff',
+    'x-openai-proxy-wasm': 'v0.1',
+    'x-request-id': 'req_8ec0498337714acd8d1d969ed821231e',
+    'alt-svc': 'h3=":443"; ma=86400'
+  },
+  requestID: 'req_8ec0498337714acd8d1d969ed821231e',
+  error: {
+    message: 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.',
+    type: 'insufficient_quota',
+    param: null,
+    code: 'insufficient_quota'
+  },
+  code: 'insufficient_quota',
+  param: null,
+  type: 'insufficient_quota'
+}
+RateLimitError: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+    at APIError.generate (/home/mserver/works/Ilvi-API/node_modules/openai/src/core/error.ts:96:14)
+    at OpenAI.makeStatusError (/home/mserver/works/Ilvi-API/node_modules/openai/src/client.ts:494:28)
+    at OpenAI.makeRequest (/home/mserver/works/Ilvi-API/node_modules/openai/src/client.ts:745:24)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async processTranscript (/home/mserver/works/Ilvi-API/app/services/ai_service.ts:24:22)
+    at async Socket.<anonymous> (/home/mserver/works/Ilvi-API/start/meeting_socket.ts:85:26) {
+  status: 429,
+  headers: Headers {
+    date: 'Thu, 16 Apr 2026 09:40:20 GMT',
+    'content-type': 'application/json; charset=utf-8',
+    'content-length': '337',
+    connection: 'keep-alive',
+    'set-cookie': '__cf_bm=.ufBWzSZe.Swuci33q7UqiJlsPfes4_vh3Gpkdvd_Lc-1776332420.4715047-1.0.1.1-8ouEnWqC5B86UYGqL_34Twj6Cqd6Ei3EHvNeA4UmdqoRKFCVV5iFhWoHAXpQ5Z1ENWz0sChbpJ51hyq4ngR429VkqkKiGgQSEISllg3xzYQCl66_1s2VCQvxyP549qNX; HttpOnly; Secure; Path=/; Domain=api.openai.com; Expires=Thu, 16 Apr 2026 10:10:20 GMT, _cfuvid=LQhxW9XfK7Xn0A.s.R8cN8vbZ0.yyW84gaWvgMlCKEU-1776332420.4715047-1.0.1.1-oLrvKTf4arcT6MUmO6bA.AZ7R5Hqh3tlDQRPAaxG6D8; HttpOnly; SameSite=None; Secure; Path=/; Domain=api.openai.com',
+    'cf-ray': '9ed23a5bfd9c7f5c-MAA',
+    'cf-cache-status': 'DYNAMIC',
+    server: 'cloudflare',
+    'strict-transport-security': 'max-age=31536000; includeSubDomains; preload',
+    vary: 'Origin',
+    'x-content-type-options': 'nosniff',
+    'x-openai-proxy-wasm': 'v0.1',
+    'x-request-id': 'req_ddde60e4fdaa40ad863b543dfa90472c',
+    'alt-svc': 'h3=":443"; ma=86400'
+  },
+  requestID: 'req_ddde60e4fdaa40ad863b543dfa90472c',
+  error: {
+    message: 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.',
+    type: 'insufficient_quota',
+    param: null,
+    code: 'insufficient_quota'
+  },
+  code: 'insufficient_quota',
+  param: null,
+  type: 'insufficient_quota'
+}
+RateLimitError: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+    at APIError.generate (/home/mserver/works/Ilvi-API/node_modules/openai/src/core/error.ts:96:14)
+    at OpenAI.makeStatusError (/home/mserver/works/Ilvi-API/node_modules/openai/src/client.ts:494:28)
+    at OpenAI.makeRequest (/home/mserver/works/Ilvi-API/node_modules/openai/src/client.ts:745:24)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async processTranscript (/home/mserver/works/Ilvi-API/app/services/ai_service.ts:24:22)
+    at async Socket.<anonymous> (/home/mserver/works/Ilvi-API/start/meeting_socket.ts:85:26) {
+  status: 429,
+  headers: Headers {
+    date: 'Thu, 16 Apr 2026 10:02:45 GMT',
+    'content-type': 'application/json; charset=utf-8',
+    'content-length': '337',
+    connection: 'keep-alive',
+    'set-cookie': '__cf_bm=WFUICgFtXGhmU1zGj7.Sj9EKg0fkTDaJog0JSZ73jOw-1776333764.9038944-1.0.1.1-A6yrgvH34D6C_L5YcJ94BumJTzkO7T9Odk3lvxRU6Tecg388r.lBVsg0hE8XIiWv8r1HlcL4GMuW3Drsl5L6eAqZyUNn8uVclvUIe0u4LWAPVuk1BUN7cr2j_8pntQEb; HttpOnly; Secure; Path=/; Domain=api.openai.com; Expires=Thu, 16 Apr 2026 10:32:45 GMT, _cfuvid=gKASBEd6J266kDH06vve_VF3jhbef78a3wxAETWwtuc-1776333764.9038944-1.0.1.1-P7vyBGimvqolsjLmwn6jHFqNcwz9zhr2Y.RyqmxjNQw; HttpOnly; SameSite=None; Secure; Path=/; Domain=api.openai.com',
+    'cf-ray': '9ed25b2eaba97f44-MAA',
+    'cf-cache-status': 'DYNAMIC',
+    server: 'cloudflare',
+    'strict-transport-security': 'max-age=31536000; includeSubDomains; preload',
+    vary: 'Origin',
+    'x-content-type-options': 'nosniff',
+    'x-openai-proxy-wasm': 'v0.1',
+    'x-request-id': 'req_7fb3aaf5aed44789a0ae6a5e8693d4d7',
+    'alt-svc': 'h3=":443"; ma=86400'
+  },
+  requestID: 'req_7fb3aaf5aed44789a0ae6a5e8693d4d7',
+  error: {
+    message: 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.',
+    type: 'insufficient_quota',
+    param: null,
+    code: 'insufficient_quota'
+  },
+  code: 'insufficient_quota',
+  param: null,
+  type: 'insufficient_quota'
+}
+RateLimitError: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+    at APIError.generate (/home/mserver/works/Ilvi-API/node_modules/openai/src/core/error.ts:96:14)
+    at OpenAI.makeStatusError (/home/mserver/works/Ilvi-API/node_modules/openai/src/client.ts:494:28)
+    at OpenAI.makeRequest (/home/mserver/works/Ilvi-API/node_modules/openai/src/client.ts:745:24)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async processTranscript (/home/mserver/works/Ilvi-API/app/services/ai_service.ts:24:22)
+    at async Socket.<anonymous> (/home/mserver/works/Ilvi-API/start/meeting_socket.ts:85:26) {
+  status: 429,
+  headers: Headers {
+    date: 'Thu, 16 Apr 2026 10:17:12 GMT',
+    'content-type': 'application/json; charset=utf-8',
+    'content-length': '337',
+    connection: 'keep-alive',
+    'set-cookie': '__cf_bm=q9hduc9s6rJtAlfbl8DdJfbDWlcJKGv3O0rO5vRJezA-1776334631.5070834-1.0.1.1-k2j98tHDjTcUqIpN4_Uqh_edMnl0YDXpxav4oCiZvdi_bGpcfughOhSdaA7t.zsp8T_SKsrAs_gl7R95m__aWr5YSMa69dMHb6SQ2M73tColnjhldW_AhNKhnMde0xR3; HttpOnly; Secure; Path=/; Domain=api.openai.com; Expires=Thu, 16 Apr 2026 10:47:12 GMT, _cfuvid=J8k98_HLpIhHygenkAfjVwqCrDNtqNAffHWESeTTO5k-1776334631.5070834-1.0.1.1-Zat_MYYG7PPD_smsjTPzvhwUyymBh1h14Qo2p04l3s8; HttpOnly; SameSite=None; Secure; Path=/; Domain=api.openai.com',
+    'cf-ray': '9ed27056eb99179b-MAA',
+    'cf-cache-status': 'DYNAMIC',
+    server: 'cloudflare',
+    'strict-transport-security': 'max-age=31536000; includeSubDomains; preload',
+    vary: 'Origin',
+    'x-content-type-options': 'nosniff',
+    'x-openai-proxy-wasm': 'v0.1',
+    'x-request-id': 'req_1f1ce0bc4b1c493ebe392267c8d16756',
+    'alt-svc': 'h3=":443"; ma=86400'
+  },
+  requestID: 'req_1f1ce0bc4b1c493ebe392267c8d16756',
+  error: {
+    message: 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.',
+    type: 'insufficient_quota',
+    param: null,
+    code: 'insufficient_quota'
+  },
+  code: 'insufficient_quota',
+  param: null,
+  type: 'insufficient_quota'
+}
+RateLimitError: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+    at APIError.generate (/home/mserver/works/Ilvi-API/node_modules/openai/src/core/error.ts:96:14)
+    at OpenAI.makeStatusError (/home/mserver/works/Ilvi-API/node_modules/openai/src/client.ts:494:28)
+    at OpenAI.makeRequest (/home/mserver/works/Ilvi-API/node_modules/openai/src/client.ts:745:24)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async processTranscript (/home/mserver/works/Ilvi-API/app/services/ai_service.ts:24:22)
+    at async Socket.<anonymous> (/home/mserver/works/Ilvi-API/start/meeting_socket.ts:85:26) {
+  status: 429,
+  headers: Headers {
+    date: 'Thu, 16 Apr 2026 19:04:41 GMT',
+    'content-type': 'application/json; charset=utf-8',
+    'content-length': '337',
+    connection: 'keep-alive',
+    'set-cookie': '__cf_bm=BlrwkUN_vQ3RMSGn7zNq8GmQJmGpzKiD7GLuhn1m8hk-1776366281.0057225-1.0.1.1-_mqWWOtcaFzYJuzgvfINVturVgZmDWqfczTfUZekCeYzDcJz7SiD4OWeJZO0ERK_nptaVC8SF9R15UuaWLS1kJRx0MJ2ixHQvZ1MYzrs.A5ZgpoDywqK3egoYAYDZ2F4; HttpOnly; Secure; Path=/; Domain=api.openai.com; Expires=Thu, 16 Apr 2026 19:34:41 GMT, _cfuvid=1FVCPVAY2xyp9ufOjC5Pr8_fJ7GDUlp9YkHJ7DgYKv8-1776366281.0057225-1.0.1.1-_uekfw5HvKRa1nCAjllBFqF5AKYPIs8pjNDp5ytkkm0; HttpOnly; SameSite=None; Secure; Path=/; Domain=api.openai.com',
+    'cf-ray': '9ed575084f209f61-MAA',
+    'cf-cache-status': 'DYNAMIC',
+    server: 'cloudflare',
+    'strict-transport-security': 'max-age=31536000; includeSubDomains; preload',
+    vary: 'Origin',
+    'x-content-type-options': 'nosniff',
+    'x-openai-proxy-wasm': 'v0.1',
+    'x-request-id': 'req_db080bdddbdb44528a5970b806b18bc4',
+    'alt-svc': 'h3=":443"; ma=86400'
+  },
+  requestID: 'req_db080bdddbdb44528a5970b806b18bc4',
+  error: {
+    message: 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.',
+    type: 'insufficient_quota',
+    param: null,
+    code: 'insufficient_quota'
+  },
+  code: 'insufficient_quota',
+  param: null,
+  type: 'insufficient_quota'
+}
+RateLimitError: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+    at APIError.generate (/home/mserver/works/Ilvi-API/node_modules/openai/src/core/error.ts:96:14)
+    at OpenAI.makeStatusError (/home/mserver/works/Ilvi-API/node_modules/openai/src/client.ts:494:28)
+    at OpenAI.makeRequest (/home/mserver/works/Ilvi-API/node_modules/openai/src/client.ts:745:24)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async processTranscript (/home/mserver/works/Ilvi-API/app/services/ai_service.ts:24:22)
+    at async Socket.<anonymous> (/home/mserver/works/Ilvi-API/start/meeting_socket.ts:85:26) {
+  status: 429,
+  headers: Headers {
+    date: 'Thu, 16 Apr 2026 19:16:28 GMT',
+    'content-type': 'application/json; charset=utf-8',
+    'content-length': '337',
+    connection: 'keep-alive',
+    'set-cookie': '__cf_bm=xfm5z9jDK6rI3DEyN.8b9mF1XFBZg.WpfSmREv.1oh4-1776366987.7544675-1.0.1.1-xu5xNKASzGH.GD70VcmenBYxPOLVte1rjGSQHWx0tFc2TmHeA4miCPVT7vFr2MjTOPBR32RpJBXnz0kcsVGI1hMEmBKbQvAGIug1J3Qfw9xDMNDt2fqDtoDX0ibJ5jra; HttpOnly; Secure; Path=/; Domain=api.openai.com; Expires=Thu, 16 Apr 2026 19:46:28 GMT, _cfuvid=DpzXJjAbx6db4YjYC9GtuJERTlRE9Be57ayUzKLpZKY-1776366987.7544675-1.0.1.1-Zl.V_aiKG1IxxAeNuwMxlWcL2A.1RCRh9Q2aHiafWEA; HttpOnly; SameSite=None; Secure; Path=/; Domain=api.openai.com',
+    'cf-ray': '9ed586497860182b-MAA',
+    'cf-cache-status': 'DYNAMIC',
+    server: 'cloudflare',
+    'strict-transport-security': 'max-age=31536000; includeSubDomains; preload',
+    vary: 'Origin',
+    'x-content-type-options': 'nosniff',
+    'x-openai-proxy-wasm': 'v0.1',
+    'x-request-id': 'req_26658187adca4eee9fab06b5dca9c722',
+    'alt-svc': 'h3=":443"; ma=86400'
+  },
+  requestID: 'req_26658187adca4eee9fab06b5dca9c722',
+  error: {
+    message: 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.',
+    type: 'insufficient_quota',
+    param: null,
+    code: 'insufficient_quota'
+  },
+  code: 'insufficient_quota',
+  param: null,
+  type: 'insufficient_quota'
+}
+RateLimitError: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+    at APIError.generate (/home/mserver/works/Ilvi-API/node_modules/openai/src/core/error.ts:96:14)
+    at OpenAI.makeStatusError (/home/mserver/works/Ilvi-API/node_modules/openai/src/client.ts:494:28)
+    at OpenAI.makeRequest (/home/mserver/works/Ilvi-API/node_modules/openai/src/client.ts:745:24)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async processTranscript (/home/mserver/works/Ilvi-API/app/services/ai_service.ts:24:22)
+    at async Socket.<anonymous> (/home/mserver/works/Ilvi-API/start/meeting_socket.ts:85:26) {
+  status: 429,
+  headers: Headers {
+    date: 'Thu, 16 Apr 2026 19:20:11 GMT',
+    'content-type': 'application/json; charset=utf-8',
+    'content-length': '337',
+    connection: 'keep-alive',
+    'set-cookie': '__cf_bm=Ku57nClnMrYgHQlUFmN8b6_oCkz40Y.uR7GBt2I8Y_E-1776367210.721183-1.0.1.1-SMZiXvVHV0U2eUcweH1p5eUggKvhwDEq3q40HawqdvuY2nMfa8EW4JsslHG.ZTQiHO4ciCaudqnT8XHgwqCjqM2xvEpGI86IRd10tBo1VNVjnNJ1duKMRW2NfyTK3oTy; HttpOnly; Secure; Path=/; Domain=api.openai.com; Expires=Thu, 16 Apr 2026 19:50:11 GMT, _cfuvid=pJ8rLQE5x1_rsO33rYCAnYJlMxvXIVhpXqgofwT_pgw-1776367210.721183-1.0.1.1-NogeDEkRS4on06fKMtLiPIkZu1V_o5e9bAR_1eAwokg; HttpOnly; SameSite=None; Secure; Path=/; Domain=api.openai.com',
+    'cf-ray': '9ed58bbb0bc51431-MAA',
+    'cf-cache-status': 'DYNAMIC',
+    server: 'cloudflare',
+    'strict-transport-security': 'max-age=31536000; includeSubDomains; preload',
+    vary: 'Origin',
+    'x-content-type-options': 'nosniff',
+    'x-openai-proxy-wasm': 'v0.1',
+    'x-request-id': 'req_bbc72f1bc959445a8b6043d10fbcb0a8',
+    'alt-svc': 'h3=":443"; ma=86400'
+  },
+  requestID: 'req_bbc72f1bc959445a8b6043d10fbcb0a8',
+  error: {
+    message: 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.',
+    type: 'insufficient_quota',
+    param: null,
+    code: 'insufficient_quota'
+  },
+  code: 'insufficient_quota',
+  param: null,
+  type: 'insufficient_quota'
+}
+RateLimitError: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+    at APIError.generate (/home/mserver/works/Ilvi-API/node_modules/openai/src/core/error.ts:96:14)
+    at OpenAI.makeStatusError (/home/mserver/works/Ilvi-API/node_modules/openai/src/client.ts:494:28)
+    at OpenAI.makeRequest (/home/mserver/works/Ilvi-API/node_modules/openai/src/client.ts:745:24)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async processTranscript (/home/mserver/works/Ilvi-API/app/services/ai_service.ts:24:22)
+    at async Socket.<anonymous> (/home/mserver/works/Ilvi-API/start/meeting_socket.ts:85:26) {
+  status: 429,
+  headers: Headers {
+    date: 'Thu, 16 Apr 2026 19:22:50 GMT',
+    'content-type': 'application/json; charset=utf-8',
+    'content-length': '337',
+    connection: 'keep-alive',
+    'set-cookie': '__cf_bm=MBRA8Vt6cJiqDW4rSMER4eMm3rpLmQDISL_l5m_BPhA-1776367370.5547197-1.0.1.1-13UqjO0dnp5m_iaI90_S5lCsAWaUX0XazC8WZ.j_6fHv9wfrS4EGWJhgL9EFS5YpA4tRB0ZJk6bO6pjHrZwGNFPojt6g1mpAF.Y8sp70vh4xMGY5mNoU1fILP.z35_Ny; HttpOnly; Secure; Path=/; Domain=api.openai.com; Expires=Thu, 16 Apr 2026 19:52:50 GMT, _cfuvid=D1mNl2vyVtqn9T0HaVEPzU9LhSnxqr9CGdvJFzVh2bY-1776367370.5547197-1.0.1.1-1ygLfMdZBCMtlz6rpI3fbRiJk1AMa_cxfrFs3QAnHms; HttpOnly; SameSite=None; Secure; Path=/; Domain=api.openai.com',
+    'cf-ray': '9ed58fa1fa25913f-MAA',
+    'cf-cache-status': 'DYNAMIC',
+    server: 'cloudflare',
+    'strict-transport-security': 'max-age=31536000; includeSubDomains; preload',
+    vary: 'Origin',
+    'x-content-type-options': 'nosniff',
+    'x-openai-proxy-wasm': 'v0.1',
+    'x-request-id': 'req_06c3b548ddce4481b026560ce1dc5caf',
+    'alt-svc': 'h3=":443"; ma=86400'
+  },
+  requestID: 'req_06c3b548ddce4481b026560ce1dc5caf',
+  error: {
+    message: 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.',
+    type: 'insufficient_quota',
+    param: null,
+    code: 'insufficient_quota'
+  },
+  code: 'insufficient_quota',
+  param: null,
+  type: 'insufficient_quota'
+}
+RateLimitError: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+    at APIError.generate (/home/mserver/works/Ilvi-API/node_modules/openai/src/core/error.ts:96:14)
+    at OpenAI.makeStatusError (/home/mserver/works/Ilvi-API/node_modules/openai/src/client.ts:494:28)
+    at OpenAI.makeRequest (/home/mserver/works/Ilvi-API/node_modules/openai/src/client.ts:745:24)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async processTranscript (/home/mserver/works/Ilvi-API/app/services/ai_service.ts:24:22)
+    at async Socket.<anonymous> (/home/mserver/works/Ilvi-API/start/meeting_socket.ts:85:26) {
+  status: 429,
+  headers: Headers {
+    date: 'Fri, 17 Apr 2026 10:18:48 GMT',
+    'content-type': 'application/json; charset=utf-8',
+    'content-length': '337',
+    connection: 'keep-alive',
+    'set-cookie': '__cf_bm=EzaWkotEaNrBqWWkDXMnx5kHvMiIM3nw.YLduG.woLI-1776421127.6129167-1.0.1.1-FC97gdulXjGg7vwSevoVR6ov9AEs.qrGrD_nSXwvvwXeGC6WOOa0SKZ0DtLO.DSJob2PRvoMrQjQI6mIwmUzGnQ2bCmxPLK.q88hCE14wC3E4G7WGGyd9SNFhsHNkC4b; HttpOnly; Secure; Path=/; Domain=api.openai.com; Expires=Fri, 17 Apr 2026 10:48:48 GMT, _cfuvid=RYhN6tFuKHHNfxPvZ9yk9wz.xu1HLp7bCwJi1EUCzAY-1776421127.6129167-1.0.1.1-vJPp5QzH99ydhnWz9Oy1vCV293pprbvqzjepsL5i.L0; HttpOnly; SameSite=None; Secure; Path=/; Domain=api.openai.com',
+    'cf-ray': '9edab00f9a9917ac-MAA',
+    'cf-cache-status': 'DYNAMIC',
+    server: 'cloudflare',
+    'strict-transport-security': 'max-age=31536000; includeSubDomains; preload',
+    vary: 'Origin',
+    'x-content-type-options': 'nosniff',
+    'x-openai-proxy-wasm': 'v0.1',
+    'x-request-id': 'req_ce689424def3497594dbe46fa6b24e10',
+    'alt-svc': 'h3=":443"; ma=86400'
+  },
+  requestID: 'req_ce689424def3497594dbe46fa6b24e10',
+  error: {
+    message: 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.',
+    type: 'insufficient_quota',
+    param: null,
+    code: 'insufficient_quota'
+  },
+  code: 'insufficient_quota',
+  param: null,
+  type: 'insufficient_quota'
+}
+RateLimitError: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+    at APIError.generate (/home/mserver/works/Ilvi-API/node_modules/openai/src/core/error.ts:96:14)
+    at OpenAI.makeStatusError (/home/mserver/works/Ilvi-API/node_modules/openai/src/client.ts:494:28)
+    at OpenAI.makeRequest (/home/mserver/works/Ilvi-API/node_modules/openai/src/client.ts:745:24)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async processTranscript (/home/mserver/works/Ilvi-API/app/services/ai_service.ts:24:22)
+    at async Socket.<anonymous> (/home/mserver/works/Ilvi-API/start/meeting_socket.ts:85:26) {
+  status: 429,
+  headers: Headers {
+    date: 'Mon, 20 Apr 2026 05:30:50 GMT',
+    'content-type': 'application/json; charset=utf-8',
+    'content-length': '337',
+    connection: 'keep-alive',
+    'set-cookie': '__cf_bm=V8wCa7CEwvtNC_9oeoTieDRs4mflvpDa7UFwt_7mqxQ-1776663049.5882392-1.0.1.1-azARxmINq8NeHTmyY3CVT7t9nKiMhNAvqAHE7SXHq2WzL268HLlXQLVeaQaN8ZG4jCkpMhkn1a98mypVVafi0d24pOFm4T09f_YzGrWeZbbRkvo9t5CTqlgILvuRUk6N; HttpOnly; Secure; Path=/; Domain=api.openai.com; Expires=Mon, 20 Apr 2026 06:00:50 GMT, _cfuvid=ZZjgu.gcvWhX5XCd5zDVBlOhHvmy1d1dmh3ATPnPeiw-1776663049.5882392-1.0.1.1-y4ZhYtO9bdEQMjI_uWiZ8fTP1n4aQhOqUxZYzNf.Rkc; HttpOnly; SameSite=None; Secure; Path=/; Domain=api.openai.com',
+    'cf-ray': '9ef1c25be9947fd4-MAA',
+    'cf-cache-status': 'DYNAMIC',
+    server: 'cloudflare',
+    'strict-transport-security': 'max-age=31536000; includeSubDomains; preload',
+    vary: 'Origin',
+    'x-content-type-options': 'nosniff',
+    'x-openai-proxy-wasm': 'v0.1',
+    'x-request-id': 'req_ae14f46204154bd1834529d9177fa34d',
+    'alt-svc': 'h3=":443"; ma=86400'
+  },
+  requestID: 'req_ae14f46204154bd1834529d9177fa34d',
+  error: {
+    message: 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.',
+    type: 'insufficient_quota',
+    param: null,
+    code: 'insufficient_quota'
+  },
+  code: 'insufficient_quota',
+  param: null,
+  type: 'insufficient_quota'
+}
+RateLimitError: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+    at APIError.generate (/home/mserver/works/Ilvi-API/node_modules/openai/src/core/error.ts:96:14)
+    at OpenAI.makeStatusError (/home/mserver/works/Ilvi-API/node_modules/openai/src/client.ts:494:28)
+    at OpenAI.makeRequest (/home/mserver/works/Ilvi-API/node_modules/openai/src/client.ts:745:24)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async processTranscript (/home/mserver/works/Ilvi-API/app/services/ai_service.ts:24:22)
+    at async Socket.<anonymous> (/home/mserver/works/Ilvi-API/start/meeting_socket.ts:85:26) {
+  status: 429,
+  headers: Headers {
+    date: 'Mon, 20 Apr 2026 06:47:17 GMT',
+    'content-type': 'application/json; charset=utf-8',
+    'content-length': '337',
+    connection: 'keep-alive',
+    'set-cookie': '__cf_bm=JBLsGS4ohinZwPIMPxTdq0mgrZIrdwssppMV2H3jQ0Q-1776667636.9699616-1.0.1.1-LbnjTD.yCvvExgVzoRjtnwdAILKDHlOYYMm8Hf4YksrZGayUpJ.4FlrOMrJrIkX17hKzxFYc_2uJzqlQ1gzMQEdkR.5s6TwupgxSdO2OFpD73lbZwXFYN0oImTMbW7Pq; HttpOnly; Secure; Path=/; Domain=api.openai.com; Expires=Mon, 20 Apr 2026 07:17:17 GMT, _cfuvid=upt93aI7sKNF8fDYgUei7WfxyE9Wlj5p2zKLnlrN5Ic-1776667636.9699616-1.0.1.1-PUvnoaiyN_hmwCTBknk3cB_x1ngjwMnxAIZyXCTUS7o; HttpOnly; SameSite=None; Secure; Path=/; Domain=api.openai.com',
+    'cf-ray': '9ef2325b09530803-MAA',
+    'cf-cache-status': 'DYNAMIC',
+    server: 'cloudflare',
+    'strict-transport-security': 'max-age=31536000; includeSubDomains; preload',
+    vary: 'Origin',
+    'x-content-type-options': 'nosniff',
+    'x-openai-proxy-wasm': 'v0.1',
+    'x-request-id': 'req_26e13a3678884d65b6487906c5bd033a',
+    'alt-svc': 'h3=":443"; ma=86400'
+  },
+  requestID: 'req_26e13a3678884d65b6487906c5bd033a',
+  error: {
+    message: 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.',
+    type: 'insufficient_quota',
+    param: null,
+    code: 'insufficient_quota'
+  },
+  code: 'insufficient_quota',
+  param: null,
+  type: 'insufficient_quota'
+}
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
+
+[31mℹ Error: listen EADDRINUSE: address already in use 0.0.0.0:8085[39m
+
+[2m ⁃ at [3mServer.setupListenHandle [as _listen2][23m ([3mnode:net:1948:16[23m)[22m
+[2m ⁃ at [3mlistenInCluster[23m ([3mnode:net:2005:12[23m)[22m
+[2m ⁃ ([3mnode:net:2214:7[23m)[22m
+[2m ⁃ at [3mprocess.processTicksAndRejections[23m ([3mnode:internal/process/task_queues:90:21[23m)[22m
+
