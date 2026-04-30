@@ -1,17 +1,14 @@
 import { Server } from 'socket.io'
 import server from '@adonisjs/core/services/server'
-import { meetingSocket } from '#start/meeting_socket'
 
-class SocketService {
-  public io: Server | null = null
+class WS {
+  public io!: Server
 
   public boot() {
     if (this.io) return
     this.io = new Server(server.getNodeServer(), {
       cors: { origin: '*' },
     })
-
-    meetingSocket(this.io)
     console.log('Socket initialized')
   }
 
@@ -23,4 +20,4 @@ class SocketService {
   }
 }
 
-export default new SocketService()
+export default new WS()

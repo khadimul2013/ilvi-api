@@ -87,6 +87,11 @@ const dbConfig = defineConfig({
         naturalSort: true,
         paths: ['database/migrations'],
       },
+      schemaGeneration: {
+        enabled: true,
+        outputPath: './database/schema.ts',
+        rulesPaths: ['./database/schema_rules.js'],
+      },
       debug: app.inDev,
     },
 

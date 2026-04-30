@@ -8,11 +8,22 @@ import { BaseModel, column } from '@adonisjs/lucid/orm'
 import { DateTime } from 'luxon'
 
 export class AuthAccessTokenSchema extends BaseModel {
-  static $columns = ['abilities', 'createdAt', 'expiresAt', 'hash', 'id', 'lastUsedAt', 'name', 'tokenableId', 'type', 'updatedAt'] as const
+  static $columns = [
+    'abilities',
+    'createdAt',
+    'expiresAt',
+    'hash',
+    'id',
+    'lastUsedAt',
+    'name',
+    'tokenableId',
+    'type',
+    'updatedAt',
+  ] as const
   $columns = AuthAccessTokenSchema.$columns
   @column()
   declare abilities: string
-  @column.dateTime({ autoCreate: true })
+  @column.dateTime()
   declare createdAt: DateTime | null
   @column.dateTime()
   declare expiresAt: DateTime | null
@@ -28,64 +39,117 @@ export class AuthAccessTokenSchema extends BaseModel {
   declare tokenableId: string
   @column()
   declare type: string
-  @column.dateTime({ autoCreate: true, autoUpdate: true })
+  @column.dateTime()
   declare updatedAt: DateTime | null
 }
 
 export class MeetingSchema extends BaseModel {
-  static $columns = ['createdAt', 'createdBy', 'description', 'scheduledAt', 'status', 'tenantId', 'title', 'updatedAt', 'uuid'] as const
+  static $columns = [
+    'createdAt',
+    'createdBy',
+    'duration',
+    'language',
+    'processedAt',
+    'status',
+    'startedAt',
+    'stoppedAt',
+    'tenantId',
+    'title',
+    'updatedAt',
+    'uuid',
+  ] as const
   $columns = MeetingSchema.$columns
-  @column.dateTime({ autoCreate: true })
+  @column.dateTime()
   declare createdAt: DateTime | null
   @column()
-  declare createdBy: string
+  declare createdBy: string | null
   @column()
-  declare description: string | null
+  declare duration: number | null
+  @column()
+  declare language: string
   @column.dateTime()
-  declare scheduledAt: DateTime
+  declare processedAt: DateTime | null
   @column()
   declare status: string
+  @column.dateTime()
+  declare startedAt: DateTime | null
+  @column.dateTime()
+  declare stoppedAt: DateTime | null
   @column()
-  declare tenantId: string
+  declare tenantId: string | null
   @column()
-  declare title: string
-  @column.dateTime({ autoCreate: true, autoUpdate: true })
+  declare title: string | null
+  @column.dateTime()
   declare updatedAt: DateTime | null
   @column({ isPrimary: true })
   declare uuid: string
 }
 
-export class RecordingSchema extends BaseModel {
-  static $columns = ['createdAt', 'duration', 'fileName', 'fileUrl', 'meetingId', 'mimeType', 'size', 'status', 'tenantId', 'updatedAt', 'uuid'] as const
-  $columns = RecordingSchema.$columns
-  @column.dateTime({ autoCreate: true })
+export class ModelHasUploadSchema extends BaseModel {
+  static $columns = ['createdAt', 'id', 'modelId', 'updatedAt', 'uploadId'] as const
+  $columns = ModelHasUploadSchema.$columns
+  @column.dateTime()
+  declare createdAt: DateTime | null
+  @column({ isPrimary: true })
+  declare id: number
+  @column()
+  declare modelId: string
+  @column.dateTime()
+  declare updatedAt: DateTime | null
+  @column()
+  declare uploadId: string | null
+}
+
+export class UploadSchema extends BaseModel {
+  static $columns = [
+    'createdAt',
+    'fileName',
+    'filePath',
+    'fileSize',
+    'fileType',
+    'mimeType',
+    'originalName',
+    'updatedAt',
+    'uploadedBy',
+    'uuid',
+  ] as const
+  $columns = UploadSchema.$columns
+  @column.dateTime()
   declare createdAt: DateTime | null
   @column()
-  declare duration: number | null
+  declare fileName: string
   @column()
-  declare fileName: string | null
+  declare filePath: string
   @column()
-  declare fileUrl: string | null
+  declare fileSize: number
   @column()
-  declare meetingId: string
+  declare fileType: string
   @column()
-  declare mimeType: string | null
+  declare mimeType: string
   @column()
-  declare size: number | null
-  @column()
-  declare status: string
-  @column()
-  declare tenantId: string
-  @column.dateTime({ autoCreate: true, autoUpdate: true })
+  declare originalName: string
+  @column.dateTime()
   declare updatedAt: DateTime | null
+  @column()
+  declare uploadedBy: string
   @column({ isPrimary: true })
   declare uuid: string
 }
 
 export class RoleSchema extends BaseModel {
-  static $columns = ['createdAt', 'description', 'name', 'predefined', 'slug', 'status', 'tenantId', 'updatedAt', 'uuid'] as const
+  static $columns = [
+    'createdAt',
+    'description',
+    'name',
+    'predefined',
+    'slug',
+    'status',
+    'tenantId',
+    'updatedAt',
+    'uuid',
+  ] as const
   $columns = RoleSchema.$columns
-  @column.dateTime({ autoCreate: true })
+  @column.dateTime()
   declare createdAt: DateTime | null
   @column()
   declare description: string | null
@@ -99,7 +163,7 @@ export class RoleSchema extends BaseModel {
   declare status: string | null
   @column()
   declare tenantId: string
-  @column.dateTime({ autoCreate: true, autoUpdate: true })
+  @column.dateTime()
   declare updatedAt: DateTime | null
   @column({ isPrimary: true })
   declare uuid: string
@@ -108,48 +172,85 @@ export class RoleSchema extends BaseModel {
 export class TenantSchema extends BaseModel {
   static $columns = ['createdAt', 'name', 'status', 'updatedAt', 'uuid'] as const
   $columns = TenantSchema.$columns
-  @column.dateTime({ autoCreate: true })
+  @column.dateTime()
   declare createdAt: DateTime | null
   @column()
   declare name: string | null
   @column()
   declare status: string | null
-  @column.dateTime({ autoCreate: true, autoUpdate: true })
+  @column.dateTime()
   declare updatedAt: DateTime | null
   @column({ isPrimary: true })
   declare uuid: string
 }
 
 export class TranscriptionSchema extends BaseModel {
-  static $columns = ['aiActions', 'aiKeyPoints', 'aiSummary', 'audioUrl', 'createdAt', 'language', 'meetingId', 'provider', 'recordingId', 'status', 'summary', 'tenantId', 'text', 'updatedAt', 'uuid'] as const
+  static $columns = [
+    'createdAt',
+    'language',
+    'meetingId',
+    'provider',
+    'status',
+    'tenantId',
+    'text',
+    'updatedAt',
+    'uploadId',
+    'uuid',
+  ] as const
   $columns = TranscriptionSchema.$columns
-  @column()
-  declare aiActions: any | null
-  @column()
-  declare aiKeyPoints: any | null
-  @column()
-  declare aiSummary: string | null
-  @column()
-  declare audioUrl: string | null
-  @column.dateTime({ autoCreate: true })
+  @column.dateTime()
   declare createdAt: DateTime | null
   @column()
   declare language: string
   @column()
-  declare meetingId: string
+  declare meetingId: string | null
   @column()
   declare provider: string | null
   @column()
-  declare recordingId: string
+  declare status: string
+  @column()
+  declare tenantId: string | null
+  @column()
+  declare text: string | null
+  @column.dateTime()
+  declare updatedAt: DateTime | null
+  @column()
+  declare uploadId: string | null
+  @column({ isPrimary: true })
+  declare uuid: string
+}
+
+export class SummarySchema extends BaseModel {
+  static $columns = [
+    'actions',
+    'createdAt',
+    'keyPoints',
+    'meetingId',
+    'provider',
+    'status',
+    'summary',
+    'tenantId',
+    'updatedAt',
+    'uuid',
+  ] as const
+  $columns = SummarySchema.$columns
+  @column()
+  declare actions: any | null
+  @column.dateTime()
+  declare createdAt: DateTime | null
+  @column()
+  declare keyPoints: any | null
+  @column()
+  declare meetingId: string | null
+  @column()
+  declare provider: string | null
   @column()
   declare status: string
   @column()
   declare summary: string | null
   @column()
-  declare tenantId: string
-  @column()
-  declare text: string | null
-  @column.dateTime({ autoCreate: true, autoUpdate: true })
+  declare tenantId: string | null
+  @column.dateTime()
   declare updatedAt: DateTime | null
   @column({ isPrimary: true })
   declare uuid: string
@@ -159,24 +260,41 @@ export class UserHasRoleSchema extends BaseModel {
   static $columns = ['roleId', 'userId'] as const
   $columns = UserHasRoleSchema.$columns
   @column()
-  declare roleId: string
+  declare roleId: string | null
   @column({ isPrimary: true })
   declare userId: string
 }
 
 export class UserSchema extends BaseModel {
-  static $columns = ['color', 'companyName', 'createdAt', 'email', 'fullName', 'locale', 'password', 'phone', 'status', 'tenantId', 'updatedAt', 'uuid', 'verified'] as const
+  static $columns = [
+    'color',
+    'companyName',
+    'createdAt',
+    'email',
+    'firstName',
+    'lastName',
+    'locale',
+    'password',
+    'phone',
+    'status',
+    'tenantId',
+    'updatedAt',
+    'uuid',
+    'verified',
+  ] as const
   $columns = UserSchema.$columns
   @column()
   declare color: string
   @column()
   declare companyName: string | null
-  @column.dateTime({ autoCreate: true })
+  @column.dateTime()
   declare createdAt: DateTime | null
   @column()
   declare email: string
   @column()
-  declare fullName: string | null
+  declare firstName: string
+  @column()
+  declare lastName: string | null
   @column()
   declare locale: string | null
   @column({ serializeAs: null })
@@ -187,7 +305,7 @@ export class UserSchema extends BaseModel {
   declare status: string | null
   @column()
   declare tenantId: string
-  @column.dateTime({ autoCreate: true, autoUpdate: true })
+  @column.dateTime()
   declare updatedAt: DateTime | null
   @column({ isPrimary: true })
   declare uuid: string

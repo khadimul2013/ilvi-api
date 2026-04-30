@@ -1,9 +1,11 @@
-// import { Request } from '@adonisjs/core/http'
+import { HttpRequest } from '@adonisjs/core/http'
 
-// Request.macro('getTenantId', function (this: any) {
-//     return (
-//         this.header('X-Tenant-ID') ||
-//         this.ctx?.auth?.user?.tenantId ||
-//         null
-//     )
-// })
+declare module '@adonisjs/core/http' {
+  interface HttpRequest {
+    getTenantId(): string | null
+  }
+}
+
+HttpRequest.macro('getTenantId', function (this: HttpRequest) {
+  return this.header('X-Tenant-ID') || this.ctx?.auth?.user?.tenantId || null
+})

@@ -91,19 +91,7 @@ export interface Registry {
       errorResponse: ExtractErrorResponse<Awaited<ReturnType<import('#controllers/profile_controller').default['show']>>>
     }
   }
-  'meeting.store': {
-    methods: ["POST"]
-    pattern: '/api/v1/meetings'
-    types: {
-      body: ExtractBody<InferInput<(typeof import('#validators/meeting').meetingValidator)>>
-      paramsTuple: []
-      params: {}
-      query: ExtractQuery<InferInput<(typeof import('#validators/meeting').meetingValidator)>>
-      response: ExtractResponse<Awaited<ReturnType<import('#controllers/meeting_controller').default['store']>>>
-      errorResponse: ExtractErrorResponse<Awaited<ReturnType<import('#controllers/meeting_controller').default['store']>>> | { status: 422; response: { errors: SimpleError[] } }
-    }
-  }
-  'meeting.index': {
+  'meetings.index': {
     methods: ["GET","HEAD"]
     pattern: '/api/v1/meetings'
     types: {
@@ -111,68 +99,80 @@ export interface Registry {
       paramsTuple: []
       params: {}
       query: {}
-      response: ExtractResponse<Awaited<ReturnType<import('#controllers/meeting_controller').default['index']>>>
-      errorResponse: ExtractErrorResponse<Awaited<ReturnType<import('#controllers/meeting_controller').default['index']>>>
+      response: unknown
+      errorResponse: unknown
     }
   }
-  'meeting.update': {
-    methods: ["PUT"]
+  'meetings.store': {
+    methods: ["POST"]
+    pattern: '/api/v1/meetings'
+    types: {
+      body: {}
+      paramsTuple: []
+      params: {}
+      query: {}
+      response: unknown
+      errorResponse: unknown
+    }
+  }
+  'meetings.update': {
+    methods: ["PUT","PATCH"]
     pattern: '/api/v1/meetings/:id'
     types: {
-      body: ExtractBody<InferInput<(typeof import('#validators/meeting').meetingValidator)>>
+      body: {}
       paramsTuple: [ParamValue]
       params: { id: ParamValue }
-      query: ExtractQuery<InferInput<(typeof import('#validators/meeting').meetingValidator)>>
-      response: ExtractResponse<Awaited<ReturnType<import('#controllers/meeting_controller').default['update']>>>
-      errorResponse: ExtractErrorResponse<Awaited<ReturnType<import('#controllers/meeting_controller').default['update']>>> | { status: 422; response: { errors: SimpleError[] } }
+      query: {}
+      response: unknown
+      errorResponse: unknown
     }
   }
   'meeting.upload_audio': {
     methods: ["POST"]
-    pattern: '/api/v1/meetings/upload'
+    pattern: '/api/v1/meetings/:id/uploads'
     types: {
       body: ExtractBody<InferInput<(typeof import('#validators/meeting').uploadAudioValidator)>>
-      paramsTuple: []
-      params: {}
+      paramsTuple: [ParamValue]
+      params: { id: ParamValue }
       query: ExtractQuery<InferInput<(typeof import('#validators/meeting').uploadAudioValidator)>>
       response: ExtractResponse<Awaited<ReturnType<import('#controllers/meeting_controller').default['uploadAudio']>>>
       errorResponse: ExtractErrorResponse<Awaited<ReturnType<import('#controllers/meeting_controller').default['uploadAudio']>>> | { status: 422; response: { errors: SimpleError[] } }
     }
   }
-  'recordings.store': {
-    methods: ["POST"]
-    pattern: '/api/v1/recordings'
-    types: {
-      body: {}
-      paramsTuple: []
-      params: {}
-      query: {}
-      response: ExtractResponse<Awaited<ReturnType<import('#controllers/recordings_controller').default['store']>>>
-      errorResponse: ExtractErrorResponse<Awaited<ReturnType<import('#controllers/recordings_controller').default['store']>>>
-    }
-  }
-  'recordings.index': {
+  'uploads.index': {
     methods: ["GET","HEAD"]
-    pattern: '/api/v1/recordings'
+    pattern: '/api/v1/uploads'
     types: {
       body: {}
       paramsTuple: []
       params: {}
       query: {}
-      response: ExtractResponse<Awaited<ReturnType<import('#controllers/recordings_controller').default['index']>>>
-      errorResponse: ExtractErrorResponse<Awaited<ReturnType<import('#controllers/recordings_controller').default['index']>>>
+      response: unknown
+      errorResponse: unknown
     }
   }
-  'recordings.destroy': {
+  'uploads.store': {
+    methods: ["POST"]
+    pattern: '/api/v1/uploads'
+    types: {
+      body: {}
+      paramsTuple: []
+      params: {}
+      query: {}
+      response: unknown
+      errorResponse: unknown
+    }
+  }
+  'uploads.destroy': {
     methods: ["DELETE"]
-    pattern: '/api/v1/recordings/:id'
+    pattern: '/api/v1/uploads/:id'
     types: {
       body: {}
       paramsTuple: [ParamValue]
       params: { id: ParamValue }
       query: {}
-      response: ExtractResponse<Awaited<ReturnType<import('#controllers/recordings_controller').default['destroy']>>>
-      errorResponse: ExtractErrorResponse<Awaited<ReturnType<import('#controllers/recordings_controller').default['destroy']>>>
+      response: unknown
+      errorResponse: unknown
     }
   }
   'transcriptions.index': {
@@ -183,20 +183,20 @@ export interface Registry {
       paramsTuple: []
       params: {}
       query: {}
-      response: ExtractResponse<Awaited<ReturnType<import('#controllers/transcriptions_controller').default['index']>>>
-      errorResponse: ExtractErrorResponse<Awaited<ReturnType<import('#controllers/transcriptions_controller').default['index']>>>
+      response: unknown
+      errorResponse: unknown
     }
   }
-  'transcriptions.show_by_recording': {
+  'transcriptions.show': {
     methods: ["GET","HEAD"]
-    pattern: '/api/v1/transcriptions/recording/:recId'
+    pattern: '/api/v1/transcriptions/:id'
     types: {
       body: {}
       paramsTuple: [ParamValue]
-      params: { recId: ParamValue }
+      params: { id: ParamValue }
       query: {}
-      response: ExtractResponse<Awaited<ReturnType<import('#controllers/transcriptions_controller').default['showByRecording']>>>
-      errorResponse: ExtractErrorResponse<Awaited<ReturnType<import('#controllers/transcriptions_controller').default['showByRecording']>>>
+      response: unknown
+      errorResponse: unknown
     }
   }
   'transcriptions.destroy': {
@@ -207,8 +207,8 @@ export interface Registry {
       paramsTuple: [ParamValue]
       params: { id: ParamValue }
       query: {}
-      response: ExtractResponse<Awaited<ReturnType<import('#controllers/transcriptions_controller').default['destroy']>>>
-      errorResponse: ExtractErrorResponse<Awaited<ReturnType<import('#controllers/transcriptions_controller').default['destroy']>>>
+      response: unknown
+      errorResponse: unknown
     }
   }
 }

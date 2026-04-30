@@ -11,30 +11,30 @@ export type ScannedRoutes = {
     'auth.destroy': { paramsTuple?: []; params?: {} }
     'auth.change_password': { paramsTuple?: []; params?: {} }
     'profile.profile.show': { paramsTuple?: []; params?: {} }
-    'meeting.store': { paramsTuple?: []; params?: {} }
-    'meeting.index': { paramsTuple?: []; params?: {} }
-    'meeting.update': { paramsTuple: [ParamValue]; params: {'id': ParamValue} }
-    'meeting.upload_audio': { paramsTuple?: []; params?: {} }
-    'recordings.store': { paramsTuple?: []; params?: {} }
-    'recordings.index': { paramsTuple?: []; params?: {} }
-    'recordings.destroy': { paramsTuple: [ParamValue]; params: {'id': ParamValue} }
+    'meetings.index': { paramsTuple?: []; params?: {} }
+    'meetings.store': { paramsTuple?: []; params?: {} }
+    'meetings.update': { paramsTuple: [ParamValue]; params: {'id': ParamValue} }
+    'meeting.upload_audio': { paramsTuple: [ParamValue]; params: {'id': ParamValue} }
+    'uploads.index': { paramsTuple?: []; params?: {} }
+    'uploads.store': { paramsTuple?: []; params?: {} }
+    'uploads.destroy': { paramsTuple: [ParamValue]; params: {'id': ParamValue} }
     'transcriptions.index': { paramsTuple?: []; params?: {} }
-    'transcriptions.show_by_recording': { paramsTuple: [ParamValue]; params: {'recId': ParamValue} }
+    'transcriptions.show': { paramsTuple: [ParamValue]; params: {'id': ParamValue} }
     'transcriptions.destroy': { paramsTuple: [ParamValue]; params: {'id': ParamValue} }
   }
   GET: {
     'profile.profile.show': { paramsTuple?: []; params?: {} }
-    'meeting.index': { paramsTuple?: []; params?: {} }
-    'recordings.index': { paramsTuple?: []; params?: {} }
+    'meetings.index': { paramsTuple?: []; params?: {} }
+    'uploads.index': { paramsTuple?: []; params?: {} }
     'transcriptions.index': { paramsTuple?: []; params?: {} }
-    'transcriptions.show_by_recording': { paramsTuple: [ParamValue]; params: {'recId': ParamValue} }
+    'transcriptions.show': { paramsTuple: [ParamValue]; params: {'id': ParamValue} }
   }
   HEAD: {
     'profile.profile.show': { paramsTuple?: []; params?: {} }
-    'meeting.index': { paramsTuple?: []; params?: {} }
-    'recordings.index': { paramsTuple?: []; params?: {} }
+    'meetings.index': { paramsTuple?: []; params?: {} }
+    'uploads.index': { paramsTuple?: []; params?: {} }
     'transcriptions.index': { paramsTuple?: []; params?: {} }
-    'transcriptions.show_by_recording': { paramsTuple: [ParamValue]; params: {'recId': ParamValue} }
+    'transcriptions.show': { paramsTuple: [ParamValue]; params: {'id': ParamValue} }
   }
   POST: {
     'auth.auth.signup': { paramsTuple?: []; params?: {} }
@@ -43,15 +43,18 @@ export type ScannedRoutes = {
     'auth.auth.reset_password': { paramsTuple?: []; params?: {} }
     'auth.destroy': { paramsTuple?: []; params?: {} }
     'auth.change_password': { paramsTuple?: []; params?: {} }
-    'meeting.store': { paramsTuple?: []; params?: {} }
-    'meeting.upload_audio': { paramsTuple?: []; params?: {} }
-    'recordings.store': { paramsTuple?: []; params?: {} }
+    'meetings.store': { paramsTuple?: []; params?: {} }
+    'meeting.upload_audio': { paramsTuple: [ParamValue]; params: {'id': ParamValue} }
+    'uploads.store': { paramsTuple?: []; params?: {} }
   }
   PUT: {
-    'meeting.update': { paramsTuple: [ParamValue]; params: {'id': ParamValue} }
+    'meetings.update': { paramsTuple: [ParamValue]; params: {'id': ParamValue} }
+  }
+  PATCH: {
+    'meetings.update': { paramsTuple: [ParamValue]; params: {'id': ParamValue} }
   }
   DELETE: {
-    'recordings.destroy': { paramsTuple: [ParamValue]; params: {'id': ParamValue} }
+    'uploads.destroy': { paramsTuple: [ParamValue]; params: {'id': ParamValue} }
     'transcriptions.destroy': { paramsTuple: [ParamValue]; params: {'id': ParamValue} }
   }
 }

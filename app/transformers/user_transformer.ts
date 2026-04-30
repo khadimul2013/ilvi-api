@@ -4,12 +4,17 @@ import { BaseTransformer } from '@adonisjs/core/transformers'
 export default class UserTransformer extends BaseTransformer<User> {
   toObject() {
     return this.pick(this.resource, [
-      'id',
-      'fullName',
+      'uuid',
+      'firstName',
+      'lastName',
       'email',
+      'companyName',
+      'phone',
+      'locale',
+      'status',
+      'verified',
       'createdAt',
       'updatedAt',
-      'initials',
     ])
   }
 }

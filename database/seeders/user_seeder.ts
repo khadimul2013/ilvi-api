@@ -3,12 +3,10 @@ import User from '#models/user'
 import Tenant from '#models/tenant'
 import hash from '@adonisjs/core/services/hash'
 import { v4 as uuidv4 } from 'uuid'
-import { TenantStatus } from '../../app/Helpers/ENUM.ts'
-import { UserStatus } from '../../app/Helpers/ENUM.ts'
+import { STATUS } from '../../app/helpers/enum.ts'
 
 export default class extends BaseSeeder {
   public async run() {
-
     /**
      * Create multiple companies (tenants)
      * same as signup flow
@@ -18,17 +16,19 @@ export default class extends BaseSeeder {
         name: 'Auto Company',
         users: [
           {
-            fullName: 'Admin User',
+            firstName: 'Admin',
+            lastName: 'User',
             email: 'admin@gmail.com',
             password: '123456',
-            status: UserStatus.ACTIVE,
+            status: STATUS.ACTIVE,
             verified: true,
           },
           {
-            fullName: 'Test User',
+            firstName: 'Test',
+            lastName: 'User',
             email: 'user@gmail.com',
             password: '123456',
-            status: UserStatus.ACTIVE,
+            status: STATUS.ACTIVE,
             verified: true,
           },
         ],
@@ -37,10 +37,11 @@ export default class extends BaseSeeder {
         name: 'Second Company',
         users: [
           {
-            fullName: 'Manager User',
+            firstName: 'Manager',
+            lastName: 'User',
             email: 'manager@gmail.com',
             password: '123456',
-            status: UserStatus.INACTIVE,
+            status: STATUS.INACTIVE,
             verified: false,
           },
         ],
@@ -57,7 +58,7 @@ export default class extends BaseSeeder {
         tenant = await Tenant.create({
           uuid: uuidv4(),
           name: company.name,
-          status: TenantStatus.ACTIVE,
+          status: STATUS.ACTIVE,
         })
       }
 
@@ -70,7 +71,8 @@ export default class extends BaseSeeder {
         if (!existUser) {
           await User.create({
             uuid: uuidv4(),
-            fullName: u.fullName,
+            firstName: u.firstName,
+            lastName: u.lastName,
             email: u.email,
             password: await hash.make(u.password),
             tenantId: tenant.uuid,

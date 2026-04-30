@@ -7,6 +7,6 @@ export const controllers = {
   Auth: () => import('#controllers/auth_controller'),
   Meeting: () => import('#controllers/meeting_controller'),
   Profile: () => import('#controllers/profile_controller'),
-  Recordings: () => import('#controllers/recordings_controller'),
   Transcriptions: () => import('#controllers/transcriptions_controller'),
+  Uploads: () => import('#controllers/uploads_controller'),
 }

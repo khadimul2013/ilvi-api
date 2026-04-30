@@ -7,24 +7,16 @@ export default class extends BaseSchema {
     this.schema.createTable(this.tableName, (table) => {
       table.increments('id').primary()
 
-      table.uuid('tokenable_id').notNullable()
-
-      table
-        .foreign('tokenable_id')
-        .references('uuid')
-        .inTable('users')
-        .onDelete('CASCADE')
-
+      table.uuid('tokenableId').notNullable()
+      table.foreign('tokenableId').references('uuid').inTable('users').onDelete('CASCADE')
       table.string('type').notNullable()
       table.string('name').nullable()
       table.string('hash').notNullable()
       table.text('abilities').notNullable()
-
-      table.timestamp('created_at', { useTz: true }).defaultTo(this.now())
-      table.timestamp('updated_at', { useTz: true }).nullable()
-      table.timestamp('last_used_at', { useTz: true }).nullable()
-      table.timestamp('expires_at', { useTz: true }).nullable()
-
+      table.timestamp('createdAt', { useTz: true }).defaultTo(this.now())
+      table.timestamp('updatedAt', { useTz: true }).nullable()
+      table.timestamp('lastUsedAt', { useTz: true }).nullable()
+      table.timestamp('expiresAt', { useTz: true }).nullable()
     })
   }
 

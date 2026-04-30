@@ -1,20 +1,15 @@
-import { UserSchema } from '#database/schema'
+import * as schemas from '#database/schema'
 import hash from '@adonisjs/core/services/hash'
 import { type AccessToken, DbAccessTokensProvider } from '@adonisjs/auth/access_tokens'
-import { beforeCreate, beforeSave } from '@adonisjs/lucid/orm'
-import { v4 as uuid } from 'uuid'
+import { beforeSave } from '@adonisjs/lucid/orm'
 import { errors } from '@adonisjs/auth'
+import BaseModel from './base_model.js'
+
+const UserSchema = schemas.UserSchema ?? BaseModel
 
 export default class User extends UserSchema {
   static accessTokens = DbAccessTokensProvider.forModel(User)
   declare currentAccessToken?: AccessToken
-
-  @beforeCreate()
-  static assignUuid(user: User) {
-    if (!user.uuid) {
-      user.uuid = uuid()
-    }
-  }
 
   @beforeSave()
   static async hashPassword(user: User) {
@@ -37,7 +32,6 @@ export default class User extends UserSchema {
   //   return user
   // }
 
-
   static async verifyCredentials(email: string, password: string) {
     const user = await this.findBy('email', email)
 
@@ -53,5 +47,4 @@ export default class User extends UserSchema {
 
     return user
   }
-
 }

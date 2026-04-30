@@ -48,47 +48,47 @@ const routes = {
     tokens: [{"old":"/api/v1/account/profile","type":0,"val":"api","end":""},{"old":"/api/v1/account/profile","type":0,"val":"v1","end":""},{"old":"/api/v1/account/profile","type":0,"val":"account","end":""},{"old":"/api/v1/account/profile","type":0,"val":"profile","end":""}],
     types: placeholder as Registry['profile.profile.show']['types'],
   },
-  'meeting.store': {
-    methods: ["POST"],
-    pattern: '/api/v1/meetings',
-    tokens: [{"old":"/api/v1/meetings","type":0,"val":"api","end":""},{"old":"/api/v1/meetings","type":0,"val":"v1","end":""},{"old":"/api/v1/meetings","type":0,"val":"meetings","end":""}],
-    types: placeholder as Registry['meeting.store']['types'],
-  },
-  'meeting.index': {
+  'meetings.index': {
     methods: ["GET","HEAD"],
     pattern: '/api/v1/meetings',
     tokens: [{"old":"/api/v1/meetings","type":0,"val":"api","end":""},{"old":"/api/v1/meetings","type":0,"val":"v1","end":""},{"old":"/api/v1/meetings","type":0,"val":"meetings","end":""}],
-    types: placeholder as Registry['meeting.index']['types'],
+    types: placeholder as Registry['meetings.index']['types'],
   },
-  'meeting.update': {
-    methods: ["PUT"],
+  'meetings.store': {
+    methods: ["POST"],
+    pattern: '/api/v1/meetings',
+    tokens: [{"old":"/api/v1/meetings","type":0,"val":"api","end":""},{"old":"/api/v1/meetings","type":0,"val":"v1","end":""},{"old":"/api/v1/meetings","type":0,"val":"meetings","end":""}],
+    types: placeholder as Registry['meetings.store']['types'],
+  },
+  'meetings.update': {
+    methods: ["PUT","PATCH"],
     pattern: '/api/v1/meetings/:id',
     tokens: [{"old":"/api/v1/meetings/:id","type":0,"val":"api","end":""},{"old":"/api/v1/meetings/:id","type":0,"val":"v1","end":""},{"old":"/api/v1/meetings/:id","type":0,"val":"meetings","end":""},{"old":"/api/v1/meetings/:id","type":1,"val":"id","end":""}],
-    types: placeholder as Registry['meeting.update']['types'],
+    types: placeholder as Registry['meetings.update']['types'],
   },
   'meeting.upload_audio': {
     methods: ["POST"],
-    pattern: '/api/v1/meetings/upload',
-    tokens: [{"old":"/api/v1/meetings/upload","type":0,"val":"api","end":""},{"old":"/api/v1/meetings/upload","type":0,"val":"v1","end":""},{"old":"/api/v1/meetings/upload","type":0,"val":"meetings","end":""},{"old":"/api/v1/meetings/upload","type":0,"val":"upload","end":""}],
+    pattern: '/api/v1/meetings/:id/uploads',
+    tokens: [{"old":"/api/v1/meetings/:id/uploads","type":0,"val":"api","end":""},{"old":"/api/v1/meetings/:id/uploads","type":0,"val":"v1","end":""},{"old":"/api/v1/meetings/:id/uploads","type":0,"val":"meetings","end":""},{"old":"/api/v1/meetings/:id/uploads","type":1,"val":"id","end":""},{"old":"/api/v1/meetings/:id/uploads","type":0,"val":"uploads","end":""}],
     types: placeholder as Registry['meeting.upload_audio']['types'],
   },
-  'recordings.store': {
-    methods: ["POST"],
-    pattern: '/api/v1/recordings',
-    tokens: [{"old":"/api/v1/recordings","type":0,"val":"api","end":""},{"old":"/api/v1/recordings","type":0,"val":"v1","end":""},{"old":"/api/v1/recordings","type":0,"val":"recordings","end":""}],
-    types: placeholder as Registry['recordings.store']['types'],
-  },
-  'recordings.index': {
+  'uploads.index': {
     methods: ["GET","HEAD"],
-    pattern: '/api/v1/recordings',
-    tokens: [{"old":"/api/v1/recordings","type":0,"val":"api","end":""},{"old":"/api/v1/recordings","type":0,"val":"v1","end":""},{"old":"/api/v1/recordings","type":0,"val":"recordings","end":""}],
-    types: placeholder as Registry['recordings.index']['types'],
+    pattern: '/api/v1/uploads',
+    tokens: [{"old":"/api/v1/uploads","type":0,"val":"api","end":""},{"old":"/api/v1/uploads","type":0,"val":"v1","end":""},{"old":"/api/v1/uploads","type":0,"val":"uploads","end":""}],
+    types: placeholder as Registry['uploads.index']['types'],
   },
-  'recordings.destroy': {
+  'uploads.store': {
+    methods: ["POST"],
+    pattern: '/api/v1/uploads',
+    tokens: [{"old":"/api/v1/uploads","type":0,"val":"api","end":""},{"old":"/api/v1/uploads","type":0,"val":"v1","end":""},{"old":"/api/v1/uploads","type":0,"val":"uploads","end":""}],
+    types: placeholder as Registry['uploads.store']['types'],
+  },
+  'uploads.destroy': {
     methods: ["DELETE"],
-    pattern: '/api/v1/recordings/:id',
-    tokens: [{"old":"/api/v1/recordings/:id","type":0,"val":"api","end":""},{"old":"/api/v1/recordings/:id","type":0,"val":"v1","end":""},{"old":"/api/v1/recordings/:id","type":0,"val":"recordings","end":""},{"old":"/api/v1/recordings/:id","type":1,"val":"id","end":""}],
-    types: placeholder as Registry['recordings.destroy']['types'],
+    pattern: '/api/v1/uploads/:id',
+    tokens: [{"old":"/api/v1/uploads/:id","type":0,"val":"api","end":""},{"old":"/api/v1/uploads/:id","type":0,"val":"v1","end":""},{"old":"/api/v1/uploads/:id","type":0,"val":"uploads","end":""},{"old":"/api/v1/uploads/:id","type":1,"val":"id","end":""}],
+    types: placeholder as Registry['uploads.destroy']['types'],
   },
   'transcriptions.index': {
     methods: ["GET","HEAD"],
@@ -96,11 +96,11 @@ const routes = {
     tokens: [{"old":"/api/v1/transcriptions","type":0,"val":"api","end":""},{"old":"/api/v1/transcriptions","type":0,"val":"v1","end":""},{"old":"/api/v1/transcriptions","type":0,"val":"transcriptions","end":""}],
     types: placeholder as Registry['transcriptions.index']['types'],
   },
-  'transcriptions.show_by_recording': {
+  'transcriptions.show': {
     methods: ["GET","HEAD"],
-    pattern: '/api/v1/transcriptions/recording/:recId',
-    tokens: [{"old":"/api/v1/transcriptions/recording/:recId","type":0,"val":"api","end":""},{"old":"/api/v1/transcriptions/recording/:recId","type":0,"val":"v1","end":""},{"old":"/api/v1/transcriptions/recording/:recId","type":0,"val":"transcriptions","end":""},{"old":"/api/v1/transcriptions/recording/:recId","type":0,"val":"recording","end":""},{"old":"/api/v1/transcriptions/recording/:recId","type":1,"val":"recId","end":""}],
-    types: placeholder as Registry['transcriptions.show_by_recording']['types'],
+    pattern: '/api/v1/transcriptions/:id',
+    tokens: [{"old":"/api/v1/transcriptions/:id","type":0,"val":"api","end":""},{"old":"/api/v1/transcriptions/:id","type":0,"val":"v1","end":""},{"old":"/api/v1/transcriptions/:id","type":0,"val":"transcriptions","end":""},{"old":"/api/v1/transcriptions/:id","type":1,"val":"id","end":""}],
+    types: placeholder as Registry['transcriptions.show']['types'],
   },
   'transcriptions.destroy': {
     methods: ["DELETE"],

@@ -28,7 +28,7 @@ export default defineConfig({
     () => import('@adonisjs/core/commands'),
     () => import('@adonisjs/lucid/commands'),
     () => import('@adonisjs/session/commands'),
-    () => import('@adonisjs/mail/commands')
+    () => import('@adonisjs/mail/commands'),
   ],
 
   /*
@@ -55,7 +55,7 @@ export default defineConfig({
     () => import('@adonisjs/auth/auth_provider'),
     () => import('#providers/api_provider'),
     () => import('@adonisjs/core/providers/hash_provider'),
-    () => import('@adonisjs/mail/mail_provider')
+    () => import('@adonisjs/mail/mail_provider'),
   ],
 
   /*
@@ -67,6 +67,9 @@ export default defineConfig({
   |
   */
   preloads: [
+    () => import('#start/lucid'),
+    () => import('#start/request'),
+    () => import('#start/tenant'),
     () => import('#start/routes'),
     () => import('#start/kernel'),
     () => import('#start/validator'),
@@ -107,7 +110,6 @@ export default defineConfig({
   |
   */
   metaFiles: [],
-
   hooks: {
     init: [
       indexEntities({

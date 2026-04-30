@@ -17,20 +17,22 @@ export interface ApiDefinition {
       show: typeof routes['profile.profile.show']
     }
   }
+  meetings: {
+    index: typeof routes['meetings.index']
+    store: typeof routes['meetings.store']
+    update: typeof routes['meetings.update']
+  }
   meeting: {
-    store: typeof routes['meeting.store']
-    index: typeof routes['meeting.index']
-    update: typeof routes['meeting.update']
     uploadAudio: typeof routes['meeting.upload_audio']
   }
-  recordings: {
-    store: typeof routes['recordings.store']
-    index: typeof routes['recordings.index']
-    destroy: typeof routes['recordings.destroy']
+  uploads: {
+    index: typeof routes['uploads.index']
+    store: typeof routes['uploads.store']
+    destroy: typeof routes['uploads.destroy']
   }
   transcriptions: {
     index: typeof routes['transcriptions.index']
-    showByRecording: typeof routes['transcriptions.show_by_recording']
+    show: typeof routes['transcriptions.show']
     destroy: typeof routes['transcriptions.destroy']
   }
 }

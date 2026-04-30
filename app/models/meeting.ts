@@ -1,68 +1,76 @@
 import { DateTime } from 'luxon'
-import { BaseModel, column, belongsTo, hasOne, beforeCreate } from '@adonisjs/lucid/orm'
-import type { BelongsTo, HasOne } from '@adonisjs/lucid/types/relations'
+import { column, belongsTo, hasOne, manyToMany, hasMany } from '@adonisjs/lucid/orm'
+import type { BelongsTo, HasMany, HasOne, ManyToMany } from '@adonisjs/lucid/types/relations'
+import BaseModel from './base_model.js'
 import User from './user.ts'
-import Recording from './recording.ts'
 import Transcription from './transcription.ts'
 import Tenant from './tenant.ts'
-import { v4 as uuidv4 } from 'uuid'
+import Upload from './upload.js'
+import Summary from './summary.js'
 
 export default class Meeting extends BaseModel {
-    @column({ isPrimary: true })
-    declare uuid: string
+  @column({ isPrimary: true })
+  declare uuid: string
 
-    @beforeCreate()
-    static assignUuid(meeting: Meeting) {
-        meeting.uuid = uuidv4()
-    }
+  @column()
+  declare tenantId: string
 
-    @column()
-    declare tenantId: string
+  @belongsTo(() => Tenant, {
+    foreignKey: 'tenantId',
+  })
+  declare tenant: BelongsTo<typeof Tenant>
 
-    @belongsTo(() => Tenant, {
-        foreignKey: 'tenantId',
-    })
-    declare tenant: BelongsTo<typeof Tenant>
+  @column()
+  declare title: string | null
 
-    @column()
-    declare title: string
+  @column()
+  declare language: string
 
-    @column()
-    declare description?: string
+  @column()
+  declare status: string
 
-    @column.dateTime()
-    declare scheduledAt: DateTime
+  @column()
+  declare duration?: number
 
-    @column()
-    declare status: string
+  @column()
+  declare createdBy: string
 
-    @column()
-    declare createdBy: string
+  @belongsTo(() => User, {
+    foreignKey: 'createdBy',
+  })
+  declare creator: BelongsTo<typeof User>
 
-    @belongsTo(() => User, {
-        foreignKey: 'createdBy',
-    })
-    declare creator: BelongsTo<typeof User>
+  @hasMany(() => Transcription, {
+    foreignKey: 'meetingId',
+  })
+  declare transcriptions: HasMany<typeof Transcription>
 
-    @hasOne(() => Recording, {
-        foreignKey: 'meetingId',
-    })
-    declare recording: HasOne<typeof Recording>
+  @hasOne(() => Summary, {
+    foreignKey: 'meetingId',
+  })
+  declare summary: HasOne<typeof Summary>
 
-    @hasOne(() => Transcription, {
-        foreignKey: 'meetingId',
-    })
-    declare transcription: HasOne<typeof Transcription>
+  @manyToMany(() => Upload, {
+    localKey: 'uuid',
+    pivotForeignKey: 'modelId',
+    relatedKey: 'uuid',
+    pivotRelatedForeignKey: 'uploadId',
+    pivotTable: 'model_has_uploads',
+  })
+  declare attachments: ManyToMany<typeof Upload>
 
-    @column()
-    declare recordingId?: string
+  @column.dateTime()
+  declare startedAt?: DateTime
 
-    @column()
-    declare transcriptionId?: string
+  @column.dateTime()
+  declare stoppedAt?: DateTime
 
-    @column.dateTime({ autoCreate: true })
-    declare createdAt: DateTime
+  @column.dateTime()
+  declare processedAt?: DateTime
 
-    @column.dateTime({ autoCreate: true, autoUpdate: true })
-    declare updatedAt: DateTime
+  @column.dateTime({ autoCreate: true })
+  declare createdAt: DateTime
+
+  @column.dateTime({ autoCreate: true, autoUpdate: true })
+  declare updatedAt: DateTime
 }

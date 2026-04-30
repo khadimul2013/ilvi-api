@@ -36,7 +36,9 @@
     "#tests/*": "./tests/*.js",
     "#start/*": "./start/*.js",
     "#config/*": "./config/*.js",
-    "#contracts/*": "./contracts/*.js"
+    "#contracts/*": "./contracts/*.js",
+    "#helpers/*": "./app/helpers/*.js",
+    "#types": "./app/types/index.js"
   },
   "devDependencies": {
     "@adonisjs/assembler": "^8.3.0",

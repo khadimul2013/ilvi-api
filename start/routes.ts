@@ -46,26 +46,17 @@ router
 
     router
       .group(() => {
-        router.post('/meetings', [controllers.Meeting, 'store'])
-        router.get('/meetings', [controllers.Meeting, 'index'])
-        router.put('/meetings/:id', [controllers.Meeting, 'update'])
-        router.post('/meetings/upload', [controllers.Meeting, 'uploadAudio'])
+        router.resource('/meetings', 'Meetings').only(['store', 'index', 'update'])
+        router.post('/meetings/:id/uploads', [controllers.Meeting, 'uploadAudio'])
+        //UPLOADS
+        router.resource('uploads', 'Uploads').only(['store', 'index', 'destroy'])
       })
       .use(middleware.auth())
 
-    router.group(() => {
-      router.post('/recordings', [controllers.Recordings, 'store'])
-      router.get('/recordings', [controllers.Recordings, 'index'])
-      router.delete('/recordings/:id', [controllers.Recordings, 'destroy'])
-    }).use(middleware.auth())
-
-    router.group(() => {
-      router.get('/transcriptions', [controllers.Transcriptions, 'index'])
-      router.get('/transcriptions/recording/:recId', [controllers.Transcriptions, 'showByRecording'])
-      router.delete('/transcriptions/:id', [controllers.Transcriptions, 'destroy'])
-    }).use(middleware.auth())
-
+    router
+      .group(() => {
+        router.resource('/transcriptions', 'Transcriptions').only(['index', 'show', 'destroy'])
+      })
+      .use(middleware.auth())
   })
   .prefix('/api/v1')
-
-

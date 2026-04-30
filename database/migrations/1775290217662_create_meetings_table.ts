@@ -1,40 +1,36 @@
+import { MEETING_STATUS } from '#helpers/enum'
 import { BaseSchema } from '@adonisjs/lucid/schema'
 
 export default class extends BaseSchema {
   protected tableName = 'meetings'
 
-  async up() {
+  public async up() {
     this.schema.createTable(this.tableName, (table) => {
-      table.uuid('uuid').primary()
-      table.uuid('tenant_id').notNullable()
+      table.uuid('uuid').primary().notNullable()
+      table.uuid('tenantId').nullable().references('uuid').inTable('tenants').onDelete('CASCADE')
+      table.uuid('createdBy').nullable().references('uuid').inTable('users').onDelete('SET NULL')
+      table.string('title').nullable()
+      table.string('language').notNullable().defaultTo('en')
       table
-        .foreign('tenant_id')
-        .references('uuid')
-        .inTable('tenants')
-        .onDelete('CASCADE')
-      table.string('title').notNullable()
-      table.text('description').nullable()
-
-      table.timestamp('scheduled_at', { useTz: true }).notNullable()
-      table.string('status').notNullable()
-
-      table.uuid('created_by').notNullable()
-      table
-        .foreign('created_by')
-        .references('uuid')
-        .inTable('users')
-        .onDelete('CASCADE')
-
-      // REMOVE these (not needed)
-      // table.uuid('recording_uuid').nullable()
-      // table.uuid('transcription_uuid').nullable()
-
-      table.timestamp('created_at', { useTz: true }).defaultTo(this.now())
-      table.timestamp('updated_at', { useTz: true }).nullable()
+        .enum('status', [
+          MEETING_STATUS.PENDING,
+          MEETING_STATUS.RECORDING,
+          MEETING_STATUS.UPLOADED,
+          MEETING_STATUS.PROCESSING,
+          MEETING_STATUS.COMPLETED,
+          MEETING_STATUS.FAILED,
+        ])
+        .defaultTo(MEETING_STATUS.PENDING)
+      table.integer('duration').nullable()
+      table.timestamp('startedAt', { useTz: true, precision: 6 }).nullable()
+      table.timestamp('stoppedAt', { useTz: true, precision: 6 }).nullable()
+      table.timestamp('processedAt', { useTz: true, precision: 6 }).nullable()
+      table.timestamp('createdAt', { useTz: true, precision: 6 }).defaultTo(this.now(6))
+      table.timestamp('updatedAt', { useTz: true, precision: 6 }).defaultTo(this.now(6))
     })
   }
 
-  async down() {
+  public async down() {
     this.schema.dropTable(this.tableName)
   }
 }

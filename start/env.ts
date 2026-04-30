@@ -25,6 +25,13 @@ export default await Env.create(new URL('../', import.meta.url), {
   // Session
   SESSION_DRIVER: Env.schema.enum(['cookie', 'memory', 'database'] as const),
 
+  // Database
+  DB_HOST: Env.schema.string({ format: 'host' }),
+  DB_PORT: Env.schema.number.optional(),
+  DB_USER: Env.schema.string(),
+  DB_PASSWORD: Env.schema.string.optional(),
+  DB_DATABASE: Env.schema.string(),
+
   // OPEN AI
   OPENAI_API_KEY: Env.schema.string(),
   DEEPGRAM_API_KEY: Env.schema.string(),

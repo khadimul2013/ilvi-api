@@ -5,19 +5,11 @@ export default class extends BaseSchema {
 
   public async up() {
     this.schema.createTable(this.tableName, (table) => {
-      table.uuid('user_id').notNullable()
-      table
-        .foreign('user_id')
-        .references('uuid')
-        .inTable('users')
-        .onDelete('CASCADE')
-      table.uuid('role_id').notNullable()
-      table
-        .foreign('role_id')
-        .references('uuid')
-        .inTable('roles')
-        .onDelete('CASCADE')
-      table.primary(['user_id', 'role_id'])
+      table.uuid('userId').primary()
+      table.foreign('userId').references('uuid').inTable('users').onDelete('CASCADE')
+      table.uuid('roleId').primary()
+      table.foreign('roleId').references('uuid').inTable('roles').onDelete('CASCADE')
+      table.unique(['userId', 'roleId'])
     })
   }
 
