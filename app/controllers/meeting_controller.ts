@@ -1,9 +1,11 @@
 import type { HttpContext } from '@adonisjs/core/http'
 import Meeting from '#models/meeting'
 import Upload from '#models/upload'
-import { uploadToS3 } from '#services/s3_service'
+import drive from '@adonisjs/drive/services/main'
 import { meetingValidator, uploadAudioValidator } from '#validators/meeting'
 import { MEETING_STATUS } from '#helpers/enum'
+import { existsSync } from 'node:fs'
+import { randomUUID } from 'node:crypto'
 
 export default class MeetingsController {
   async store({ request, auth, response }: HttpContext) {
@@ -124,7 +126,19 @@ export default class MeetingsController {
         })
       }
 
-      const { fileKey, fileUrl } = await uploadToS3(file)
+      if (!file.tmpPath || !existsSync(file.tmpPath)) {
+        throw new Error('File not found on server')
+      }
+
+      const fileKey = `uploads/${Date.now()}-${randomUUID()}.${file.extname}`
+      const disk = drive.use('s3')
+
+      await disk.copyFromFs(file.tmpPath, fileKey, {
+        contentType: file.type,
+        visibility: 'public',
+      })
+
+      const fileUrl = await disk.getUrl(fileKey)
 
       const upload = await Upload.create({
         fileName: fileKey,

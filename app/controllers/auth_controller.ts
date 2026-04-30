@@ -12,8 +12,9 @@ import { v4 as uuid } from 'uuid'
 import env from '#start/env'
 import * as jwt from 'jsonwebtoken'
 import hash from '@adonisjs/core/services/hash'
-import MailService from '#services/mail_service'
 import { STATUS } from '#helpers/enum'
+import mail from '@adonisjs/mail/services/main'
+import ResetPasswordNotification from '#mails/reset_password_notification'
 
 export default class AuthController {
   async signup({ request, response }: HttpContext) {
@@ -117,8 +118,7 @@ export default class AuthController {
     })
 
     const resetLink = `http://117.242.148.188:8085/reset-password/${user.uuid}/${token}`
-    // TODO: send email
-    await MailService.sendResetPassword(user.email, user.firstName ?? 'User', resetLink)
+    await mail.send(new ResetPasswordNotification(user.email, user.firstName ?? 'User', resetLink))
     return response.ok({
       data: null,
       message: 'Password reset link sent to your email',
