@@ -26,3 +26,11 @@ export enum TRANSCRIPTION_STATUS {
   COMPLETED = 'COMPLETED',
   FAILED = 'FAILED',
 }
+
+// eslint-disable-next-line @typescript-eslint/naming-convention
+export enum SUMMERY {
+  PENDING = 'PENDING',
+  PROCESSING = 'PROCESSING',
+  COMPLETED = 'COMPLETED',
+  FAILED = 'FAILED',
+}

@@ -58,5 +58,10 @@ router
         router.resource('/transcriptions', 'Transcriptions').only(['index', 'show', 'destroy'])
       })
       .use(middleware.auth())
+
+    router
+      .group(() => {
+        router.resource('/summaries', 'Summaries').only(['store', 'index', 'show', 'destroy'])
+      }).use(middleware.auth())
   })
   .prefix('/api/v1')

@@ -108,6 +108,30 @@ const routes = {
     tokens: [{"old":"/api/v1/transcriptions/:id","type":0,"val":"api","end":""},{"old":"/api/v1/transcriptions/:id","type":0,"val":"v1","end":""},{"old":"/api/v1/transcriptions/:id","type":0,"val":"transcriptions","end":""},{"old":"/api/v1/transcriptions/:id","type":1,"val":"id","end":""}],
     types: placeholder as Registry['transcriptions.destroy']['types'],
   },
+  'summaries.index': {
+    methods: ["GET","HEAD"],
+    pattern: '/api/v1/summaries',
+    tokens: [{"old":"/api/v1/summaries","type":0,"val":"api","end":""},{"old":"/api/v1/summaries","type":0,"val":"v1","end":""},{"old":"/api/v1/summaries","type":0,"val":"summaries","end":""}],
+    types: placeholder as Registry['summaries.index']['types'],
+  },
+  'summaries.store': {
+    methods: ["POST"],
+    pattern: '/api/v1/summaries',
+    tokens: [{"old":"/api/v1/summaries","type":0,"val":"api","end":""},{"old":"/api/v1/summaries","type":0,"val":"v1","end":""},{"old":"/api/v1/summaries","type":0,"val":"summaries","end":""}],
+    types: placeholder as Registry['summaries.store']['types'],
+  },
+  'summaries.show': {
+    methods: ["GET","HEAD"],
+    pattern: '/api/v1/summaries/:id',
+    tokens: [{"old":"/api/v1/summaries/:id","type":0,"val":"api","end":""},{"old":"/api/v1/summaries/:id","type":0,"val":"v1","end":""},{"old":"/api/v1/summaries/:id","type":0,"val":"summaries","end":""},{"old":"/api/v1/summaries/:id","type":1,"val":"id","end":""}],
+    types: placeholder as Registry['summaries.show']['types'],
+  },
+  'summaries.destroy': {
+    methods: ["DELETE"],
+    pattern: '/api/v1/summaries/:id',
+    tokens: [{"old":"/api/v1/summaries/:id","type":0,"val":"api","end":""},{"old":"/api/v1/summaries/:id","type":0,"val":"v1","end":""},{"old":"/api/v1/summaries/:id","type":0,"val":"summaries","end":""},{"old":"/api/v1/summaries/:id","type":1,"val":"id","end":""}],
+    types: placeholder as Registry['summaries.destroy']['types'],
+  },
 } as const satisfies Record<string, AdonisEndpoint>
 
 export { routes }

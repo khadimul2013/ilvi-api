@@ -8,18 +8,7 @@ import { BaseModel, column } from '@adonisjs/lucid/orm'
 import { DateTime } from 'luxon'
 
 export class AuthAccessTokenSchema extends BaseModel {
-  static $columns = [
-    'abilities',
-    'createdAt',
-    'expiresAt',
-    'hash',
-    'id',
-    'lastUsedAt',
-    'name',
-    'tokenableId',
-    'type',
-    'updatedAt',
-  ] as const
+  static $columns = ['abilities', 'createdAt', 'expiresAt', 'hash', 'id', 'lastUsedAt', 'name', 'tokenableId', 'type', 'updatedAt'] as const
   $columns = AuthAccessTokenSchema.$columns
   @column()
   declare abilities: string
@@ -44,20 +33,7 @@ export class AuthAccessTokenSchema extends BaseModel {
 }
 
 export class MeetingSchema extends BaseModel {
-  static $columns = [
-    'createdAt',
-    'createdBy',
-    'duration',
-    'language',
-    'processedAt',
-    'status',
-    'startedAt',
-    'stoppedAt',
-    'tenantId',
-    'title',
-    'updatedAt',
-    'uuid',
-  ] as const
+  static $columns = ['createdAt', 'createdBy', 'duration', 'language', 'processedAt', 'startedAt', 'status', 'stoppedAt', 'tenantId', 'title', 'updatedAt', 'uuid'] as const
   $columns = MeetingSchema.$columns
   @column.dateTime()
   declare createdAt: DateTime | null
@@ -69,10 +45,10 @@ export class MeetingSchema extends BaseModel {
   declare language: string
   @column.dateTime()
   declare processedAt: DateTime | null
-  @column()
-  declare status: string
   @column.dateTime()
   declare startedAt: DateTime | null
+  @column()
+  declare status: string | null
   @column.dateTime()
   declare stoppedAt: DateTime | null
   @column()
@@ -100,54 +76,8 @@ export class ModelHasUploadSchema extends BaseModel {
   declare uploadId: string | null
 }
 
-export class UploadSchema extends BaseModel {
-  static $columns = [
-    'createdAt',
-    'fileName',
-    'filePath',
-    'fileSize',
-    'fileType',
-    'mimeType',
-    'originalName',
-    'updatedAt',
-    'uploadedBy',
-    'uuid',
-  ] as const
-  $columns = UploadSchema.$columns
-  @column.dateTime()
-  declare createdAt: DateTime | null
-  @column()
-  declare fileName: string
-  @column()
-  declare filePath: string
-  @column()
-  declare fileSize: number
-  @column()
-  declare fileType: string
-  @column()
-  declare mimeType: string
-  @column()
-  declare originalName: string
-  @column.dateTime()
-  declare updatedAt: DateTime | null
-  @column()
-  declare uploadedBy: string
-  @column({ isPrimary: true })
-  declare uuid: string
-}
-
 export class RoleSchema extends BaseModel {
-  static $columns = [
-    'createdAt',
-    'description',
-    'name',
-    'predefined',
-    'slug',
-    'status',
-    'tenantId',
-    'updatedAt',
-    'uuid',
-  ] as const
+  static $columns = ['createdAt', 'description', 'name', 'predefined', 'slug', 'status', 'tenantId', 'updatedAt', 'uuid'] as const
   $columns = RoleSchema.$columns
   @column.dateTime()
   declare createdAt: DateTime | null
@@ -169,70 +99,8 @@ export class RoleSchema extends BaseModel {
   declare uuid: string
 }
 
-export class TenantSchema extends BaseModel {
-  static $columns = ['createdAt', 'name', 'status', 'updatedAt', 'uuid'] as const
-  $columns = TenantSchema.$columns
-  @column.dateTime()
-  declare createdAt: DateTime | null
-  @column()
-  declare name: string | null
-  @column()
-  declare status: string | null
-  @column.dateTime()
-  declare updatedAt: DateTime | null
-  @column({ isPrimary: true })
-  declare uuid: string
-}
-
-export class TranscriptionSchema extends BaseModel {
-  static $columns = [
-    'createdAt',
-    'language',
-    'meetingId',
-    'provider',
-    'status',
-    'tenantId',
-    'text',
-    'updatedAt',
-    'uploadId',
-    'uuid',
-  ] as const
-  $columns = TranscriptionSchema.$columns
-  @column.dateTime()
-  declare createdAt: DateTime | null
-  @column()
-  declare language: string
-  @column()
-  declare meetingId: string | null
-  @column()
-  declare provider: string | null
-  @column()
-  declare status: string
-  @column()
-  declare tenantId: string | null
-  @column()
-  declare text: string | null
-  @column.dateTime()
-  declare updatedAt: DateTime | null
-  @column()
-  declare uploadId: string | null
-  @column({ isPrimary: true })
-  declare uuid: string
-}
-
 export class SummarySchema extends BaseModel {
-  static $columns = [
-    'actions',
-    'createdAt',
-    'keyPoints',
-    'meetingId',
-    'provider',
-    'status',
-    'summary',
-    'tenantId',
-    'updatedAt',
-    'uuid',
-  ] as const
+  static $columns = ['actions', 'createdAt', 'keyPoints', 'meetingId', 'provider', 'status', 'summary', 'tenantId', 'updatedAt', 'uuid'] as const
   $columns = SummarySchema.$columns
   @column()
   declare actions: any | null
@@ -256,6 +124,71 @@ export class SummarySchema extends BaseModel {
   declare uuid: string
 }
 
+export class TenantSchema extends BaseModel {
+  static $columns = ['createdAt', 'name', 'status', 'updatedAt', 'uuid'] as const
+  $columns = TenantSchema.$columns
+  @column.dateTime()
+  declare createdAt: DateTime | null
+  @column()
+  declare name: string | null
+  @column()
+  declare status: string | null
+  @column.dateTime()
+  declare updatedAt: DateTime | null
+  @column({ isPrimary: true })
+  declare uuid: string
+}
+
+export class TranscriptionSchema extends BaseModel {
+  static $columns = ['createdAt', 'language', 'meetingId', 'provider', 'status', 'tenantId', 'text', 'updatedAt', 'uploadId', 'uuid'] as const
+  $columns = TranscriptionSchema.$columns
+  @column.dateTime()
+  declare createdAt: DateTime | null
+  @column()
+  declare language: string
+  @column()
+  declare meetingId: string | null
+  @column()
+  declare provider: string | null
+  @column()
+  declare status: string | null
+  @column()
+  declare tenantId: string | null
+  @column()
+  declare text: string | null
+  @column.dateTime()
+  declare updatedAt: DateTime | null
+  @column()
+  declare uploadId: string | null
+  @column({ isPrimary: true })
+  declare uuid: string
+}
+
+export class UploadSchema extends BaseModel {
+  static $columns = ['createdAt', 'fileName', 'filePath', 'fileSize', 'fileType', 'mimeType', 'originalName', 'updatedAt', 'uploadedBy', 'uuid'] as const
+  $columns = UploadSchema.$columns
+  @column.dateTime()
+  declare createdAt: DateTime | null
+  @column()
+  declare fileName: string
+  @column()
+  declare filePath: string
+  @column()
+  declare fileSize: number
+  @column()
+  declare fileType: string
+  @column()
+  declare mimeType: string
+  @column()
+  declare originalName: string
+  @column.dateTime()
+  declare updatedAt: DateTime | null
+  @column()
+  declare uploadedBy: string
+  @column({ isPrimary: true })
+  declare uuid: string
+}
+
 export class UserHasRoleSchema extends BaseModel {
   static $columns = ['roleId', 'userId'] as const
   $columns = UserHasRoleSchema.$columns
@@ -266,22 +199,7 @@ export class UserHasRoleSchema extends BaseModel {
 }
 
 export class UserSchema extends BaseModel {
-  static $columns = [
-    'color',
-    'companyName',
-    'createdAt',
-    'email',
-    'firstName',
-    'lastName',
-    'locale',
-    'password',
-    'phone',
-    'status',
-    'tenantId',
-    'updatedAt',
-    'uuid',
-    'verified',
-  ] as const
+  static $columns = ['color', 'companyName', 'createdAt', 'email', 'firstName', 'lastName', 'locale', 'password', 'phone', 'status', 'tenantId', 'updatedAt', 'uuid', 'verified'] as const
   $columns = UserSchema.$columns
   @column()
   declare color: string

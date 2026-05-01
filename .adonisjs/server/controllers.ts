@@ -9,4 +9,5 @@ export const controllers = {
   Profile: () => import('#controllers/profile_controller'),
   Transcriptions: () => import('#controllers/transcriptions_controller'),
   Uploads: () => import('#controllers/uploads_controller'),
+  Summery: () => import('#controllers/summery_controller'),
 }

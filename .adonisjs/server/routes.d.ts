@@ -21,6 +21,10 @@ export type ScannedRoutes = {
     'transcriptions.index': { paramsTuple?: []; params?: {} }
     'transcriptions.show': { paramsTuple: [ParamValue]; params: {'id': ParamValue} }
     'transcriptions.destroy': { paramsTuple: [ParamValue]; params: {'id': ParamValue} }
+    'summaries.index': { paramsTuple?: []; params?: {} }
+    'summaries.store': { paramsTuple?: []; params?: {} }
+    'summaries.show': { paramsTuple: [ParamValue]; params: {'id': ParamValue} }
+    'summaries.destroy': { paramsTuple: [ParamValue]; params: {'id': ParamValue} }
   }
   GET: {
     'profile.profile.show': { paramsTuple?: []; params?: {} }
@@ -28,6 +32,8 @@ export type ScannedRoutes = {
     'uploads.index': { paramsTuple?: []; params?: {} }
     'transcriptions.index': { paramsTuple?: []; params?: {} }
     'transcriptions.show': { paramsTuple: [ParamValue]; params: {'id': ParamValue} }
+    'summaries.index': { paramsTuple?: []; params?: {} }
+    'summaries.show': { paramsTuple: [ParamValue]; params: {'id': ParamValue} }
   }
   HEAD: {
     'profile.profile.show': { paramsTuple?: []; params?: {} }
@@ -35,6 +41,8 @@ export type ScannedRoutes = {
     'uploads.index': { paramsTuple?: []; params?: {} }
     'transcriptions.index': { paramsTuple?: []; params?: {} }
     'transcriptions.show': { paramsTuple: [ParamValue]; params: {'id': ParamValue} }
+    'summaries.index': { paramsTuple?: []; params?: {} }
+    'summaries.show': { paramsTuple: [ParamValue]; params: {'id': ParamValue} }
   }
   POST: {
     'auth.auth.signup': { paramsTuple?: []; params?: {} }
@@ -46,6 +54,7 @@ export type ScannedRoutes = {
     'meetings.store': { paramsTuple?: []; params?: {} }
     'meeting.upload_audio': { paramsTuple: [ParamValue]; params: {'id': ParamValue} }
     'uploads.store': { paramsTuple?: []; params?: {} }
+    'summaries.store': { paramsTuple?: []; params?: {} }
   }
   PUT: {
     'meetings.update': { paramsTuple: [ParamValue]; params: {'id': ParamValue} }
@@ -56,6 +65,7 @@ export type ScannedRoutes = {
   DELETE: {
     'uploads.destroy': { paramsTuple: [ParamValue]; params: {'id': ParamValue} }
     'transcriptions.destroy': { paramsTuple: [ParamValue]; params: {'id': ParamValue} }
+    'summaries.destroy': { paramsTuple: [ParamValue]; params: {'id': ParamValue} }
   }
 }
 declare module '@adonisjs/core/types/http' {

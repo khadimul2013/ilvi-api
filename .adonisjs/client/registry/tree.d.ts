@@ -35,4 +35,10 @@ export interface ApiDefinition {
     show: typeof routes['transcriptions.show']
     destroy: typeof routes['transcriptions.destroy']
   }
+  summaries: {
+    index: typeof routes['summaries.index']
+    store: typeof routes['summaries.store']
+    show: typeof routes['summaries.show']
+    destroy: typeof routes['summaries.destroy']
+  }
 }
