@@ -8,7 +8,10 @@ export default class UploadsController {
   async store({ request, auth, response }: HttpContext) {
     try {
       const user = auth.user!
+      console.log(`📁 Handling file upload for user: ${user}`);
+
       const file = request.file('file') ?? request.file('audio')
+      console.log(`📁 Received file: ${file?.clientName}, size: ${file?.size}, type: ${file?.type}`);
 
       if (!file || !file.isValid) {
         return response.badRequest({
@@ -24,6 +27,7 @@ export default class UploadsController {
       }
 
       const fileKey = `uploads/${Date.now()}-${randomUUID()}.${file.extname}`
+      console.log(`📁 Uploading file to S3 with key: ${fileKey}`);
       const disk = drive.use('s3')
 
       await disk.copyFromFs(file.tmpPath, fileKey, {
@@ -32,6 +36,7 @@ export default class UploadsController {
       })
 
       const fileUrl = await disk.getUrl(fileKey)
+      console.log(`📁 File uploaded to S3 with key: ${fileKey}, URL: ${fileUrl}`);
 
       const upload = await Upload.create({
         fileName: fileKey,

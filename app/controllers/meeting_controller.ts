@@ -28,8 +28,11 @@ export default class MeetingsController {
     })
   }
 
-  async index({ auth, response }: HttpContext) {
+  async index({ request, auth, response }: HttpContext) {
     const user = auth.user!
+    const page = request.input('page', 1)
+    const limit = request.input('limit', 10)
+
     const meetings = await Meeting.query()
       .where('tenantId', user.tenantId)
       .where('createdBy', user.uuid)
@@ -37,9 +40,13 @@ export default class MeetingsController {
       .preload('transcriptions')
       .preload('summary')
       .orderBy('createdAt', 'desc')
+      .paginate(page, limit)
 
     return response.ok({
-      data: meetings,
+      data: {
+        items: meetings.all(),
+        meta: meetings.getMeta()
+      },
       message: 'Meetings retrieved successfully',
       success: true,
       status: 200,

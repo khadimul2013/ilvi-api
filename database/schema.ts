@@ -12,7 +12,7 @@ export class AuthAccessTokenSchema extends BaseModel {
   $columns = AuthAccessTokenSchema.$columns
   @column()
   declare abilities: string
-  @column.dateTime()
+  @column.dateTime({ autoCreate: true })
   declare createdAt: DateTime | null
   @column.dateTime()
   declare expiresAt: DateTime | null
@@ -28,7 +28,7 @@ export class AuthAccessTokenSchema extends BaseModel {
   declare tokenableId: string
   @column()
   declare type: string
-  @column.dateTime()
+  @column.dateTime({ autoCreate: true, autoUpdate: true })
   declare updatedAt: DateTime | null
 }
 

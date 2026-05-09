@@ -14,7 +14,6 @@ export type ScannedRoutes = {
     'meetings.index': { paramsTuple?: []; params?: {} }
     'meetings.store': { paramsTuple?: []; params?: {} }
     'meetings.update': { paramsTuple: [ParamValue]; params: {'id': ParamValue} }
-    'meeting.upload_audio': { paramsTuple: [ParamValue]; params: {'id': ParamValue} }
     'uploads.index': { paramsTuple?: []; params?: {} }
     'uploads.store': { paramsTuple?: []; params?: {} }
     'uploads.destroy': { paramsTuple: [ParamValue]; params: {'id': ParamValue} }
@@ -52,7 +51,6 @@ export type ScannedRoutes = {
     'auth.destroy': { paramsTuple?: []; params?: {} }
     'auth.change_password': { paramsTuple?: []; params?: {} }
     'meetings.store': { paramsTuple?: []; params?: {} }
-    'meeting.upload_audio': { paramsTuple: [ParamValue]; params: {'id': ParamValue} }
     'uploads.store': { paramsTuple?: []; params?: {} }
     'summaries.store': { paramsTuple?: []; params?: {} }
   }

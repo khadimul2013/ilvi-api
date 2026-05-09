@@ -4,7 +4,7 @@ import Upload from '#models/upload'
 import Summary from '#models/summary'
 
 export default class TranscriptionsController {
-  async showByUpload({ params, auth, response }: HttpContext) {
+  async show({ params, auth, response }: HttpContext) {
     try {
       const user = auth.user!
       const uploadId = params.uploadId
@@ -77,6 +77,8 @@ export default class TranscriptionsController {
   async index({ auth, request, response }: HttpContext) {
     try {
       const user = auth.user!
+      console.log("USER:", user)
+      console.log("TENANT:", user.tenantId)
 
       const page = request.input('page', 1)
       const limit = request.input('limit', 10)

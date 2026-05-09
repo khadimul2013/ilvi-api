@@ -46,22 +46,22 @@ router
 
     router
       .group(() => {
-        router.resource('/meetings', 'Meetings').only(['store', 'index', 'update'])
-        router.post('/meetings/:id/uploads', [controllers.Meeting, 'uploadAudio'])
+        router.resource('/meetings', controllers.Meeting).only(['store', 'index', 'update'])
+        // router.post('/meetings/:id/uploads', [controllers.Meeting, 'uploadAudio'])
         //UPLOADS
-        router.resource('uploads', 'Uploads').only(['store', 'index', 'destroy'])
+        router.resource('uploads', controllers.Uploads).only(['store', 'index', 'destroy'])
       })
       .use(middleware.auth())
 
     router
       .group(() => {
-        router.resource('/transcriptions', 'Transcriptions').only(['index', 'show', 'destroy'])
+        router.resource('/transcriptions', controllers.Transcriptions).only(['index', 'show', 'destroy'])
       })
       .use(middleware.auth())
 
     router
       .group(() => {
-        router.resource('/summaries', 'Summaries').only(['store', 'index', 'show', 'destroy'])
+        router.resource('/summaries', controllers.Summery).only(['store', 'index', 'show', 'destroy'])
       }).use(middleware.auth())
   })
   .prefix('/api/v1')

@@ -59,4 +59,7 @@ export default await Env.create(new URL('../', import.meta.url), {
 
   // GROQ
   GROQ_API_KEY: Env.schema.string(),
+
+  // JWT
+  JWT_SECRET: Env.schema.string(),
 })

@@ -10,20 +10,25 @@ class AIService {
   public async processTranscript(transcript: string): Promise<AI> {
     try {
       const prompt = `
-                You are an AI meeting assistant.
+          You are an AI meeting assistant.
 
-                Analyze the transcript and return ONLY valid JSON.
+          Return ONLY valid JSON.
+          DO NOT add markdown.
+          DO NOT add explanations.
+          DO NOT wrap in \`\`\`.
 
-                FORMAT:
-                {
-                "summary": "max 5 sentences",
-                "actions": ["action 1", "action 2"],
-                "key_points": ["point 1", "point 2"]
-                }
+          STRICT FORMAT:
+          {
+            "summary": "max 5 sentences",
+            "actions": ["action 1", "action 2"],
+            "key_points": ["point 1", "point 2"]
+          }
 
-                Transcript:
-                ${transcript}
-            `
+          If no data, return empty arrays.
+
+          Transcript:
+          ${transcript}
+        `
 
       const response = await groq.chat.completions.create({
         model: 'llama-3.3-70b-versatile',

@@ -66,12 +66,6 @@ const routes = {
     tokens: [{"old":"/api/v1/meetings/:id","type":0,"val":"api","end":""},{"old":"/api/v1/meetings/:id","type":0,"val":"v1","end":""},{"old":"/api/v1/meetings/:id","type":0,"val":"meetings","end":""},{"old":"/api/v1/meetings/:id","type":1,"val":"id","end":""}],
     types: placeholder as Registry['meetings.update']['types'],
   },
-  'meeting.upload_audio': {
-    methods: ["POST"],
-    pattern: '/api/v1/meetings/:id/uploads',
-    tokens: [{"old":"/api/v1/meetings/:id/uploads","type":0,"val":"api","end":""},{"old":"/api/v1/meetings/:id/uploads","type":0,"val":"v1","end":""},{"old":"/api/v1/meetings/:id/uploads","type":0,"val":"meetings","end":""},{"old":"/api/v1/meetings/:id/uploads","type":1,"val":"id","end":""},{"old":"/api/v1/meetings/:id/uploads","type":0,"val":"uploads","end":""}],
-    types: placeholder as Registry['meeting.upload_audio']['types'],
-  },
   'uploads.index': {
     methods: ["GET","HEAD"],
     pattern: '/api/v1/uploads',

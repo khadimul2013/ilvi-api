@@ -22,9 +22,6 @@ export interface ApiDefinition {
     store: typeof routes['meetings.store']
     update: typeof routes['meetings.update']
   }
-  meeting: {
-    uploadAudio: typeof routes['meeting.upload_audio']
-  }
   uploads: {
     index: typeof routes['uploads.index']
     store: typeof routes['uploads.store']

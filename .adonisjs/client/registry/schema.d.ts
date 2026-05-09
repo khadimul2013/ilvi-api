@@ -99,44 +99,32 @@ export interface Registry {
       paramsTuple: []
       params: {}
       query: {}
-      response: unknown
-      errorResponse: unknown
+      response: ExtractResponse<Awaited<ReturnType<import('#controllers/meeting_controller').default['index']>>>
+      errorResponse: ExtractErrorResponse<Awaited<ReturnType<import('#controllers/meeting_controller').default['index']>>>
     }
   }
   'meetings.store': {
     methods: ["POST"]
     pattern: '/api/v1/meetings'
     types: {
-      body: {}
+      body: ExtractBody<InferInput<(typeof import('#validators/meeting').meetingValidator)>>
       paramsTuple: []
       params: {}
-      query: {}
-      response: unknown
-      errorResponse: unknown
+      query: ExtractQuery<InferInput<(typeof import('#validators/meeting').meetingValidator)>>
+      response: ExtractResponse<Awaited<ReturnType<import('#controllers/meeting_controller').default['store']>>>
+      errorResponse: ExtractErrorResponse<Awaited<ReturnType<import('#controllers/meeting_controller').default['store']>>> | { status: 422; response: { errors: SimpleError[] } }
     }
   }
   'meetings.update': {
     methods: ["PUT","PATCH"]
     pattern: '/api/v1/meetings/:id'
     types: {
-      body: {}
+      body: ExtractBody<InferInput<(typeof import('#validators/meeting').meetingValidator)>>
       paramsTuple: [ParamValue]
       params: { id: ParamValue }
-      query: {}
-      response: unknown
-      errorResponse: unknown
-    }
-  }
-  'meeting.upload_audio': {
-    methods: ["POST"]
-    pattern: '/api/v1/meetings/:id/uploads'
-    types: {
-      body: ExtractBody<InferInput<(typeof import('#validators/meeting').uploadAudioValidator)>>
-      paramsTuple: [ParamValue]
-      params: { id: ParamValue }
-      query: ExtractQuery<InferInput<(typeof import('#validators/meeting').uploadAudioValidator)>>
-      response: ExtractResponse<Awaited<ReturnType<import('#controllers/meeting_controller').default['uploadAudio']>>>
-      errorResponse: ExtractErrorResponse<Awaited<ReturnType<import('#controllers/meeting_controller').default['uploadAudio']>>> | { status: 422; response: { errors: SimpleError[] } }
+      query: ExtractQuery<InferInput<(typeof import('#validators/meeting').meetingValidator)>>
+      response: ExtractResponse<Awaited<ReturnType<import('#controllers/meeting_controller').default['update']>>>
+      errorResponse: ExtractErrorResponse<Awaited<ReturnType<import('#controllers/meeting_controller').default['update']>>> | { status: 422; response: { errors: SimpleError[] } }
     }
   }
   'uploads.index': {
@@ -147,8 +135,8 @@ export interface Registry {
       paramsTuple: []
       params: {}
       query: {}
-      response: unknown
-      errorResponse: unknown
+      response: ExtractResponse<Awaited<ReturnType<import('#controllers/uploads_controller').default['index']>>>
+      errorResponse: ExtractErrorResponse<Awaited<ReturnType<import('#controllers/uploads_controller').default['index']>>>
     }
   }
   'uploads.store': {
@@ -159,8 +147,8 @@ export interface Registry {
       paramsTuple: []
       params: {}
       query: {}
-      response: unknown
-      errorResponse: unknown
+      response: ExtractResponse<Awaited<ReturnType<import('#controllers/uploads_controller').default['store']>>>
+      errorResponse: ExtractErrorResponse<Awaited<ReturnType<import('#controllers/uploads_controller').default['store']>>>
     }
   }
   'uploads.destroy': {
@@ -171,8 +159,8 @@ export interface Registry {
       paramsTuple: [ParamValue]
       params: { id: ParamValue }
       query: {}
-      response: unknown
-      errorResponse: unknown
+      response: ExtractResponse<Awaited<ReturnType<import('#controllers/uploads_controller').default['destroy']>>>
+      errorResponse: ExtractErrorResponse<Awaited<ReturnType<import('#controllers/uploads_controller').default['destroy']>>>
     }
   }
   'transcriptions.index': {
@@ -183,8 +171,8 @@ export interface Registry {
       paramsTuple: []
       params: {}
       query: {}
-      response: unknown
-      errorResponse: unknown
+      response: ExtractResponse<Awaited<ReturnType<import('#controllers/transcriptions_controller').default['index']>>>
+      errorResponse: ExtractErrorResponse<Awaited<ReturnType<import('#controllers/transcriptions_controller').default['index']>>>
     }
   }
   'transcriptions.show': {
@@ -195,8 +183,8 @@ export interface Registry {
       paramsTuple: [ParamValue]
       params: { id: ParamValue }
       query: {}
-      response: unknown
-      errorResponse: unknown
+      response: ExtractResponse<Awaited<ReturnType<import('#controllers/transcriptions_controller').default['show']>>>
+      errorResponse: ExtractErrorResponse<Awaited<ReturnType<import('#controllers/transcriptions_controller').default['show']>>>
     }
   }
   'transcriptions.destroy': {
@@ -207,8 +195,8 @@ export interface Registry {
       paramsTuple: [ParamValue]
       params: { id: ParamValue }
       query: {}
-      response: unknown
-      errorResponse: unknown
+      response: ExtractResponse<Awaited<ReturnType<import('#controllers/transcriptions_controller').default['destroy']>>>
+      errorResponse: ExtractErrorResponse<Awaited<ReturnType<import('#controllers/transcriptions_controller').default['destroy']>>>
     }
   }
   'summaries.index': {
@@ -219,8 +207,8 @@ export interface Registry {
       paramsTuple: []
       params: {}
       query: {}
-      response: unknown
-      errorResponse: unknown
+      response: ExtractResponse<Awaited<ReturnType<import('#controllers/summery_controller').default['index']>>>
+      errorResponse: ExtractErrorResponse<Awaited<ReturnType<import('#controllers/summery_controller').default['index']>>>
     }
   }
   'summaries.store': {
@@ -231,8 +219,8 @@ export interface Registry {
       paramsTuple: []
       params: {}
       query: {}
-      response: unknown
-      errorResponse: unknown
+      response: ExtractResponse<Awaited<ReturnType<import('#controllers/summery_controller').default['store']>>>
+      errorResponse: ExtractErrorResponse<Awaited<ReturnType<import('#controllers/summery_controller').default['store']>>>
     }
   }
   'summaries.show': {
@@ -243,8 +231,8 @@ export interface Registry {
       paramsTuple: [ParamValue]
       params: { id: ParamValue }
       query: {}
-      response: unknown
-      errorResponse: unknown
+      response: ExtractResponse<Awaited<ReturnType<import('#controllers/summery_controller').default['show']>>>
+      errorResponse: ExtractErrorResponse<Awaited<ReturnType<import('#controllers/summery_controller').default['show']>>>
     }
   }
   'summaries.destroy': {
@@ -255,8 +243,8 @@ export interface Registry {
       paramsTuple: [ParamValue]
       params: { id: ParamValue }
       query: {}
-      response: unknown
-      errorResponse: unknown
+      response: ExtractResponse<Awaited<ReturnType<import('#controllers/summery_controller').default['destroy']>>>
+      errorResponse: ExtractErrorResponse<Awaited<ReturnType<import('#controllers/summery_controller').default['destroy']>>>
     }
   }
 }

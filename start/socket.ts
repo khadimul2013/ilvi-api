@@ -4,66 +4,125 @@ import AIService from '#services/ai_service'
 import deepgramService from '#helpers/deepgram'
 import Summary from '#models/summary'
 import Transcription from '#models/transcription'
-import Upload from '#models/upload'
 import User from '#models/user'
 import { MEETING_STATUS, TRANSCRIPTION_STATUS } from '#helpers/enum'
 import type { DeepgramSession } from '#helpers/deepgram'
+import Meeting from '#models/meeting'
+import { AI } from '#types'
 
 type MeetingSession = {
   meetingId: string
-  uploadId: string
   deepgram: DeepgramSession
 }
 
-const persistTranscriptResult = async (meetingId: string, uploadId: string, transcript: string) => {
-  const aiResult = await AIService.processTranscript(transcript)
-  const upload = await Upload.findBy('uuid', uploadId)
+const persistTranscriptResult = async (
+  meetingId: string,
+  transcript: string
+) => {
+  try {
+    console.log('Persisting transcript for meeting:', meetingId)
 
-  if (!upload) {
-    throw new Error('Upload not found')
-  }
+    const meeting = await Meeting.find(meetingId)
 
-  const uploader = await User.find(upload.uploadedBy)
-
-  if (!uploader) {
-    throw new Error('Upload owner not found')
-  }
-
-  await Transcription.create({
-    tenantId: uploader.tenantId,
-    meetingId,
-    uploadId: upload.uuid,
-    text: transcript,
-    status: TRANSCRIPTION_STATUS.COMPLETED,
-    language: 'en',
-    provider: 'deepgram',
-  })
-
-  await Summary.updateOrCreate(
-    { meetingId },
-    {
-      tenantId: uploader.tenantId,
-      meetingId,
-      summary: aiResult.summary,
-      actions: aiResult.actions || [],
-      keyPoints: aiResult.key_points || [],
-      provider: 'gemini',
-      status: TRANSCRIPTION_STATUS.COMPLETED,
+    if (!meeting) {
+      console.error('Meeting not found:', meetingId)
+      return {
+        transcription: null,
+        ai: {
+          summary: '',
+          actions: [],
+          key_points: [],
+        },
+      }
     }
-  )
 
-  return aiResult
+    const user = await User.find(meeting.createdBy)
+
+    if (!user) {
+      console.error('User not found:', meeting.createdBy)
+      return {
+        transcription: null,
+        ai: {
+          summary: '',
+          actions: [],
+          key_points: [],
+        },
+      }
+    }
+
+    // Save transcription FIRST
+    const trans = await Transcription.create({
+      tenantId: meeting.tenantId,
+      meetingId,
+      text: transcript,
+      status: TRANSCRIPTION_STATUS.COMPLETED,
+      language: 'en',
+      provider: 'deepgram',
+    })
+
+    console.log('Transcription saved:', trans.uuid)
+
+    // AI processing (safe)
+    let aiResult: AI = {
+      summary: '',
+      actions: [],
+      key_points: [],
+    }
+
+    try {
+      aiResult = await AIService.processTranscript(transcript)
+      console.log('AI Result:', aiResult)
+    } catch (err) {
+      console.error('AI failed:', err)
+    }
+
+    //3. Save summary (never fail app)
+    try {
+      await Summary.updateOrCreate(
+        { meetingId },
+        {
+          tenantId: meeting.tenantId,
+          meetingId,
+          summary: aiResult.summary,
+          actions: aiResult.actions || [],
+          keyPoints: aiResult.key_points || [],
+          provider: 'gemini',
+          status: TRANSCRIPTION_STATUS.COMPLETED,
+        }
+      )
+
+      console.log('Summary saved')
+    } catch (err) {
+      console.error('Summary save failed:', err)
+    }
+
+    return {
+      transcription: trans,
+      ai: aiResult,
+    }
+  } catch (error) {
+    console.error('Persist error:', error)
+
+    return {
+      transcription: null,
+      ai: {
+        summary: '',
+        actions: [],
+        key_points: [],
+      },
+    }
+  }
 }
 
 const registerSocketHandlers = (io: Server) => {
   io.on('connection', (socket: Socket) => {
     const sessions = new Map<string, MeetingSession>()
 
-    socket.on('start-transcription', async ({ meetingId, uploadId }) => {
+    socket.on('start-transcription', async ({ meetingId }) => {
       try {
-        if (!meetingId || !uploadId) {
+        if (!meetingId) {
           socket.emit('transcription-error', {
-            message: 'meetingId and uploadId are required',
+            message: 'meetingId is required',
           })
           return
         }
@@ -92,13 +151,11 @@ const registerSocketHandlers = (io: Server) => {
 
         sessions.set(meetingId, {
           meetingId,
-          uploadId,
           deepgram,
         })
 
         io.to(meetingId).emit('transcription-started', {
           meetingId,
-          uploadId,
           status: MEETING_STATUS.RECORDING,
         })
       } catch (error) {
@@ -130,7 +187,7 @@ const registerSocketHandlers = (io: Server) => {
       if (!session) {
         socket.emit('transcription-error', {
           meetingId,
-          message: 'No active transcription session for meeting',
+          message: 'No active session',
         })
         return
       }
@@ -149,23 +206,22 @@ const registerSocketHandlers = (io: Server) => {
           return
         }
 
-        const aiResult = await persistTranscriptResult(
+        const result = await persistTranscriptResult(
           session.meetingId,
-          session.uploadId,
           transcript
         )
 
-        io.to(meetingId).emit('ai-result', {
+        // ALWAYS SAFE RESPONSE
+        io.to(meetingId).emit('transcriptions', {
           meetingId,
-          uploadId: session.uploadId,
-          ...aiResult,
-          transcript,
+          transcript: result?.transcription,
+          ai: result?.ai,
         })
       } catch (error) {
         console.error(error)
         socket.emit('transcription-error', {
           meetingId,
-          message: 'Unable to process transcription',
+          message: 'Processing failed',
         })
       }
     })

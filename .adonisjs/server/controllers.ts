@@ -7,7 +7,7 @@ export const controllers = {
   Auth: () => import('#controllers/auth_controller'),
   Meeting: () => import('#controllers/meeting_controller'),
   Profile: () => import('#controllers/profile_controller'),
+  Summery: () => import('#controllers/summery_controller'),
   Transcriptions: () => import('#controllers/transcriptions_controller'),
   Uploads: () => import('#controllers/uploads_controller'),
-  Summery: () => import('#controllers/summery_controller'),
 }
