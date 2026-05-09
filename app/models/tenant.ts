@@ -16,8 +16,6 @@ export default class Tenant extends BaseModel {
   @column()
   declare status: STATUS
 
-  @column()
-  declare tenantId: string
   @hasMany(() => User, {
     foreignKey: 'tenantId',
   })
