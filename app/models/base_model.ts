@@ -1,7 +1,6 @@
 import { CamelCaseNamingStrategy } from '#helpers/camel_case_naming_strategy'
 import { BaseModel as LucidBaseModel, beforeCreate, column } from '@adonisjs/lucid/orm'
 import { v4 as uuid } from 'uuid'
-
 export default class BaseModel extends LucidBaseModel {
   public static namingStrategy = new CamelCaseNamingStrategy()
   public primaryKey = 'uuid'

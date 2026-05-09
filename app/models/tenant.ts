@@ -16,8 +16,6 @@ export default class Tenant extends BaseModel {
   @column()
   declare status: STATUS
 
-  // @column()
-  // declare tenantId: string
   @hasMany(() => User, {
     foreignKey: 'tenantId',
   })
@@ -28,7 +26,7 @@ export default class Tenant extends BaseModel {
   })
   declare meetings: HasMany<typeof Meeting>
 
-  @column.dateTime({ autoCreate: true, })
+  @column.dateTime({ autoCreate: true })
   declare createdAt: DateTime
 
   @column.dateTime({ autoCreate: true, autoUpdate: true })

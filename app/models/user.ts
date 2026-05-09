@@ -1,27 +1,17 @@
 import { DateTime } from 'luxon'
-import { column, beforeSave, belongsTo } from '@adonisjs/lucid/orm'
-import type { BelongsTo } from '@adonisjs/lucid/types/relations'
 import hash from '@adonisjs/core/services/hash'
 import { type AccessToken, DbAccessTokensProvider } from '@adonisjs/auth/access_tokens'
+import { beforeSave, column } from '@adonisjs/lucid/orm'
 import { errors } from '@adonisjs/auth'
 import BaseModel from './base_model.js'
-import Tenant from './tenant.js'
 import { STATUS } from '#helpers/enum'
 
 export default class User extends BaseModel {
   static accessTokens = DbAccessTokensProvider.forModel(User)
   declare currentAccessToken?: AccessToken
 
-  @column({ isPrimary: true })
-  declare uuid: string
-
   @column()
   declare tenantId: string
-
-  @belongsTo(() => Tenant, {
-    foreignKey: 'tenantId',
-  })
-  declare tenant: BelongsTo<typeof Tenant>
 
   @column()
   declare companyName: string | null
@@ -41,7 +31,7 @@ export default class User extends BaseModel {
   @column()
   declare email: string
 
-  @column()
+  @column({ serializeAs: null })
   declare password: string | null
 
   @column()
@@ -53,17 +43,10 @@ export default class User extends BaseModel {
   @column()
   declare verified: boolean
 
-  @column.dateTime({
-    autoCreate: true,
-    columnName: 'createdAt',
-  })
+  @column.dateTime({ autoCreate: true })
   declare createdAt: DateTime
 
-  @column.dateTime({
-    autoCreate: true,
-    autoUpdate: true,
-    columnName: 'updatedAt',
-  })
+  @column.dateTime({ autoCreate: true, autoUpdate: true })
   declare updatedAt: DateTime
 
   @beforeSave()
