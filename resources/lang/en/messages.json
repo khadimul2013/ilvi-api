@@ -1,0 +1,27 @@
+{
+    "success": {
+        "default": "Successfully done.",
+        "created": "{model} successfully created.",
+        "updated": "{model} successfully updated.",
+        "deleted": "{model} successfully deleted.",
+        "retrieved": "{model} retrieved successfully.",
+        "uploaded": "{model} uploaded successfully.",
+        "loggedIn": "{model} logged in successfully.",
+        "loggedOut": "{model} logged out successfully.",
+        "feedback": "Thank you for your feedback.",
+        "message": "Message successfully sent."
+    },
+    "error": {
+        "created": "Failed to create {model}.",
+        "updated": "Failed to update {model}.",
+        "deleted": "Failed to delete {model}.",
+        "alreadyExists": "{model} already exists.",
+        "notFound": "{model} not found.",
+        "invalid": "Invalid {model}.",
+        "unauthorized": "You are not authorized to access this {model}.",
+        "message": "Please fill all required fields.",
+        "permission": "You do not have permission to perform this action.",
+        "invalidCredentials": "Invalid email or password.",
+        "subscriptionRequired": "Free limit exceeded. Please subscribe."
+    }
+}

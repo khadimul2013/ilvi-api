@@ -15,6 +15,8 @@ export interface ApiDefinition {
   profile: {
     profile: {
       show: typeof routes['profile.profile.show']
+      update: typeof routes['profile.profile.update']
+      destroy: typeof routes['profile.profile.destroy']
     }
   }
   meetings: {

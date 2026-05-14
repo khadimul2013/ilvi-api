@@ -99,6 +99,27 @@ export class RoleSchema extends BaseModel {
   declare uuid: string
 }
 
+export class SubscriptionSchema extends BaseModel {
+  static $columns = ['createdAt', 'isSubscribed', 'stripeCustomerId', 'stripeSubscriptionId', 'subscriptionExpiresAt', 'updatedAt', 'userId', 'uuid'] as const
+  $columns = SubscriptionSchema.$columns
+  @column.dateTime()
+  declare createdAt: DateTime | null
+  @column()
+  declare isSubscribed: boolean | null
+  @column()
+  declare stripeCustomerId: string | null
+  @column()
+  declare stripeSubscriptionId: string | null
+  @column.dateTime()
+  declare subscriptionExpiresAt: DateTime | null
+  @column.dateTime()
+  declare updatedAt: DateTime | null
+  @column()
+  declare userId: string | null
+  @column({ isPrimary: true })
+  declare uuid: string
+}
+
 export class SummarySchema extends BaseModel {
   static $columns = ['actions', 'createdAt', 'keyPoints', 'meetingId', 'provider', 'status', 'summary', 'tenantId', 'updatedAt', 'uuid'] as const
   $columns = SummarySchema.$columns

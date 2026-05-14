@@ -3,54 +3,72 @@ import Upload from '#models/upload'
 import drive from '@adonisjs/drive/services/main'
 import { existsSync } from 'node:fs'
 import { randomUUID } from 'node:crypto'
+import { readFile } from 'node:fs/promises'
+import Meeting from '#models/meeting'
 
 export default class UploadsController {
-  async store({ request, auth, response }: HttpContext) {
+  async store({ request, auth, response, i18n }: HttpContext) {
     try {
       const user = auth.user!
-      console.log(`📁 Handling file upload for user: ${user}`);
-
       const file = request.file('file') ?? request.file('audio')
-      console.log(`📁 Received file: ${file?.clientName}, size: ${file?.size}, type: ${file?.type}`);
 
       if (!file || !file.isValid) {
         return response.badRequest({
           data: null,
-          message: 'Invalid file upload',
+          message: i18n.formatMessage('messages.error.invalidFile'),
           success: false,
           status: 400,
         })
       }
 
       if (!file.tmpPath || !existsSync(file.tmpPath)) {
-        throw new Error('File not found on server')
+        return response.badRequest({
+          data: null,
+          message: i18n.formatMessage('messages.error.fileNotFound'),
+          success: false,
+          status: 400,
+        })
       }
 
-      const fileKey = `uploads/${Date.now()}-${randomUUID()}.${file.extname}`
-      console.log(`📁 Uploading file to S3 with key: ${fileKey}`);
+      const fileKey = `uploads/${Date.now()}-${randomUUID()}.webm`
       const disk = drive.use('s3')
-
-      await disk.copyFromFs(file.tmpPath, fileKey, {
-        contentType: file.type,
-        visibility: 'public',
-      })
+      await disk.put(
+        fileKey,
+        await readFile(file.tmpPath),
+        {
+          contentType: 'audio/webm',
+        }
+      )
 
       const fileUrl = await disk.getUrl(fileKey)
-      console.log(`📁 File uploaded to S3 with key: ${fileKey}, URL: ${fileUrl}`);
 
       const upload = await Upload.create({
         fileName: fileKey,
         originalName: file.clientName,
-        mimeType: file.type ?? 'application/octet-stream',
+        mimeType: 'audio/webm',
         filePath: fileUrl,
-        fileType: file.extname ?? 'unknown',
+        fileType: 'audio',
         fileSize: file.size,
         uploadedBy: user.uuid,
       })
 
+      const meetingId = request.input('meetingId')
+      if (meetingId) {
+        const meeting = await Meeting.find(meetingId)
+
+        if (meeting) {
+          await meeting.related('attachments').attach({
+            [upload.uuid]: {},
+          })
+
+        }
+      }
+
       return response.created({
         data: upload,
-        message: 'Upload created successfully',
+        message: i18n.formatMessage('messages.success.uploaded', {
+          model: 'Upload',
+        }),
         success: true,
         status: 201,
       })
@@ -63,8 +81,7 @@ export default class UploadsController {
       })
     }
   }
-
-  async index({ auth, request, response }: HttpContext) {
+  async index({ auth, request, response, i18n }: HttpContext) {
     const user = auth.user!
 
     const page = request.input('page', 1)
@@ -80,13 +97,15 @@ export default class UploadsController {
         items: uploads,
         total: uploads.total,
       },
-      message: 'Uploads retrieved successfully',
+      message: i18n.formatMessage('messages.success.retrieved', {
+        model: 'Uploads',
+      }),
       success: true,
       status: 200,
     })
   }
 
-  async destroy({ params, auth, response }: HttpContext) {
+  async destroy({ params, auth, response, i18n }: HttpContext) {
     try {
       const user = auth.user!
       const uploadId = params.id
@@ -99,7 +118,9 @@ export default class UploadsController {
       if (!upload) {
         return response.notFound({
           data: null,
-          message: 'Upload not found',
+          message: i18n.formatMessage('messages.error.notFound', {
+            model: 'Upload',
+          }),
           success: false,
           status: 404,
         })
@@ -109,7 +130,9 @@ export default class UploadsController {
 
       return response.ok({
         data: null,
-        message: 'Upload deleted successfully',
+        message: i18n.formatMessage('messages.success.deleted', {
+          model: 'Upload',
+        }),
         success: true,
         status: 200,
       })

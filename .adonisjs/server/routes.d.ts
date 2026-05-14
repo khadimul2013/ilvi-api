@@ -11,6 +11,8 @@ export type ScannedRoutes = {
     'auth.destroy': { paramsTuple?: []; params?: {} }
     'auth.change_password': { paramsTuple?: []; params?: {} }
     'profile.profile.show': { paramsTuple?: []; params?: {} }
+    'profile.profile.update': { paramsTuple?: []; params?: {} }
+    'profile.profile.destroy': { paramsTuple?: []; params?: {} }
     'meetings.index': { paramsTuple?: []; params?: {} }
     'meetings.store': { paramsTuple?: []; params?: {} }
     'meetings.update': { paramsTuple: [ParamValue]; params: {'id': ParamValue} }
@@ -55,15 +57,17 @@ export type ScannedRoutes = {
     'summaries.store': { paramsTuple?: []; params?: {} }
   }
   PUT: {
-    'meetings.update': { paramsTuple: [ParamValue]; params: {'id': ParamValue} }
-  }
-  PATCH: {
+    'profile.profile.update': { paramsTuple?: []; params?: {} }
     'meetings.update': { paramsTuple: [ParamValue]; params: {'id': ParamValue} }
   }
   DELETE: {
+    'profile.profile.destroy': { paramsTuple?: []; params?: {} }
     'uploads.destroy': { paramsTuple: [ParamValue]; params: {'id': ParamValue} }
     'transcriptions.destroy': { paramsTuple: [ParamValue]; params: {'id': ParamValue} }
     'summaries.destroy': { paramsTuple: [ParamValue]; params: {'id': ParamValue} }
+  }
+  PATCH: {
+    'meetings.update': { paramsTuple: [ParamValue]; params: {'id': ParamValue} }
   }
 }
 declare module '@adonisjs/core/types/http' {

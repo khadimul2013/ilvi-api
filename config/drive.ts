@@ -12,7 +12,7 @@ const driveConfig = defineConfig({
       },
       region: env.get('AWS_REGION'),
       bucket: env.get('AWS_BUCKET'),
-      visibility: 'public',
+      visibility: 'private',
     }),
   },
 })

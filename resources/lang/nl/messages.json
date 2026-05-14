@@ -1,0 +1,26 @@
+{
+    "success": {
+        "default": "Succesvol uitgevoerd.",
+        "created": "{model} succesvol aangemaakt.",
+        "updated": "{model} succesvol bijgewerkt.",
+        "deleted": "{model} succesvol verwijderd.",
+        "retrieved": "{model} succesvol opgehaald.",
+        "uploaded": "{model} succesvol geüpload.",
+        "loggedIn": "{model} succesvol ingelogd.",
+        "loggedOut": "{model} succesvol uitgelogd.",
+        "message": "Bericht succesvol verzonden."
+    },
+    "error": {
+        "created": "Kan {model} niet aanmaken.",
+        "updated": "Kan {model} niet bijwerken.",
+        "deleted": "Kan {model} niet verwijderen.",
+        "alreadyExists": "{model} bestaat al.",
+        "notFound": "{model} niet gevonden.",
+        "invalid": "Ongeldige {model}.",
+        "unauthorized": "Je bent niet gemachtigd om deze {model} te openen.",
+        "message": "Vul alle verplichte velden in.",
+        "permission": "Je hebt geen toestemming om deze actie uit te voeren.",
+        "invalidCredentials": "Ongeldig e-mailadres of wachtwoord.",
+        "subscriptionRequired": "Gratis limiet overschreden. Abonneer u alstublieft"
+    }
+}

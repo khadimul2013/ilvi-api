@@ -1,10 +1,12 @@
 import { DateTime } from 'luxon'
 import hash from '@adonisjs/core/services/hash'
 import { type AccessToken, DbAccessTokensProvider } from '@adonisjs/auth/access_tokens'
-import { beforeSave, column } from '@adonisjs/lucid/orm'
+import { beforeSave, column, hasOne } from '@adonisjs/lucid/orm'
 import { errors } from '@adonisjs/auth'
 import BaseModel from './base_model.js'
 import { STATUS } from '#helpers/enum'
+import Subscription from './subscription.ts'
+import type { HasOne } from '@adonisjs/lucid/types/relations'
 
 export default class User extends BaseModel {
   static accessTokens = DbAccessTokensProvider.forModel(User)
@@ -12,6 +14,11 @@ export default class User extends BaseModel {
 
   @column()
   declare tenantId: string
+
+  @hasOne(() => Subscription, {
+    foreignKey: 'userId',
+  })
+  declare subscription: HasOne<typeof Subscription>
 
   @column()
   declare companyName: string | null

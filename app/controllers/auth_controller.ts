@@ -17,9 +17,8 @@ import mail from '@adonisjs/mail/services/main'
 import ResetPasswordNotification from '#mails/reset_password_notification'
 
 export default class AuthController {
-  async signup({ request, response }: HttpContext) {
-    const { fullName, firstName, lastName, email, password, companyName } =
-      await request.validateUsing(signupValidator)
+  async signup({ request, response, i18n }: HttpContext) {
+    const { fullName, firstName, lastName, email, password, companyName } = await request.validateUsing(signupValidator)
     const nameParts = fullName?.trim().split(/\s+/) ?? []
     const userFirstName = firstName ?? nameParts.shift() ?? 'User'
     const userLastName = lastName ?? (nameParts.join(' ') || null)
@@ -28,7 +27,9 @@ export default class AuthController {
     if (existTenant) {
       return response.badRequest({
         data: null,
-        message: 'Company name already exists',
+        message: i18n.formatMessage('messages.error.alreadyExists', {
+          model: 'User',
+        }),
         success: false,
         status: 400,
       })
@@ -54,40 +55,61 @@ export default class AuthController {
 
     return response.created({
       data: user,
-      message: 'User registered successfully',
+      message: i18n.formatMessage('messages.success.created', {
+        model: 'User',
+      }),
       success: true,
       status: 201,
     })
   }
 
-  async signin(ctx: HttpContext) {
-    const { request, response } = ctx
+  async signin({ request, response, i18n }: HttpContext) {
     const { email, password } = await request.validateUsing(loginValidator)
-    // const tenantId = ctx.tenantId
-    // console.log(tenantId, 'TENANT');
 
-    const user = await User.verifyCredentials(email, password)
+    const user = await User.findBy('email', email)
+    if (!user) {
+      return response.badRequest({
+        data: null,
+        message: i18n.formatMessage('messages.error.invalidCredentials'),
+        success: false,
+        status: 400,
+      })
+    }
+
+    const isValid = await hash.verify(user.password!, password)
+    if (!isValid) {
+      return response.badRequest({
+        data: null,
+        message: i18n.formatMessage('messages.error.invalidCredentials'),
+        success: false,
+        status: 400,
+      })
+    }
+
     const token = await User.accessTokens.create(user)
-
     return response.ok({
       data: {
         user,
         token: token.value!.release(),
       },
-      message: 'Login successful',
+      message: i18n.formatMessage('messages.success.loggedIn', {
+        model: 'User',
+      }),
       success: true,
       status: 200,
     })
   }
 
-  async forgotPassword({ request, response }: HttpContext) {
+  async forgotPassword({ request, response, i18n }: HttpContext) {
     const { email } = await request.validateUsing(forgotPasswordValidator)
 
     const user = await User.findBy('email', email)
     if (!user) {
       return response.notFound({
         data: null,
-        message: 'User not found',
+        message: i18n.formatMessage('messages.error.notFound', {
+          model: 'User',
+        }),
         success: false,
         status: 404,
       })
@@ -95,7 +117,9 @@ export default class AuthController {
     if (user.status !== STATUS.ACTIVE) {
       return response.badRequest({
         data: null,
-        message: 'User is inactive',
+        message: i18n.formatMessage('messages.error.invalid', {
+          model: 'User status',
+        }),
         success: false,
         status: 400,
       })
@@ -103,7 +127,9 @@ export default class AuthController {
     if (!user.verified) {
       return response.badRequest({
         data: null,
-        message: 'User not verified',
+        message: i18n.formatMessage('messages.error.unauthorized', {
+          model: 'User',
+        }),
         success: false,
         status: 400,
       })
@@ -121,20 +147,20 @@ export default class AuthController {
     await mail.send(new ResetPasswordNotification(user.email, user.firstName ?? 'User', resetLink))
     return response.ok({
       data: null,
-      message: 'Password reset link sent to your email',
+      message: i18n.formatMessage('messages.success.message'),
       success: true,
       status: 200,
     })
   }
 
-  async resetPassword({ request, response }: HttpContext) {
+  async resetPassword({ request, response, i18n }: HttpContext) {
     const { id, token, password, confirmPassword } =
       await request.validateUsing(resetPasswordValidator)
 
     if (password !== confirmPassword) {
       return response.badRequest({
         data: null,
-        message: 'Passwords do not match',
+        message: i18n.formatMessage('messages.error.message'),
         success: false,
         status: 400,
       })
@@ -144,7 +170,9 @@ export default class AuthController {
     if (!user) {
       return response.notFound({
         data: null,
-        message: 'User not found',
+        message: i18n.formatMessage('messages.error.notFound', {
+          model: 'User',
+        }),
         success: false,
         status: 404,
       })
@@ -153,10 +181,13 @@ export default class AuthController {
     const secret = env.get('JWT_SECRET')! + (user.password ?? '')
     try {
       const payload: any = jwt.default.verify(token, secret)
+
       if (payload.email !== user.email || payload.user_id !== user.uuid) {
         return response.badRequest({
           data: null,
-          message: 'Invalid token',
+          message: i18n.formatMessage('messages.error.invalid', {
+            model: 'Token',
+          }),
           success: false,
           status: 400,
         })
@@ -164,7 +195,9 @@ export default class AuthController {
     } catch (error) {
       return response.badRequest({
         data: null,
-        message: 'Token expired or invalid',
+        message: i18n.formatMessage('messages.error.invalid', {
+          model: 'Token',
+        }),
         success: false,
         status: 400,
       })
@@ -175,18 +208,23 @@ export default class AuthController {
 
     return response.ok({
       data: null,
-      message: 'Password reset successful',
+      message: i18n.formatMessage('messages.success.updated', {
+        model: 'User password',
+      }),
       success: true,
       status: 200,
     })
   }
 
-  async changePassword({ auth, request, response }: HttpContext) {
+  async changePassword({ auth, request, response, i18n }: HttpContext) {
     const user = auth.user
+
     if (!user) {
       return response.unauthorized({
         data: null,
-        message: 'Unauthorized',
+        message: i18n.formatMessage('messages.error.unauthorized', {
+          model: 'User',
+        }),
         success: false,
         status: 401,
       })
@@ -198,17 +236,20 @@ export default class AuthController {
     if (newPassword !== confirmPassword) {
       return response.badRequest({
         data: null,
-        message: 'Passwords do not match',
+        message: i18n.formatMessage('messages.error.message'),
         success: false,
         status: 400,
       })
     }
 
     const isValid = await hash.verify(user.password!, currentPassword)
+
     if (!isValid) {
       return response.badRequest({
         data: null,
-        message: 'Current password incorrect',
+        message: i18n.formatMessage('messages.error.invalid', {
+          model: 'Password',
+        }),
         success: false,
         status: 400,
       })
@@ -217,25 +258,29 @@ export default class AuthController {
     user.password = newPassword
     await user.save()
 
-    return {
+    return response.ok({
       data: null,
-      message: 'Password changed successfully',
+      message: i18n.formatMessage('messages.success.updated', {
+        model: 'Password',
+      }),
       success: true,
       status: 200,
-    }
+    })
   }
 
-  async destroy({ auth }: HttpContext) {
+  async destroy({ auth, response, i18n }: HttpContext) {
     const user = auth.user
     if (user?.currentAccessToken) {
       await User.accessTokens.delete(user, user.currentAccessToken.identifier)
     }
 
-    return {
+    return response.ok({
       data: null,
-      message: 'Logged out successfully',
+      message: i18n.formatMessage('messages.success.loggedOut', {
+        model: 'User',
+      }),
       success: true,
       status: 200,
-    }
+    })
   }
 }

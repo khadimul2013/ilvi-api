@@ -52,10 +52,10 @@ export default class Meeting extends BaseModel {
 
   @manyToMany(() => Upload, {
     localKey: 'uuid',
-    pivotForeignKey: 'modelId',
     relatedKey: 'uuid',
-    pivotRelatedForeignKey: 'uploadId',
     pivotTable: 'model_has_uploads',
+    pivotForeignKey: 'modelId',
+    pivotRelatedForeignKey: 'uploadId',
   })
   declare attachments: ManyToMany<typeof Upload>
 

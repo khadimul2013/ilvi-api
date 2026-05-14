@@ -1,15 +1,24 @@
 import type { HttpContext } from '@adonisjs/core/http'
-import Meeting from '#models/meeting'
-import Upload from '#models/upload'
-import drive from '@adonisjs/drive/services/main'
-import { meetingValidator, uploadAudioValidator } from '#validators/meeting'
+import { meetingValidator } from '#validators/meeting'
 import { MEETING_STATUS } from '#helpers/enum'
-import { existsSync } from 'node:fs'
-import { randomUUID } from 'node:crypto'
+import Meeting from '#models/meeting'
+import { useMeetingFeature } from '#abilities/main'
 
 export default class MeetingsController {
-  async store({ request, auth, response }: HttpContext) {
+  async store({ request, auth, response, i18n }: HttpContext) {
     const user = auth.user!
+
+    const allowed = await useMeetingFeature.execute(user)
+    if (!allowed) {
+      return response.paymentRequired({
+        data: null,
+        message: i18n.formatMessage(
+          'messages.error.subscriptionRequired'
+        ),
+        success: false,
+        status: 402,
+      })
+    }
     const payload = await request.validateUsing(meetingValidator)
 
     const meeting = await Meeting.create({
@@ -22,13 +31,15 @@ export default class MeetingsController {
     })
     return response.created({
       data: meeting,
-      message: 'Meeting created successfully',
+      message: i18n.formatMessage('messages.success.created', {
+        model: 'Meeting',
+      }),
       success: true,
       status: 201,
     })
   }
 
-  async index({ request, auth, response }: HttpContext) {
+  async index({ request, auth, response, i18n }: HttpContext) {
     const user = auth.user!
     const page = request.input('page', 1)
     const limit = request.input('limit', 10)
@@ -47,13 +58,15 @@ export default class MeetingsController {
         items: meetings.all(),
         meta: meetings.getMeta()
       },
-      message: 'Meetings retrieved successfully',
+      message: i18n.formatMessage('messages.success.retrieved', {
+        model: 'Meetings',
+      }),
       success: true,
       status: 200,
     })
   }
 
-  async update({ params, request, auth, response }: HttpContext) {
+  async update({ params, request, auth, response, i18n }: HttpContext) {
     try {
       const user = auth.user!
       const meetingId = params.id
@@ -68,7 +81,9 @@ export default class MeetingsController {
       if (!meeting) {
         return response.notFound({
           data: null,
-          message: 'Meeting not found',
+          message: i18n.formatMessage('messages.error.notFound', {
+            model: 'Meeting',
+          }),
           success: false,
           status: 404,
         })
@@ -86,7 +101,9 @@ export default class MeetingsController {
 
       return response.ok({
         data: meeting,
-        message: 'Meeting updated successfully',
+        message: i18n.formatMessage('messages.success.updated', {
+          model: 'Meeting',
+        }),
         success: true,
         status: 200,
       })
@@ -100,83 +117,83 @@ export default class MeetingsController {
     }
   }
 
-  async uploadAudio({ request, response, auth }: HttpContext) {
-    try {
-      const user = auth.user!
-      const file = request.file('audio', {
-        size: '50mb',
-        extnames: ['mp3', 'wav', 'm4a'],
-      })
+  // async uploadAudio({ request, response, auth }: HttpContext) {
+  //   try {
+  //     const user = auth.user!
+  //     const file = request.file('audio', {
+  //       size: '50mb',
+  //       extnames: ['mp3', 'wav', 'm4a'],
+  //     })
 
-      if (!file || !file.isValid) {
-        return response.badRequest({
-          data: null,
-          message: 'Invalid audio file',
-          success: false,
-          status: 400,
-        })
-      }
+  //     if (!file || !file.isValid) {
+  //       return response.badRequest({
+  //         data: null,
+  //         message: 'Invalid audio file',
+  //         success: false,
+  //         status: 400,
+  //       })
+  //     }
 
-      const { meetingId } = await request.validateUsing(uploadAudioValidator)
+  //     const { meetingId } = await request.validateUsing(uploadAudioValidator)
 
-      const meeting = await Meeting.query()
-        .where('uuid', meetingId)
-        .where('tenantId', user.tenantId)
-        .first()
+  //     const meeting = await Meeting.query()
+  //       .where('uuid', meetingId)
+  //       .where('tenantId', user.tenantId)
+  //       .first()
 
-      if (!meeting) {
-        return response.notFound({
-          data: null,
-          message: 'Meeting not found',
-          success: false,
-          status: 404,
-        })
-      }
+  //     if (!meeting) {
+  //       return response.notFound({
+  //         data: null,
+  //         message: 'Meeting not found',
+  //         success: false,
+  //         status: 404,
+  //       })
+  //     }
 
-      if (!file.tmpPath || !existsSync(file.tmpPath)) {
-        throw new Error('File not found on server')
-      }
+  //     if (!file.tmpPath || !existsSync(file.tmpPath)) {
+  //       throw new Error('File not found on server')
+  //     }
 
-      const fileKey = `uploads/${Date.now()}-${randomUUID()}.${file.extname}`
-      const disk = drive.use('s3')
+  //     const fileKey = `uploads/${Date.now()}-${randomUUID()}.${file.extname}`
+  //     const disk = drive.use('s3')
 
-      await disk.copyFromFs(file.tmpPath, fileKey, {
-        contentType: file.type,
-        visibility: 'public',
-      })
+  //     await disk.copyFromFs(file.tmpPath, fileKey, {
+  //       contentType: file.type,
+  //       visibility: 'public',
+  //     })
 
-      const fileUrl = await disk.getUrl(fileKey)
+  //     const fileUrl = await disk.getUrl(fileKey)
 
-      const upload = await Upload.create({
-        fileName: fileKey,
-        originalName: file.clientName,
-        mimeType: file.type ?? 'application/octet-stream',
-        filePath: fileUrl,
-        fileType: file.extname ?? 'audio',
-        fileSize: file.size,
-        uploadedBy: user.uuid,
-      })
+  //     const upload = await Upload.create({
+  //       fileName: fileKey,
+  //       originalName: file.clientName,
+  //       mimeType: file.type ?? 'application/octet-stream',
+  //       filePath: fileUrl,
+  //       fileType: file.extname ?? 'audio',
+  //       fileSize: file.size,
+  //       uploadedBy: user.uuid,
+  //     })
 
-      await meeting.related('attachments').attach([upload.uuid])
-      meeting.status = MEETING_STATUS.UPLOADED
-      await meeting.save()
+  //     await meeting.related('attachments').attach([upload.uuid])
+  //     meeting.status = MEETING_STATUS.UPLOADED
+  //     await meeting.save()
 
-      return response.ok({
-        data: {
-          meeting,
-          upload,
-        },
-        message: 'Audio uploaded successfully',
-        success: true,
-        status: 200,
-      })
-    } catch (error: any) {
-      return response.badRequest({
-        data: null,
-        message: error.message,
-        success: false,
-        status: 400,
-      })
-    }
-  }
+  //     return response.ok({
+  //       data: {
+  //         meeting,
+  //         upload,
+  //       },
+  //       message: 'Audio uploaded successfully',
+  //       success: true,
+  //       status: 200,
+  //     })
+  //   } catch (error: any) {
+  //     return response.badRequest({
+  //       data: null,
+  //       message: error.message,
+  //       success: false,
+  //       status: 400,
+  //     })
+  //   }
+  // }
 }

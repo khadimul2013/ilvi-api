@@ -4,7 +4,7 @@ import Upload from '#models/upload'
 import Summary from '#models/summary'
 
 export default class TranscriptionsController {
-  async show({ params, auth, response }: HttpContext) {
+  async show({ params, auth, response, i18n }: HttpContext) {
     try {
       const user = auth.user!
       const uploadId = params.uploadId
@@ -17,7 +17,9 @@ export default class TranscriptionsController {
       if (!upload) {
         return response.notFound({
           data: null,
-          message: 'Upload not found',
+          message: i18n.formatMessage('messages.error.notFound', {
+            model: 'Upload',
+          }),
           success: false,
           status: 404,
         })
@@ -31,7 +33,9 @@ export default class TranscriptionsController {
       if (transcriptions.length === 0) {
         return response.notFound({
           data: null,
-          message: 'Transcription not found',
+          message: i18n.formatMessage('messages.error.notFound', {
+            model: 'Transcriptions for the given upload',
+          }),
           success: false,
           status: 404,
         })
@@ -60,7 +64,9 @@ export default class TranscriptionsController {
             }
           })
         ),
-        message: 'Transcriptions fetched successfully',
+        message: i18n.formatMessage('messages.success.retrieved', {
+          model: 'Transcriptions'
+        }),
         success: true,
         status: 200,
       })
@@ -74,7 +80,7 @@ export default class TranscriptionsController {
     }
   }
 
-  async index({ auth, request, response }: HttpContext) {
+  async index({ auth, request, response, i18n }: HttpContext) {
     try {
       const user = auth.user!
       console.log("USER:", user)
@@ -112,7 +118,9 @@ export default class TranscriptionsController {
           })
         ),
         meta: transcriptions.getMeta(),
-        message: 'All transcriptions fetched successfully',
+        message: i18n.formatMessage('messages.success.retrieved', {
+          model: 'Transcriptions',
+        }),
         success: true,
         status: 200,
       })
@@ -126,7 +134,7 @@ export default class TranscriptionsController {
     }
   }
 
-  async destroy({ params, auth, response }: HttpContext) {
+  async destroy({ params, auth, response, i18n }: HttpContext) {
     try {
       const user = auth.user!
       const id = params.id
@@ -139,7 +147,9 @@ export default class TranscriptionsController {
       if (!transcription) {
         return response.notFound({
           data: null,
-          message: 'Transcription not found',
+          message: i18n.formatMessage('messages.error.notFound', {
+            model: 'Transcription',
+          }),
           success: false,
           status: 404,
         })
@@ -149,7 +159,9 @@ export default class TranscriptionsController {
 
       return response.ok({
         data: null,
-        message: 'Transcription deleted successfully',
+        message: i18n.formatMessage('messages.success.deleted', {
+          model: 'Transcription',
+        }),
         success: true,
         status: 200,
       })

@@ -1,6 +1,7 @@
 import { indexEntities } from '@adonisjs/core'
 import { defineConfig } from '@adonisjs/core/app'
 import { generateRegistry } from '@tuyau/core/hooks'
+import { indexPolicies } from '@adonisjs/bouncer'
 
 export default defineConfig({
   /*
@@ -29,6 +30,7 @@ export default defineConfig({
     () => import('@adonisjs/lucid/commands'),
     () => import('@adonisjs/session/commands'),
     () => import('@adonisjs/mail/commands'),
+    () => import('@adonisjs/bouncer/commands')
   ],
 
   /*
@@ -57,6 +59,8 @@ export default defineConfig({
     () => import('#providers/api_provider'),
     () => import('@adonisjs/core/providers/hash_provider'),
     () => import('@adonisjs/mail/mail_provider'),
+    () => import('@adonisjs/i18n/i18n_provider'),
+    () => import('@adonisjs/bouncer/bouncer_provider')
   ],
 
   /*
@@ -110,13 +114,17 @@ export default defineConfig({
   | the production build.
   |
   */
-  metaFiles: [],
+  metaFiles: [{
+    pattern: 'resources/lang/**/*.{json,yaml,yml}',
+    reloadServer: false,
+  }],
   hooks: {
     init: [
       indexEntities({
         transformers: { enabled: true },
       }),
       generateRegistry(),
+      indexPolicies()
     ],
   },
 })
